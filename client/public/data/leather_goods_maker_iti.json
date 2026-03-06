@@ -1,0 +1,28 @@
+{
+  "id": "leather_goods_maker_iti",
+  "label": "Leather Goods Maker",
+  "description": "Leather products manufacturing and design",
+  "job_roles": [
+    "Leather Craftsman",
+    "Leather Goods Maker",
+    "Bag Maker",
+    "Leather Product Designer",
+    "Footwear Maker",
+    "Leather Workshop Supervisor"
+  ],
+  "skills_required": [
+    "Leather Cutting",
+    "Stitching Techniques",
+    "Product Design",
+    "Leather Treatment",
+    "Quality Control",
+    "Tool Usage"
+  ],
+  "further_education": [
+    "Leather Technology",
+    "Product Design",
+    "Footwear Design"
+  ],
+  "parentId": "iti_non_engineering_trades",
+  "children": []
+}

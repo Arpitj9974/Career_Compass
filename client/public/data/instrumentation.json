@@ -1,0 +1,28 @@
+{
+  "id": "instrumentation",
+  "label": "Instrumentation & Process Control",
+  "description": "Measurement instruments, sensors, and process automation",
+  "job_roles": [
+    "Instrumentation Technician",
+    "Calibration Engineer",
+    "Process Control Engineer",
+    "Sensor Technician",
+    "Field Instrument Specialist",
+    "Measurement & Control Engineer"
+  ],
+  "skills_required": [
+    "Instrumentation Devices",
+    "Calibration Techniques",
+    "Process Control",
+    "Sensor Technology",
+    "Control Valves",
+    "Data Acquisition Systems"
+  ],
+  "further_education": [
+    "B.Tech Instrumentation",
+    "Process Automation",
+    "Control Engineering"
+  ],
+  "parentId": "electrical_engineering",
+  "children": []
+}

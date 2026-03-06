@@ -1,0 +1,22 @@
+{
+  "id": "mining_engineering",
+  "label": "Mining Engineering",
+  "description": "Mining operations, mineral extraction, and mine safety",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "mining_operations",
+      "label": "Mining Operations",
+      "lazy": true,
+      "description": "Mineral extraction, mine planning, and production",
+      "children": []
+    },
+    {
+      "id": "mine_safety",
+      "label": "Mine Safety & Environment",
+      "lazy": true,
+      "description": "Mine safety, ventilation, and environmental compliance",
+      "children": []
+    }
+  ]
+}

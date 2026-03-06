@@ -1,0 +1,124 @@
+{
+    "id": "ophthalmic_technology",
+    "title": "Ophthalmic & Vision Technology",
+    "label": "👁️ Ophthalmic & Vision Technology",
+    "description": "Eye care, vision testing, and optical services",
+    "children": [
+        {
+            "id": "ophthalmic_assistant",
+            "title": "Ophthalmic Assistant",
+            "label": "Ophthalmic Assistant",
+            "description": "Eye examination support and vision testing",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Ophthalmic Assistant",
+                "Vision Technician",
+                "Eye Clinic Assistant",
+                "Refraction Technician",
+                "Ophthalmology OPD Assistant",
+                "Eye Screening Technician"
+            ],
+            "skills_required": [
+                "Vision Testing",
+                "Refraction Techniques",
+                "Ophthalmic Equipment",
+                "Patient History Taking",
+                "Eye Examination Assistance",
+                "Visual Acuity Assessment"
+            ],
+            "further_education": [
+                "B.Sc Optometry",
+                "Ophthalmic Technology",
+                "Vision Science"
+            ]
+        },
+        {
+            "id": "optometry",
+            "title": "Optometry & Vision Care",
+            "label": "Optometry & Vision Care",
+            "description": "Vision examination, eye testing, and optical prescription",
+            "duration": "4 years (B.Sc Optometry)",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Optometrist",
+                "Vision Care Specialist",
+                "Contact Lens Specialist",
+                "Low Vision Specialist",
+                "Pediatric Optometrist",
+                "Clinical Optometrist"
+            ],
+            "skills_required": [
+                "Comprehensive Eye Examination",
+                "Refraction & Prescription",
+                "Contact Lens Fitting",
+                "Binocular Vision Assessment",
+                "Low Vision Rehabilitation",
+                "Optical Instruments"
+            ],
+            "further_education": [
+                "B.Sc Optometry (4 years)",
+                "M.Optom",
+                "Clinical Optometry specialization"
+            ]
+        },
+        {
+            "id": "optical_dispensing",
+            "title": "Optical Dispensing & Frame Fitting",
+            "label": "Optical Dispensing & Frame Fitting",
+            "description": "Eyewear dispensing, lens fitting, and optical retail",
+            "duration": "1-2 years",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Optical Dispenser",
+                "Optician",
+                "Frame Specialist",
+                "Lens Consultant",
+                "Optical Store Manager",
+                "Eyewear Consultant"
+            ],
+            "skills_required": [
+                "Frame Selection & Fitting",
+                "Lens Types & Materials",
+                "Prescription Interpretation",
+                "Measurements (PD, Seg Height)",
+                "Customer Service",
+                "Optical Product Knowledge"
+            ],
+            "further_education": [
+                "Diploma in Opticianry",
+                "Advanced Optical Dispensing",
+                "Contact Lens Fitting"
+            ]
+        },
+        {
+            "id": "ocular_prosthetics",
+            "title": "Ocular Prosthetics & Special Optics",
+            "label": "Ocular Prosthetics & Special Optics",
+            "description": "Artificial eye fitting and special optical devices",
+            "duration": "1-2 years (Specialized Training)",
+            "eligibility": "Optometry or Ophthalmic background",
+            "job_roles": [
+                "Ocularist",
+                "Artificial Eye Technician",
+                "Prosthetic Eye Specialist",
+                "Low Vision Aid Specialist",
+                "Special Optics Technician",
+                "Ocular Rehabilitation Specialist"
+            ],
+            "skills_required": [
+                "Ocular Prosthetics",
+                "Custom Eye Fitting",
+                "Impression Techniques",
+                "Painting & Coloring (Artificial Eyes)",
+                "Patient Counseling",
+                "Special Optical Devices"
+            ],
+            "further_education": [
+                "Ocularist Certification",
+                "Prosthetics Specialization",
+                "Low Vision Rehabilitation"
+            ]
+        }
+    ]
+}

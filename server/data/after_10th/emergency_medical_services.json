@@ -1,0 +1,95 @@
+{
+    "id": "emergency_medical_services",
+    "title": "Emergency Medical Services",
+    "label": "🚑 Emergency Medical Services",
+    "description": "Emergency response and trauma care",
+    "children": [
+        {
+            "id": "emergency_medical_technician",
+            "title": "Emergency Medical Technician (EMT)",
+            "label": "Emergency Medical Technician (EMT)",
+            "description": "Pre-hospital emergency care and ambulance services",
+            "duration": "6 months - 1 year",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Emergency Medical Technician",
+                "Ambulance Paramedic",
+                "Pre-Hospital Care Provider",
+                "Emergency Response Technician",
+                "911/108 Ambulance Staff",
+                "Field Medic"
+            ],
+            "skills_required": [
+                "Basic Life Support (BLS)",
+                "Emergency Patient Assessment",
+                "Trauma Care",
+                "CPR & First Aid",
+                "Patient Transportation",
+                "Emergency Medical Equipment"
+            ],
+            "further_education": [
+                "Advanced EMT",
+                "Paramedic Certification",
+                "Emergency Medicine"
+            ]
+        },
+        {
+            "id": "disaster_trauma_response",
+            "title": "Disaster & Trauma Response",
+            "label": "Disaster & Trauma Response",
+            "description": "Mass casualty incidents and disaster management",
+            "duration": "6 months - 1 year (Specialized Training)",
+            "eligibility": "EMT or Nursing background",
+            "job_roles": [
+                "Disaster Response Specialist",
+                "Trauma Technician",
+                "Mass Casualty Coordinator",
+                "Emergency Preparedness Officer",
+                "Field Hospital Technician",
+                "Rescue Medical Technician"
+            ],
+            "skills_required": [
+                "Disaster Management",
+                "Triage Systems",
+                "Mass Casualty Protocols",
+                "Emergency Planning",
+                "Trauma Life Support",
+                "Crisis Management"
+            ],
+            "further_education": [
+                "Disaster Medicine",
+                "Emergency Management",
+                "Advanced Trauma Life Support (ATLS)"
+            ]
+        },
+        {
+            "id": "critical_care_icu_technology",
+            "title": "Critical Care & ICU Technology",
+            "label": "Critical Care & ICU Technology",
+            "description": "Intensive care unit equipment and critical patient support",
+            "duration": "1 year (Post Nursing/Paramedical)",
+            "eligibility": "Nursing or Paramedical background",
+            "job_roles": [
+                "ICU Technician",
+                "Critical Care Technologist",
+                "Ventilator Technician",
+                "Patient Monitoring Specialist",
+                "ICU Support Staff",
+                "Critical Care Equipment Operator"
+            ],
+            "skills_required": [
+                "ICU Equipment Operation",
+                "Patient Monitoring Systems",
+                "Ventilator Management",
+                "Critical Care Protocols",
+                "Emergency Response",
+                "Medical Device Troubleshooting"
+            ],
+            "further_education": [
+                "Critical Care Nursing",
+                "Respiratory Therapy",
+                "Advanced Life Support"
+            ]
+        }
+    ]
+}

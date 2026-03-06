@@ -1,0 +1,28 @@
+{
+  "id": "turner_iti",
+  "label": "Turner",
+  "description": "Lathe work and cylindrical component machining",
+  "job_roles": [
+    "Turner",
+    "Lathe Operator",
+    "Precision Turner",
+    "CNC Turner",
+    "Production Turner",
+    "Job Work Turner"
+  ],
+  "skills_required": [
+    "Lathe Operations",
+    "Turning Techniques",
+    "Precision Measurement",
+    "Tool Grinding",
+    "Metal Cutting Theory",
+    "Quality Inspection"
+  ],
+  "further_education": [
+    "CNC Turning",
+    "Advanced Turning",
+    "Production Technology"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

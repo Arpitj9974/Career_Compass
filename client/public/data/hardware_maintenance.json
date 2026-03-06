@@ -1,0 +1,28 @@
+{
+  "id": "hardware_maintenance",
+  "label": "Hardware & Maintenance",
+  "description": "Computer assembly, repair, and hardware troubleshooting",
+  "job_roles": [
+    "Computer Hardware Technician",
+    "Desktop Support Engineer",
+    "Laptop Repair Technician",
+    "Hardware Service Engineer",
+    "PC Assembly Technician",
+    "Peripheral Device Technician"
+  ],
+  "skills_required": [
+    "Computer Hardware Components",
+    "Troubleshooting & Repair",
+    "Operating Systems Installation",
+    "Peripheral Devices",
+    "BIOS Configuration",
+    "Customer Support"
+  ],
+  "further_education": [
+    "B.Tech CS/IT",
+    "Hardware Certifications (A+)",
+    "Electronics"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

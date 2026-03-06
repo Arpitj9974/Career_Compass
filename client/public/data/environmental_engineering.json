@@ -1,0 +1,28 @@
+{
+  "id": "environmental_engineering",
+  "label": "Environmental Engineering",
+  "description": "Pollution control, waste management, and environmental protection",
+  "job_roles": [
+    "Environmental Technician",
+    "Waste Management Officer",
+    "Pollution Control Inspector",
+    "Water Quality Analyst",
+    "Environmental Auditor",
+    "ETP/STP Operator"
+  ],
+  "skills_required": [
+    "Environmental Science",
+    "Pollution Control",
+    "Waste Management",
+    "Water & Air Quality Testing",
+    "EIA (Environmental Impact Assessment)",
+    "Sustainability Practices"
+  ],
+  "further_education": [
+    "B.Tech Environmental Engineering",
+    "Environmental Management",
+    "Sustainability"
+  ],
+  "parentId": "civil_engineering",
+  "children": []
+}

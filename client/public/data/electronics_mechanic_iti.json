@@ -1,0 +1,28 @@
+{
+  "id": "electronics_mechanic_iti",
+  "label": "Electronics Mechanic",
+  "description": "Electronic equipment repair and maintenance",
+  "job_roles": [
+    "Electronics Mechanic",
+    "Electronic Equipment Technician",
+    "TV/Audio Repair Technician",
+    "Consumer Electronics Service",
+    "Electronics Assembly Worker",
+    "Industrial Electronics Technician"
+  ],
+  "skills_required": [
+    "Electronic Circuits",
+    "Troubleshooting",
+    "Component Testing",
+    "PCB Repair",
+    "Soldering",
+    "Testing Equipment"
+  ],
+  "further_education": [
+    "Diploma in Electronics",
+    "Mobile Repairing",
+    "Industrial Electronics"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

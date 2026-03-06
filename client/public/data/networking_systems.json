@@ -1,0 +1,28 @@
+{
+  "id": "networking_systems",
+  "label": "Networking & System Administration",
+  "description": "Computer networks, server management, and IT infrastructure",
+  "job_roles": [
+    "Network Technician",
+    "System Administrator (Junior)",
+    "IT Support Engineer",
+    "Network Installation Engineer",
+    "Server Administrator",
+    "Help Desk Support"
+  ],
+  "skills_required": [
+    "Computer Networks (LAN, WAN)",
+    "Network Devices (Router, Switch, Firewall)",
+    "Windows/Linux Administration",
+    "Troubleshooting",
+    "Network Protocols (TCP/IP)",
+    "Cisco/Microsoft Certifications"
+  ],
+  "further_education": [
+    "B.Tech IT/CS",
+    "CCNA",
+    "Network Security"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

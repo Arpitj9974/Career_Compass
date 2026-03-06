@@ -1,0 +1,28 @@
+{
+  "id": "commercial_art_iti",
+  "label": "Commercial Art",
+  "description": "Graphic design, illustration, and visual communication",
+  "job_roles": [
+    "Commercial Artist",
+    "Graphic Designer",
+    "Illustrator",
+    "Layout Designer",
+    "Advertising Artist",
+    "Digital Artist"
+  ],
+  "skills_required": [
+    "Drawing & Sketching",
+    "Graphic Design Software",
+    "Layout Design",
+    "Color Theory",
+    "Typography",
+    "Creative Thinking"
+  ],
+  "further_education": [
+    "Graphic Design",
+    "Fine Arts",
+    "Digital Marketing"
+  ],
+  "parentId": "iti_non_engineering_trades",
+  "children": []
+}

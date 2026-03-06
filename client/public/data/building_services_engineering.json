@@ -1,0 +1,28 @@
+{
+  "id": "building_services_engineering",
+  "label": "Building Services Engineering",
+  "description": "MEP systems, HVAC, plumbing, and electrical systems in buildings",
+  "job_roles": [
+    "MEP Technician",
+    "Building Services Engineer",
+    "HVAC Installation Supervisor",
+    "Plumbing Systems Designer",
+    "Fire Safety Engineer",
+    "Building Automation Technician"
+  ],
+  "skills_required": [
+    "MEP (Mechanical, Electrical, Plumbing)",
+    "HVAC Systems",
+    "Plumbing Design",
+    "Fire Safety Systems",
+    "Building Automation",
+    "Energy Management"
+  ],
+  "further_education": [
+    "B.Tech Building Services",
+    "MEP Design",
+    "Facility Management"
+  ],
+  "parentId": "civil_engineering",
+  "children": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "database_management",
+  "label": "Database Management",
+  "description": "Database design, administration, and data management",
+  "job_roles": [
+    "Database Administrator (Junior)",
+    "Data Entry Specialist",
+    "Database Developer",
+    "SQL Developer",
+    "Data Analyst (Trainee)",
+    "Database Support Engineer"
+  ],
+  "skills_required": [
+    "Database Management Systems (MySQL, Oracle, SQL Server)",
+    "SQL Programming",
+    "Database Design",
+    "Data Backup & Recovery",
+    "Data Security",
+    "Performance Tuning Basics"
+  ],
+  "further_education": [
+    "B.Tech IT",
+    "Data Science",
+    "Database Administration"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

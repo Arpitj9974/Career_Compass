@@ -1,0 +1,153 @@
+{
+    "id": "radiology_imaging",
+    "title": "Radiology & Medical Imaging",
+    "label": "📷 Radiology & Medical Imaging",
+    "description": "Medical imaging and diagnostic radiology",
+    "children": [
+        {
+            "id": "xray_technology",
+            "title": "X-Ray Technology (Radiography)",
+            "label": "X-Ray Technology (Radiography)",
+            "description": "X-ray imaging and radiographic procedures",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "X-Ray Technician",
+                "Radiographer",
+                "Diagnostic Imaging Technician",
+                "Portable X-Ray Operator",
+                "Radiology Assistant",
+                "Imaging Center Technician"
+            ],
+            "skills_required": [
+                "X-Ray Equipment Operation",
+                "Patient Positioning",
+                "Radiation Safety",
+                "Image Quality Control",
+                "Anatomy Knowledge",
+                "Film Processing (Digital Radiography)"
+            ],
+            "further_education": [
+                "B.Sc Radiology & Imaging Technology",
+                "CT/MRI Specialization",
+                "Radiation Therapy"
+            ]
+        },
+        {
+            "id": "ct_mri_technology",
+            "title": "CT Scan & MRI Technology",
+            "label": "CT Scan & MRI Technology",
+            "description": "Advanced imaging - CT and MRI scanning",
+            "duration": "1 year (Post Radiology Diploma)",
+            "eligibility": "Diploma in Radiology or B.Sc Radiology",
+            "job_roles": [
+                "CT Scan Technician",
+                "MRI Technologist",
+                "Advanced Imaging Specialist",
+                "Cardiac CT Technician",
+                "Interventional Radiology Tech",
+                "Cross-Sectional Imaging Specialist"
+            ],
+            "skills_required": [
+                "CT/MRI Equipment Operation",
+                "Advanced Patient Positioning",
+                "Contrast Agent Administration",
+                "Image Reconstruction",
+                "Safety Protocols (MRI Magnetic Field)",
+                "Cross-Sectional Anatomy"
+            ],
+            "further_education": [
+                "Advanced Radiology Certification",
+                "Interventional Radiology",
+                "Cardiac Imaging"
+            ]
+        },
+        {
+            "id": "ultrasound_sonography",
+            "title": "Ultrasound & Sonography",
+            "label": "Ultrasound & Sonography",
+            "description": "Diagnostic ultrasound and sonographic imaging",
+            "duration": "1-2 years",
+            "eligibility": "10+2 with Science (PCB) or Radiology Diploma",
+            "job_roles": [
+                "Ultrasound Technician",
+                "Sonographer",
+                "Obstetric Sonographer",
+                "Cardiac Sonographer (Echo Tech)",
+                "Vascular Sonographer",
+                "Radiology Sonography Specialist"
+            ],
+            "skills_required": [
+                "Ultrasound Equipment Operation",
+                "Sonographic Anatomy",
+                "Probe Manipulation",
+                "Image Optimization",
+                "Patient Care",
+                "Doppler Techniques"
+            ],
+            "further_education": [
+                "B.Sc Ultrasound Technology",
+                "Cardiac Sonography",
+                "Vascular Imaging"
+            ]
+        },
+        {
+            "id": "radiation_therapy",
+            "title": "Radiation Therapy Technology",
+            "label": "Radiation Therapy Technology",
+            "description": "Cancer treatment through radiation therapy",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Radiation Therapy Technologist",
+                "Radiotherapy Technician",
+                "Linear Accelerator Operator",
+                "Brachytherapy Technician",
+                "Treatment Planning Assistant",
+                "Oncology Radiation Tech"
+            ],
+            "skills_required": [
+                "Radiation Therapy Equipment",
+                "Treatment Planning",
+                "Patient Positioning (Oncology)",
+                "Dosimetry Basics",
+                "Radiation Safety",
+                "Cancer Patient Care"
+            ],
+            "further_education": [
+                "B.Sc Radiation Therapy",
+                "Medical Physics",
+                "Oncology Specialization"
+            ]
+        },
+        {
+            "id": "nuclear_medicine",
+            "title": "Nuclear Medicine Technology",
+            "label": "Nuclear Medicine Technology",
+            "description": "Radioactive isotope imaging and therapy",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Nuclear Medicine Technologist",
+                "PET Scan Technician",
+                "Gamma Camera Operator",
+                "Radiopharmacy Technician",
+                "Nuclear Cardiology Tech",
+                "Molecular Imaging Specialist"
+            ],
+            "skills_required": [
+                "Nuclear Medicine Equipment",
+                "Radiopharmaceuticals Handling",
+                "PET/SPECT Imaging",
+                "Radiation Safety (Nuclear)",
+                "Image Acquisition",
+                "Quality Control"
+            ],
+            "further_education": [
+                "B.Sc Nuclear Medicine",
+                "Medical Physics",
+                "Radiopharmacy"
+            ]
+        }
+    ]
+}

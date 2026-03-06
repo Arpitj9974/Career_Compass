@@ -1,0 +1,28 @@
+{
+  "id": "plumber_iti",
+  "label": "Plumber",
+  "description": "Plumbing installation and maintenance",
+  "job_roles": [
+    "Plumber",
+    "Pipefitter",
+    "Plumbing Contractor",
+    "Maintenance Plumber",
+    "Industrial Plumber",
+    "Sanitary Inspector"
+  ],
+  "skills_required": [
+    "Pipe Fitting",
+    "Plumbing Systems",
+    "Water Supply Installation",
+    "Drainage Systems",
+    "Fixture Installation",
+    "Plumbing Tools"
+  ],
+  "further_education": [
+    "Advanced Plumbing",
+    "Fire Fighting Systems",
+    "Building Services"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

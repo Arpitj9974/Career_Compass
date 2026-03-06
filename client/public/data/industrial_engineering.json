@@ -1,0 +1,28 @@
+{
+  "id": "industrial_engineering",
+  "label": "Industrial Engineering",
+  "description": "Process optimization, productivity improvement, and systems management",
+  "job_roles": [
+    "Industrial Engineer",
+    "Quality Control Engineer",
+    "Process Improvement Engineer",
+    "Methods Engineer",
+    "Production Planner",
+    "Operations Analyst"
+  ],
+  "skills_required": [
+    "Work Study & Time Study",
+    "Process Optimization",
+    "Quality Control (Six Sigma)",
+    "Ergonomics",
+    "Supply Chain Basics",
+    "Productivity Analysis"
+  ],
+  "further_education": [
+    "B.Tech Industrial Engineering",
+    "Six Sigma Certification",
+    "Operations Research"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

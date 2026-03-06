@@ -1,0 +1,28 @@
+{
+  "id": "renewable_energy_electrical",
+  "label": "Renewable Energy Systems",
+  "description": "Solar, wind, and alternative energy electrical systems",
+  "job_roles": [
+    "Solar PV System Installer",
+    "Wind Turbine Technician",
+    "Renewable Energy Technician",
+    "Solar Plant Operator",
+    "Energy Storage Specialist",
+    "Grid Integration Engineer"
+  ],
+  "skills_required": [
+    "Solar PV Systems",
+    "Wind Energy Systems",
+    "Grid-Tied Inverters",
+    "Battery Storage Systems",
+    "Power Conditioning",
+    "Energy Management Systems"
+  ],
+  "further_education": [
+    "B.Tech Renewable Energy",
+    "Solar Energy Engineering",
+    "Smart Grid"
+  ],
+  "parentId": "electrical_engineering",
+  "children": []
+}

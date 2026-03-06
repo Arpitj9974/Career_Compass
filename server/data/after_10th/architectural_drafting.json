@@ -1,0 +1,64 @@
+{
+    "id": "architectural_drafting",
+    "title": "Architectural Drafting / Assistantship",
+    "label": "📐 Architectural Drafting",
+    "description": "Building design and architectural support",
+    "children": [
+        {
+            "id": "architectural_cad",
+            "title": "Architectural CAD & Drafting",
+            "label": "📐 Architectural CAD & Drafting",
+            "description": "Building plans, CAD drawings, and architectural documentation",
+            "job_roles": [
+                "CAD Draughtsman",
+                "Architectural Drafter",
+                "AutoCAD Operator",
+                "Building Plan Designer",
+                "3D Visualization Assistant",
+                "Drawing Checker"
+            ],
+            "skills_required": [
+                "AutoCAD Architecture",
+                "Revit Basics",
+                "Building Drawing",
+                "3D Modeling",
+                "SketchUp",
+                "Technical Drawing Standards"
+            ],
+            "further_education": [
+                "B.Arch",
+                "Interior Design",
+                "Architectural Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "interior_space_design",
+            "title": "Interior & Space Design",
+            "label": "🏠 Interior & Space Design",
+            "description": "Interior design, space planning, and decoration",
+            "job_roles": [
+                "Interior Design Assistant",
+                "Space Planner",
+                "Furniture Designer",
+                "Interior CAD Operator",
+                "Visual Merchandiser",
+                "Site Supervisor (Interiors)"
+            ],
+            "skills_required": [
+                "Interior Design",
+                "Space Planning",
+                "AutoCAD/SketchUp",
+                "3D Visualization",
+                "Material Selection",
+                "Color Coordination"
+            ],
+            "further_education": [
+                "B.Des Interior Design",
+                "B.Arch",
+                "Interior Decoration"
+            ],
+            "children": []
+        }
+    ]
+}

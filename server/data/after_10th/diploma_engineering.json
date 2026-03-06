@@ -1,0 +1,96 @@
+{
+    "id": "diploma_engineering",
+    "title": "Diploma in Engineering (Polytechnic)",
+    "label": "🎓 Diploma in Engineering (Polytechnic)",
+    "description": "Professional technical education leading to industry-ready skills",
+    "children": [
+        {
+            "id": "mechanical_engineering",
+            "title": "Mechanical Engineering",
+            "label": "🔧 Mechanical Engineering",
+            "description": "Study of mechanical systems, manufacturing, and energy",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "civil_engineering",
+            "title": "Civil Engineering",
+            "label": "🏗️ Civil Engineering",
+            "description": "Construction, infrastructure, and built environment",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "electrical_engineering",
+            "title": "Electrical Engineering",
+            "label": "⚡ Electrical Engineering",
+            "description": "Power systems, electrical machines, and installations",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "electronics_communication",
+            "title": "Electronics & Communication Engineering",
+            "label": "📡 Electronics & Communication",
+            "description": "Electronic circuits, communication systems, and signal processing",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "computer_engineering",
+            "title": "Computer Engineering / IT",
+            "label": "💻 Computer Engineering / IT",
+            "description": "Software development, networking, and computer systems",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "chemical_engineering",
+            "title": "Chemical Engineering",
+            "label": "🧪 Chemical Engineering",
+            "description": "Chemical processes, petrochemicals, and process industries",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "textile_engineering",
+            "title": "Textile Engineering",
+            "label": "🧵 Textile Engineering",
+            "description": "Fabric manufacturing and textile technology",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "architectural_drafting",
+            "title": "Architectural Drafting / Assistantship",
+            "label": "📐 Architectural Drafting",
+            "description": "Building design and architectural support",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "agriculture_engineering",
+            "title": "Agriculture Engineering",
+            "label": "🌾 Agriculture Engineering",
+            "description": "Farm machinery, irrigation, and agricultural technology",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "mining_engineering",
+            "title": "Mining Engineering",
+            "label": "⛏️ Mining Engineering",
+            "description": "Mineral extraction and mining operations",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "printing_technology",
+            "title": "Printing Technology",
+            "label": "🖨️ Printing Technology",
+            "description": "Printing processes and publishing technology",
+            "lazy": true,
+            "children": []
+        }
+    ]
+}

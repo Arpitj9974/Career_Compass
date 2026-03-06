@@ -1,0 +1,28 @@
+{
+  "id": "mechatronics_robotics",
+  "label": "Mechatronics / Robotics",
+  "description": "Integration of mechanical, electronics, and computer systems",
+  "job_roles": [
+    "Robotics Technician",
+    "Automation Engineer",
+    "Mechatronics Engineer",
+    "Industrial Automation Technician",
+    "PLC Programmer",
+    "Control Systems Technician"
+  ],
+  "skills_required": [
+    "Robotics & Automation",
+    "PLC Programming",
+    "Sensor & Actuator Systems",
+    "Control Systems",
+    "Embedded Systems Basics",
+    "Industrial Automation"
+  ],
+  "further_education": [
+    "B.Tech Mechatronics",
+    "Robotics Engineering",
+    "Industrial Automation"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

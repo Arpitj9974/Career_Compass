@@ -1,0 +1,28 @@
+{
+  "id": "machinist_iti",
+  "label": "Machinist",
+  "description": "Machine operation and precision machining",
+  "job_roles": [
+    "Machinist",
+    "Lathe Operator",
+    "CNC Operator",
+    "Milling Machine Operator",
+    "Grinding Operator",
+    "Tool Room Machinist"
+  ],
+  "skills_required": [
+    "Lathe Operation",
+    "Milling Operations",
+    "Precision Measurement",
+    "CNC Basics",
+    "Tool Selection",
+    "Blueprint Reading"
+  ],
+  "further_education": [
+    "CNC Programming",
+    "Advanced Machining",
+    "CAD/CAM"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

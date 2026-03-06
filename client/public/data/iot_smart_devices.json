@@ -1,0 +1,28 @@
+{
+  "id": "iot_smart_devices",
+  "label": "IoT & Smart Devices",
+  "description": "Internet of Things, smart home systems, and connected devices",
+  "job_roles": [
+    "IoT Technician",
+    "Smart Home Installer",
+    "IoT Device Programmer",
+    "Sensor Network Technician",
+    "IoT Testing Engineer",
+    "Smart Device Support Engineer"
+  ],
+  "skills_required": [
+    "IoT Protocols (MQTT, CoAP)",
+    "Wireless Communication (WiFi, Bluetooth, Zigbee)",
+    "Sensor Integration",
+    "Cloud Basics (IoT Platforms)",
+    "Arduino/Raspberry Pi",
+    "Mobile App Basics"
+  ],
+  "further_education": [
+    "B.Tech IoT",
+    "Embedded IoT",
+    "Smart Systems"
+  ],
+  "parentId": "electronics_communication",
+  "children": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "polymer_plastics",
+  "label": "Polymer & Plastics Engineering",
+  "description": "Polymer processing, plastics manufacturing, and material science",
+  "job_roles": [
+    "Polymer Processing Technician",
+    "Plastics Manufacturing Operator",
+    "Injection Molding Technician",
+    "Extrusion Operator",
+    "Polymer Testing Engineer",
+    "Plastics Quality Inspector"
+  ],
+  "skills_required": [
+    "Polymer Science",
+    "Plastics Processing",
+    "Molding Techniques",
+    "Material Testing",
+    "Process Optimization",
+    "Quality Control"
+  ],
+  "further_education": [
+    "B.Tech Polymer Engineering",
+    "Plastics Technology",
+    "Material Science"
+  ],
+  "parentId": "chemical_engineering",
+  "children": []
+}

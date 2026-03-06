@@ -1,0 +1,288 @@
+{
+    "id": "computer_engineering",
+    "title": "Computer Engineering / IT",
+    "label": "💻 Computer Engineering / IT",
+    "description": "Software development, networking, and computer systems",
+    "children": [
+        {
+            "id": "software_development",
+            "title": "Software Development",
+            "label": "👨‍💻 Software Development",
+            "description": "Application development, web development, and programming",
+            "job_roles": [
+                "Junior Software Developer",
+                "Web Developer",
+                "Application Developer",
+                "Frontend Developer",
+                "Backend Developer",
+                "Mobile App Developer"
+            ],
+            "skills_required": [
+                "Programming Languages (Java, Python, JavaScript)",
+                "Web Technologies (HTML, CSS, React)",
+                "Database (SQL, MongoDB)",
+                "Version Control (Git)",
+                "API Development",
+                "Problem Solving"
+            ],
+            "further_education": [
+                "B.Tech Computer Science",
+                "Full Stack Development",
+                "Software Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "networking_administration",
+            "title": "Networking & System Administration",
+            "label": "🌐 Networking & System Admin",
+            "description": "Computer networks, server management, and IT infrastructure",
+            "job_roles": [
+                "Network Administrator",
+                "System Administrator",
+                "Network Technician",
+                "IT Support Engineer",
+                "Server Administrator",
+                "Help Desk Technician"
+            ],
+            "skills_required": [
+                "Computer Networks",
+                "Windows/Linux Server",
+                "Cisco/Networking Hardware",
+                "Active Directory",
+                "Network Security Basics",
+                "Troubleshooting"
+            ],
+            "further_education": [
+                "B.Tech Computer Networks",
+                "CCNA/CCNP Certification",
+                "System Administration"
+            ],
+            "children": []
+        },
+        {
+            "id": "cybersecurity",
+            "title": "Cybersecurity",
+            "label": "🔒 Cybersecurity",
+            "description": "Information security, ethical hacking, and security operations",
+            "job_roles": [
+                "Security Analyst",
+                "SOC Analyst",
+                "Junior Penetration Tester",
+                "Security Support Engineer",
+                "Incident Response Technician",
+                "Vulnerability Assessment Technician"
+            ],
+            "skills_required": [
+                "Network Security",
+                "Security Tools (Wireshark, Nmap)",
+                "Linux Security",
+                "Vulnerability Assessment",
+                "Security Protocols",
+                "Ethical Hacking Basics"
+            ],
+            "further_education": [
+                "B.Tech Cybersecurity",
+                "CEH Certification",
+                "Security+"
+            ],
+            "children": []
+        },
+        {
+            "id": "database_administration",
+            "title": "Database Administration",
+            "label": "🗄️ Database Administration",
+            "description": "Database design, management, and data analytics",
+            "job_roles": [
+                "Junior DBA",
+                "Database Operator",
+                "Data Entry Specialist",
+                "SQL Developer",
+                "Database Support Engineer",
+                "Data Analyst"
+            ],
+            "skills_required": [
+                "SQL/MySQL/PostgreSQL",
+                "Database Design",
+                "Data Backup & Recovery",
+                "Query Optimization",
+                "Data Warehousing Basics",
+                "Excel/Data Tools"
+            ],
+            "further_education": [
+                "B.Tech Computer Science",
+                "Oracle/SQL Server Certification",
+                "Data Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "cloud_computing",
+            "title": "Cloud Computing",
+            "label": "☁️ Cloud Computing",
+            "description": "Cloud platforms, virtualization, and cloud services",
+            "job_roles": [
+                "Cloud Support Engineer",
+                "Cloud Operations Technician",
+                "AWS/Azure Support",
+                "Virtualization Technician",
+                "Cloud Infrastructure Tech",
+                "DevOps Trainee"
+            ],
+            "skills_required": [
+                "Cloud Platforms (AWS, Azure, GCP)",
+                "Virtualization (VMware)",
+                "Linux Administration",
+                "Containerization (Docker)",
+                "Cloud Networking",
+                "IaC Basics"
+            ],
+            "further_education": [
+                "B.Tech Cloud Computing",
+                "AWS/Azure Certification",
+                "DevOps Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "hardware_maintenance",
+            "title": "Hardware & Computer Maintenance",
+            "label": "🔧 Hardware & Maintenance",
+            "description": "Computer hardware, troubleshooting, and repair",
+            "job_roles": [
+                "Hardware Technician",
+                "Computer Repair Technician",
+                "Desktop Support Engineer",
+                "IT Hardware Support",
+                "Laptop Repair Technician",
+                "Technical Support Executive"
+            ],
+            "skills_required": [
+                "Computer Hardware",
+                "Troubleshooting",
+                "Component Repair",
+                "OS Installation",
+                "Printer/Peripheral Support",
+                "Customer Service"
+            ],
+            "further_education": [
+                "B.Tech Computer Engineering",
+                "Hardware Certification",
+                "A+ Certification"
+            ],
+            "children": []
+        },
+        {
+            "id": "ai_ml_basics",
+            "title": "AI & Machine Learning (Basics)",
+            "label": "🤖 AI & ML Basics",
+            "description": "Introduction to artificial intelligence and machine learning",
+            "job_roles": [
+                "AI Support Technician",
+                "Data Labeling Specialist",
+                "ML Operations Assistant",
+                "AI Testing Technician",
+                "Computer Vision Technician",
+                "NLP Data Annotator"
+            ],
+            "skills_required": [
+                "Python Programming",
+                "Basic ML Concepts",
+                "Data Preprocessing",
+                "ML Tools (TensorFlow/Keras Basics)",
+                "Data Annotation",
+                "Statistical Analysis"
+            ],
+            "further_education": [
+                "B.Tech AI/ML",
+                "Data Science",
+                "Deep Learning"
+            ],
+            "children": []
+        },
+        {
+            "id": "mobile_app_development",
+            "title": "Mobile App Development",
+            "label": "📱 Mobile App Development",
+            "description": "Android and iOS application development",
+            "job_roles": [
+                "Android Developer",
+                "iOS Developer",
+                "Mobile App Tester",
+                "Cross-Platform Developer",
+                "Mobile UI Developer",
+                "App Maintenance Engineer"
+            ],
+            "skills_required": [
+                "Android (Java/Kotlin)",
+                "iOS (Swift) Basics",
+                "React Native/Flutter",
+                "Mobile UI/UX",
+                "App Testing",
+                "API Integration"
+            ],
+            "further_education": [
+                "B.Tech Mobile Computing",
+                "App Development Certification",
+                "Cross-Platform Development"
+            ],
+            "children": []
+        },
+        {
+            "id": "web_design_development",
+            "title": "Web Design & Development",
+            "label": "🎨 Web Design & Development",
+            "description": "Website design, frontend development, and CMS",
+            "job_roles": [
+                "Web Designer",
+                "Frontend Developer",
+                "WordPress Developer",
+                "UI Developer",
+                "Web Content Manager",
+                "E-commerce Developer"
+            ],
+            "skills_required": [
+                "HTML/CSS/JavaScript",
+                "WordPress/CMS",
+                "Responsive Design",
+                "UI/UX Basics",
+                "SEO Basics",
+                "Graphic Design Tools"
+            ],
+            "further_education": [
+                "B.Tech Computer Science",
+                "Web Development Certification",
+                "UI/UX Design"
+            ],
+            "children": []
+        },
+        {
+            "id": "game_development",
+            "title": "Game Development",
+            "label": "🎮 Game Development",
+            "description": "Video game creation, design, and development",
+            "job_roles": [
+                "Junior Game Developer",
+                "Game Tester",
+                "Unity Developer",
+                "Game Designer Assistant",
+                "3D Modeler (Games)",
+                "Game QA Analyst"
+            ],
+            "skills_required": [
+                "Game Engines (Unity, Unreal)",
+                "C#/C++ Programming",
+                "3D Modeling Basics",
+                "Game Design Principles",
+                "Game Testing",
+                "Animation Basics"
+            ],
+            "further_education": [
+                "B.Tech Game Development",
+                "Game Design Certification",
+                "3D Animation"
+            ],
+            "children": []
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "textile_chemistry",
+  "label": "Textile Chemistry & Processing",
+  "description": "Textile wet processing, dyeing, and chemical treatment",
+  "job_roles": [
+    "Textile Chemist",
+    "Dyeing & Finishing Technician",
+    "Textile Processing Engineer",
+    "Wet Processing Supervisor",
+    "Textile Lab Analyst",
+    "Chemical Application Specialist"
+  ],
+  "skills_required": [
+    "Textile Chemistry",
+    "Dyeing Processes",
+    "Finishing Techniques",
+    "Wet Processing",
+    "Chemical Testing",
+    "Color Fastness Testing"
+  ],
+  "further_education": [
+    "B.Tech Textile Chemistry",
+    "Chemical Processing",
+    "Textile Science"
+  ],
+  "parentId": "textile_engineering",
+  "children": []
+}

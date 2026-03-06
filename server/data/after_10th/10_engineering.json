@@ -1,0 +1,28 @@
+{
+    "id": "10_engineering",
+    "title": "Engineering",
+    "label": "⚙️ Engineering",
+    "description": "Technical and engineering career paths",
+    "children": [
+        {
+            "id": "diploma_engineering",
+            "title": "Diploma in Engineering (Polytechnic)",
+            "label": "🎓 Diploma in Engineering (Polytechnic)",
+            "description": "Professional technical education leading to industry-ready skills",
+            "duration": "3 years",
+            "eligibility": "10th pass with Mathematics and Science",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "iti_courses",
+            "title": "ITI Courses",
+            "label": "🔨 ITI Courses",
+            "description": "Industrial Training Institute courses for skilled trades",
+            "duration": "1-2 years",
+            "eligibility": "8th/10th pass depending on trade",
+            "lazy": true,
+            "children": []
+        }
+    ]
+}

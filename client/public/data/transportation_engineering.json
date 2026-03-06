@@ -1,0 +1,28 @@
+{
+  "id": "transportation_engineering",
+  "label": "Transportation Engineering",
+  "description": "Roads, highways, traffic management, and transport systems",
+  "job_roles": [
+    "Highway Technician",
+    "Traffic Survey Engineer",
+    "Road Construction Supervisor",
+    "Transportation Planner Assistant",
+    "Pavement Design Technician",
+    "Railway Track Engineer"
+  ],
+  "skills_required": [
+    "Highway Engineering",
+    "Traffic Engineering",
+    "Surveying",
+    "Pavement Design",
+    "Transportation Planning Basics",
+    "Road Construction Methods"
+  ],
+  "further_education": [
+    "B.Tech Transportation",
+    "Traffic Management",
+    "Urban Planning"
+  ],
+  "parentId": "civil_engineering",
+  "children": []
+}

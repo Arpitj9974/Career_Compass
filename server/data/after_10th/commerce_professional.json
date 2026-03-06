@@ -1,0 +1,125 @@
+{
+    "id": "commerce_professional",
+    "title": "Professional Certifications",
+    "label": "🏆 Professional Certifications",
+    "description": "Chartered Accountancy, Company Secretary, and Cost Management",
+    "children": [
+        {
+            "id": "chartered_accountancy",
+            "title": "Chartered Accountancy (CA)",
+            "label": "Chartered Accountancy (CA)",
+            "description": "Accounting, auditing, and taxation expert",
+            "duration": "4.5 - 5 years",
+            "eligibility": "12th Pass (Foundation) / Graduate (Direct Entry)",
+            "job_roles": [
+                "Chartered Accountant",
+                "Auditor",
+                "Tax Consultant",
+                "Financial Advisor",
+                "Internal Auditor",
+                "CFO (Chief Financial Officer)"
+            ],
+            "skills_required": [
+                "Accounting & Auditing",
+                "Taxation Laws (Direct/Indirect)",
+                "Financial Reporting",
+                "Corporate Law",
+                "Strategic Financial Management",
+                "Analytical Skills"
+            ],
+            "further_education": [
+                "DISA (Diploma in Info Sys Audit)",
+                "CFA (Chartered Financial Analyst)",
+                "MBA Finance",
+                "Global Tax Certifications"
+            ]
+        },
+        {
+            "id": "company_secretary",
+            "title": "Company Secretary (CS)",
+            "label": "Company Secretary (CS)",
+            "description": "Corporate governance, compliance, and legal secretarial services",
+            "duration": "3-4 years",
+            "eligibility": "12th Pass (CSEET)",
+            "job_roles": [
+                "Company Secretary",
+                "Compliance Officer",
+                "Legal Advisor",
+                "Corporate Governance Specialist",
+                "Secretarial Auditor",
+                "Chief Compliance Officer"
+            ],
+            "skills_required": [
+                "Corporate Law (Companies Act)",
+                "Secretarial Audit",
+                "Due Diligence",
+                "Legal Drafting",
+                "Compliance Management",
+                "Corporate Governance"
+            ],
+            "further_education": [
+                "LLB (Law)",
+                "LLM (Master of Laws)",
+                "MBA Corporate Law"
+            ]
+        },
+        {
+            "id": "cost_management_accountant",
+            "title": "Cost & Management Accountant (CMA)",
+            "label": "Cost Management Accountant (CMA)",
+            "description": "Cost audit, pricing strategy, and management accounting",
+            "duration": "3-4 years",
+            "eligibility": "12th Pass (Foundation)",
+            "job_roles": [
+                "Cost Accountant",
+                "Cost Auditor",
+                "Finance Manager",
+                "Cost Controller",
+                "Pricing Analyst",
+                "Internal Auditor"
+            ],
+            "skills_required": [
+                "Cost Accounting",
+                "Financial Analysis",
+                "Cost Management",
+                "Budgeting & Forecasting",
+                "Pricing Strategy",
+                "Operations Management"
+            ],
+            "further_education": [
+                "CIMA (UK)",
+                "CFA",
+                "MBA Finance"
+            ]
+        },
+        {
+            "id": "actuarial_science",
+            "title": "Actuarial Science",
+            "label": "Actuarial Science",
+            "description": "Risk assessment, insurance mathematics, and financial modeling",
+            "duration": "3-5 years (Exam based)",
+            "eligibility": "12th Pass (Maths/Stats) + ACET Exam",
+            "job_roles": [
+                "Actuary",
+                "Risk Analyst",
+                "Underwriter",
+                "Insurance Consultant",
+                "Pension Fund Manager",
+                "Investment Analyst"
+            ],
+            "skills_required": [
+                "Mathematics & Statistics",
+                "Probability Theory",
+                "Financial Modeling",
+                "Risk Management",
+                "Data Analysis",
+                "Insurance Mathematics"
+            ],
+            "further_education": [
+                "Fellowship of Institute of Actuaries",
+                "Data Science",
+                "Quantitative Finance"
+            ]
+        }
+    ]
+}

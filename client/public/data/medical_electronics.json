@@ -1,0 +1,28 @@
+{
+  "id": "medical_electronics",
+  "label": "Medical Electronics",
+  "description": "Medical devices, diagnostic equipment, and healthcare electronics",
+  "job_roles": [
+    "Medical Equipment Technician",
+    "Biomedical Instrument Engineer",
+    "Hospital Equipment Maintenance",
+    "Diagnostic Equipment Operator",
+    "Medical Electronics Service Engineer",
+    "Healthcare Technology Support"
+  ],
+  "skills_required": [
+    "Medical Electronics",
+    "Biomedical Instrumentation",
+    "Patient Monitoring Systems",
+    "Diagnostic Equipment",
+    "Safety Standards (Medical)",
+    "Calibration & Maintenance"
+  ],
+  "further_education": [
+    "B.Tech Biomedical Engineering",
+    "Medical Devices",
+    "Healthcare Technology"
+  ],
+  "parentId": "electronics_communication",
+  "children": []
+}

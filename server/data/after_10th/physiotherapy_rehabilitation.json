@@ -1,0 +1,124 @@
+{
+    "id": "physiotherapy_rehabilitation",
+    "title": "Physiotherapy & Rehabilitation",
+    "label": "🏃 Physiotherapy & Rehabilitation",
+    "description": "Physical therapy and rehabilitation services",
+    "children": [
+        {
+            "id": "physiotherapy_assistant",
+            "title": "Physiotherapy Assistant",
+            "label": "Physiotherapy Assistant",
+            "description": "Physical therapy support and patient rehabilitation",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Physiotherapy Assistant",
+                "Rehabilitation Aide",
+                "Exercise Therapy Technician",
+                "Physical Therapy Technician",
+                "Mobility Support Specialist",
+                "Rehab Center Assistant"
+            ],
+            "skills_required": [
+                "Therapeutic Exercises",
+                "Patient Assessment Basics",
+                "Physical Therapy Equipment",
+                "Manual Therapy Assistance",
+                "Patient Care",
+                "Rehabilitation Protocols"
+            ],
+            "further_education": [
+                "B.P.T (Bachelor of Physiotherapy)",
+                "M.P.T (Master of Physiotherapy)",
+                "Sports Physiotherapy"
+            ]
+        },
+        {
+            "id": "occupational_therapy_assistant",
+            "title": "Occupational Therapy Assistant",
+            "label": "Occupational Therapy Assistant",
+            "description": "Occupational therapy and daily living skills support",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Occupational Therapy Assistant",
+                "ADL Training Specialist",
+                "Vocational Rehabilitation Aide",
+                "Pediatric OT Assistant",
+                "Geriatric Care Assistant",
+                "Rehabilitation Technician"
+            ],
+            "skills_required": [
+                "Activities of Daily Living (ADL) Training",
+                "Adaptive Equipment Usage",
+                "Fine Motor Skill Activities",
+                "Cognitive Rehabilitation Basics",
+                "Patient Assessment",
+                "Therapeutic Activities"
+            ],
+            "further_education": [
+                "B.O.T (Bachelor of Occupational Therapy)",
+                "M.O.T (Master of Occupational Therapy)",
+                "Pediatric OT"
+            ]
+        },
+        {
+            "id": "sports_injury_rehabilitation",
+            "title": "Sports Injury & Rehabilitation",
+            "label": "Sports Injury & Rehabilitation",
+            "description": "Sports medicine and athletic injury rehabilitation",
+            "duration": "1-2 years (Post Basic Physiotherapy)",
+            "eligibility": "Physiotherapy background",
+            "job_roles": [
+                "Sports Physiotherapist",
+                "Athletic Trainer",
+                "Sports Injury Specialist",
+                "Fitness Rehabilitation Specialist",
+                "Sports Medicine Technician",
+                "Team Physiotherapist"
+            ],
+            "skills_required": [
+                "Sports Injury Assessment",
+                "Athletic Taping & Strapping",
+                "Exercise Prescription",
+                "Return-to-Play Protocols",
+                "Strength & Conditioning Basics",
+                "Sports Biomechanics"
+            ],
+            "further_education": [
+                "Advanced Sports Physiotherapy",
+                "Sports Medicine",
+                "Athletic Training Certification"
+            ]
+        },
+        {
+            "id": "prosthetics_orthotics",
+            "title": "Prosthetics & Orthotics",
+            "label": "Prosthetics & Orthotics",
+            "description": "Artificial limbs and orthotic devices",
+            "duration": "2-3 years",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Prosthetist",
+                "Orthotist",
+                "Limb Fitting Specialist",
+                "Orthotic Technician",
+                "Prosthetic Fabrication Technician",
+                "Rehabilitation Equipment Specialist"
+            ],
+            "skills_required": [
+                "Prosthetic Fitting",
+                "Orthotic Device Fabrication",
+                "Biomechanics",
+                "Gait Analysis Basics",
+                "Patient Assessment",
+                "Custom Device Manufacturing"
+            ],
+            "further_education": [
+                "B.P.O (Bachelor of Prosthetics & Orthotics)",
+                "Advanced Limb Fitting",
+                "Rehabilitation Engineering"
+            ]
+        }
+    ]
+}

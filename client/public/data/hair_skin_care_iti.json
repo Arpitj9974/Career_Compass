@@ -1,0 +1,28 @@
+{
+  "id": "hair_skin_care_iti",
+  "label": "Hair & Skin Care",
+  "description": "Beauty treatments and cosmetology",
+  "job_roles": [
+    "Beautician",
+    "Hair Stylist",
+    "Makeup Artist",
+    "Salon Manager",
+    "Beauty Consultant",
+    "Spa Therapist"
+  ],
+  "skills_required": [
+    "Hair Cutting & Styling",
+    "Skin Care Treatments",
+    "Makeup Application",
+    "Beauty Product Knowledge",
+    "Customer Service",
+    "Hygiene & Safety"
+  ],
+  "further_education": [
+    "Advanced Cosmetology",
+    "Spa Management",
+    "Makeup Artistry"
+  ],
+  "parentId": "iti_non_engineering_trades",
+  "children": []
+}

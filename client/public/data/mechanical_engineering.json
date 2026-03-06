@@ -1,0 +1,92 @@
+{
+  "id": "mechanical_engineering",
+  "label": "Mechanical Engineering",
+  "description": "Study of mechanical systems, manufacturing, and energy",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "automobile_engineering",
+      "label": "Automobile Engineering",
+      "lazy": true,
+      "description": "Design, development, and maintenance of vehicles",
+      "children": []
+    },
+    {
+      "id": "production_manufacturing",
+      "label": "Production / Manufacturing Engineering",
+      "lazy": true,
+      "description": "Manufacturing processes, production planning, and optimization",
+      "children": []
+    },
+    {
+      "id": "thermal_engineering",
+      "label": "Thermal Engineering",
+      "lazy": true,
+      "description": "Heat transfer, thermodynamics, and energy systems",
+      "children": []
+    },
+    {
+      "id": "design_engineering",
+      "label": "Design Engineering",
+      "lazy": true,
+      "description": "Product design, mechanical design, and engineering drawing",
+      "children": []
+    },
+    {
+      "id": "mechatronics_robotics",
+      "label": "Mechatronics / Robotics",
+      "lazy": true,
+      "description": "Integration of mechanical, electronics, and computer systems",
+      "children": []
+    },
+    {
+      "id": "industrial_engineering",
+      "label": "Industrial Engineering",
+      "lazy": true,
+      "description": "Process optimization, productivity improvement, and systems management",
+      "children": []
+    },
+    {
+      "id": "energy_engineering",
+      "label": "Energy Engineering (Renewable & Conventional)",
+      "lazy": true,
+      "description": "Renewable energy, power generation, and energy conservation",
+      "children": []
+    },
+    {
+      "id": "aerospace_engineering",
+      "label": "Aerospace Engineering",
+      "lazy": true,
+      "description": "Aircraft and spacecraft systems (limited at diploma level)",
+      "children": []
+    },
+    {
+      "id": "marine_engineering",
+      "label": "Marine Engineering",
+      "lazy": true,
+      "description": "Ship machinery, marine propulsion, and offshore systems",
+      "children": []
+    },
+    {
+      "id": "metallurgical_materials",
+      "label": "Metallurgical / Materials Engineering",
+      "lazy": true,
+      "description": "Metals processing, material properties, and quality testing",
+      "children": []
+    },
+    {
+      "id": "cad_cam_automation",
+      "label": "CAD/CAM & Automation",
+      "lazy": true,
+      "description": "Computer-aided design, manufacturing, and industrial automation",
+      "children": []
+    },
+    {
+      "id": "refrigeration_air_conditioning",
+      "label": "Refrigeration & Air Conditioning",
+      "lazy": true,
+      "description": "Cooling systems, HVAC design, and cold storage technology",
+      "children": []
+    }
+  ]
+}

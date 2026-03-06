@@ -1,0 +1,28 @@
+{
+  "id": "building_estimation",
+  "label": "Building Estimation & Quantity Surveying",
+  "description": "Cost estimation, material quantification, and project budgeting",
+  "job_roles": [
+    "Quantity Surveyor Assistant",
+    "Estimation Engineer",
+    "Cost Estimator",
+    "Material Quantity Analyst",
+    "Billing Engineer",
+    "Project Costing Specialist"
+  ],
+  "skills_required": [
+    "Quantity Take-off",
+    "Cost Estimation",
+    "Building Materials Knowledge",
+    "Rate Analysis",
+    "Excel for Estimation",
+    "Construction Economics"
+  ],
+  "further_education": [
+    "B.Arch",
+    "Quantity Surveying",
+    "Construction Management"
+  ],
+  "parentId": "architecture_drafting",
+  "children": []
+}

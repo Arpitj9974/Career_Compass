@@ -1,0 +1,28 @@
+{
+  "id": "offset_printing",
+  "label": "Offset & Digital Printing",
+  "description": "Offset press operation, digital printing, and production",
+  "job_roles": [
+    "Printing Press Operator",
+    "Digital Printing Technician",
+    "Pre-Press Operator",
+    "Offset Machine Operator",
+    "Print Production Supervisor",
+    "Quality Controller (Printing)"
+  ],
+  "skills_required": [
+    "Offset Printing",
+    "Digital Printing Technology",
+    "Pre-Press Operations",
+    "Color Management",
+    "Print Quality Control",
+    "Production Planning"
+  ],
+  "further_education": [
+    "B.Tech Printing",
+    "Graphic Arts",
+    "Print Management"
+  ],
+  "parentId": "printing_technology",
+  "children": []
+}

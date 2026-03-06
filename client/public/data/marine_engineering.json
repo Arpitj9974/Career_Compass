@@ -1,0 +1,28 @@
+{
+  "id": "marine_engineering",
+  "label": "Marine Engineering",
+  "description": "Ship machinery, marine propulsion, and offshore systems",
+  "job_roles": [
+    "Marine Technician",
+    "Ship Maintenance Engineer",
+    "Port Equipment Operator",
+    "Offshore Maintenance Technician",
+    "Shipyard Technician",
+    "Marine Equipment Installer"
+  ],
+  "skills_required": [
+    "Ship Machinery",
+    "Marine Propulsion Systems",
+    "Marine Electrical Systems",
+    "Naval Architecture Basics",
+    "Maintenance & Repair",
+    "Maritime Safety"
+  ],
+  "further_education": [
+    "B.Tech Marine Engineering",
+    "Marine Engineering License",
+    "Offshore Engineering"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

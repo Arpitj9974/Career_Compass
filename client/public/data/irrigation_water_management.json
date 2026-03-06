@@ -1,0 +1,28 @@
+{
+  "id": "irrigation_water_management",
+  "label": "Irrigation & Water Management",
+  "description": "Irrigation systems, water conservation, and precision agriculture",
+  "job_roles": [
+    "Irrigation Engineer",
+    "Drip Irrigation Specialist",
+    "Water Management Technician",
+    "Sprinkler System Installer",
+    "Precision Agriculture Technician",
+    "Farm Water Consultant"
+  ],
+  "skills_required": [
+    "Irrigation Systems Design",
+    "Water Management",
+    "Drip & Sprinkler Systems",
+    "Soil-Water Relations",
+    "Pump Technology",
+    "Precision Agriculture"
+  ],
+  "further_education": [
+    "B.Tech Irrigation",
+    "Water Resources",
+    "Precision Agriculture"
+  ],
+  "parentId": "agriculture_engineering",
+  "children": []
+}

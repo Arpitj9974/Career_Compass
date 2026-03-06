@@ -1,0 +1,154 @@
+{
+    "id": "pharmacy",
+    "title": "Pharmacy",
+    "label": "💊 Pharmacy",
+    "description": "Pharmaceutical dispensing and medication management",
+    "children": [
+        {
+            "id": "diploma_pharmacy",
+            "title": "Diploma in Pharmacy (D.Pharma)",
+            "label": "Diploma in Pharmacy (D.Pharma)",
+            "description": "Pharmaceutical dispensing, drug information, and patient counseling",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCM/PCB)",
+            "job_roles": [
+                "Registered Pharmacist",
+                "Community Pharmacist",
+                "Hospital Pharmacist",
+                "Retail Pharmacy Manager",
+                "Drug Information Specialist",
+                "Pharmaceutical Sales Representative"
+            ],
+            "skills_required": [
+                "Pharmaceutical Knowledge",
+                "Drug Dispensing",
+                "Patient Counseling",
+                "Inventory Management",
+                "Prescription Reading",
+                "Drug Interactions Knowledge"
+            ],
+            "further_education": [
+                "B.Pharma",
+                "M.Pharma",
+                "Pharm.D",
+                "Clinical Pharmacy"
+            ]
+        },
+        {
+            "id": "clinical_pharmacy",
+            "title": "Clinical Pharmacy Practice",
+            "label": "Clinical Pharmacy Practice",
+            "description": "Hospital pharmacy and clinical pharmaceutical care",
+            "duration": "1 year (Post D.Pharma/B.Pharma)",
+            "eligibility": "D.Pharma or B.Pharma",
+            "job_roles": [
+                "Clinical Pharmacist",
+                "Hospital Pharmacy Technician",
+                "Ward Pharmacist",
+                "Drug Therapy Specialist",
+                "ICU Pharmacist",
+                "Clinical Research Pharmacist"
+            ],
+            "skills_required": [
+                "Clinical Pharmacology",
+                "Drug Therapy Monitoring",
+                "Patient Assessment",
+                "Medical Terminology",
+                "Drug Calculation",
+                "Healthcare Team Collaboration"
+            ],
+            "further_education": [
+                "Pharm.D",
+                "Clinical Pharmacy Specialization",
+                "Pharmacotherapy"
+            ]
+        },
+        {
+            "id": "pharmaceutical_quality_control",
+            "title": "Pharmaceutical Quality Control",
+            "label": "Pharmaceutical Quality Control",
+            "description": "Drug testing, quality assurance, and pharmaceutical analysis",
+            "duration": "6 months - 1 year (Post D.Pharma/B.Pharma)",
+            "eligibility": "D.Pharma or B.Pharma",
+            "job_roles": [
+                "QC Analyst (Pharma)",
+                "Quality Assurance Officer",
+                "Drug Testing Technician",
+                "Pharmaceutical Lab Analyst",
+                "Quality Control Inspector",
+                "Stability Testing Analyst"
+            ],
+            "skills_required": [
+                "Pharmaceutical Analysis",
+                "Quality Testing Methods",
+                "GMP/GLP Standards",
+                "Lab Equipment Operation",
+                "Documentation",
+                "Analytical Chemistry"
+            ],
+            "further_education": [
+                "B.Pharma",
+                "Quality Assurance Specialization",
+                "Pharmaceutical Chemistry"
+            ]
+        },
+        {
+            "id": "pharmaceutical_manufacturing",
+            "title": "Pharmaceutical Manufacturing & Production",
+            "label": "Pharmaceutical Manufacturing & Production",
+            "description": "Drug manufacturing, formulation, and production",
+            "duration": "6 months - 1 year (Post D.Pharma/B.Pharma)",
+            "eligibility": "D.Pharma or B.Pharma",
+            "job_roles": [
+                "Production Pharmacist",
+                "Manufacturing Technician (Pharma)",
+                "Formulation Technician",
+                "Tablet Compression Operator",
+                "Capsule Filling Operator",
+                "Production Supervisor (Pharma)"
+            ],
+            "skills_required": [
+                "Pharmaceutical Manufacturing",
+                "GMP Compliance",
+                "Production Processes",
+                "Equipment Operation",
+                "Batch Documentation",
+                "Quality Standards"
+            ],
+            "further_education": [
+                "B.Pharma",
+                "Pharmaceutical Technology",
+                "Industrial Pharmacy"
+            ]
+        },
+        {
+            "id": "pharmaceutical_marketing",
+            "title": "Pharmaceutical Marketing & Sales",
+            "label": "Pharmaceutical Marketing & Sales",
+            "description": "Medical representation and pharmaceutical sales",
+            "duration": "Training + Field Experience",
+            "eligibility": "D.Pharma or B.Pharma",
+            "job_roles": [
+                "Medical Representative",
+                "Pharmaceutical Sales Executive",
+                "Product Specialist",
+                "Area Sales Manager (Pharma)",
+                "Key Account Manager",
+                "Pharmaceutical Marketing Executive"
+            ],
+            "skills_required": [
+                "Product Knowledge (Medicines)",
+                "Sales & Marketing",
+                "Communication Skills",
+                "Doctor Relations",
+                "Territory Management",
+                "Presentation Skills"
+            ],
+            "further_education": [
+                "B.Pharma with Marketing",
+                "MBA (Pharma Marketing)",
+                "Medical Affairs"
+            ]
+        }
+    ]
+}

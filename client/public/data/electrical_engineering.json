@@ -1,0 +1,64 @@
+{
+  "id": "electrical_engineering",
+  "label": "Electrical Engineering",
+  "description": "Electrical power systems, machines, and energy distribution",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "power_systems",
+      "label": "Power Systems Engineering",
+      "lazy": true,
+      "description": "Power generation, transmission, and distribution",
+      "children": []
+    },
+    {
+      "id": "electrical_machines",
+      "label": "Electrical Machines & Drives",
+      "lazy": true,
+      "description": "Motors, generators, transformers, and drive systems",
+      "children": []
+    },
+    {
+      "id": "industrial_automation_electrical",
+      "label": "Industrial Automation & Control",
+      "lazy": true,
+      "description": "PLC, SCADA, DCS, and industrial control systems",
+      "children": []
+    },
+    {
+      "id": "power_electronics",
+      "label": "Power Electronics",
+      "lazy": true,
+      "description": "Converters, inverters, and electronic power control",
+      "children": []
+    },
+    {
+      "id": "renewable_energy_electrical",
+      "label": "Renewable Energy Systems",
+      "lazy": true,
+      "description": "Solar, wind, and alternative energy electrical systems",
+      "children": []
+    },
+    {
+      "id": "electrical_design",
+      "label": "Electrical Design & Estimation",
+      "lazy": true,
+      "description": "Electrical layout design, load calculations, and project estimation",
+      "children": []
+    },
+    {
+      "id": "instrumentation",
+      "label": "Instrumentation & Process Control",
+      "lazy": true,
+      "description": "Measurement instruments, sensors, and process automation",
+      "children": []
+    },
+    {
+      "id": "electrical_maintenance",
+      "label": "Electrical Maintenance & Safety",
+      "lazy": true,
+      "description": "Equipment maintenance, troubleshooting, and electrical safety",
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "safety_environment_chemical",
+  "label": "Safety & Environmental Engineering",
+  "description": "Industrial safety, environmental protection, and waste management",
+  "job_roles": [
+    "Safety Officer (Chemical Industry)",
+    "Environmental Engineer",
+    "Hazardous Waste Manager",
+    "EHS Technician",
+    "Pollution Control Officer",
+    "Industrial Hygienist"
+  ],
+  "skills_required": [
+    "Industrial Safety",
+    "Environmental Regulations",
+    "Hazard Analysis",
+    "Waste Management",
+    "Emergency Response",
+    "Risk Assessment"
+  ],
+  "further_education": [
+    "B.Tech Safety Engineering",
+    "Environmental Management",
+    "Industrial Hygiene"
+  ],
+  "parentId": "chemical_engineering",
+  "children": []
+}

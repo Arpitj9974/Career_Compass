@@ -1,0 +1,28 @@
+{
+  "id": "quality_control_chemical",
+  "label": "Quality Control & Analysis",
+  "description": "Laboratory testing, quality assurance, and analytical chemistry",
+  "job_roles": [
+    "Quality Control Analyst",
+    "Chemical Lab Technician",
+    "QA Inspector (Chemical Industry)",
+    "Analytical Chemist",
+    "Testing Laboratory Technician",
+    "Quality Assurance Engineer"
+  ],
+  "skills_required": [
+    "Analytical Chemistry",
+    "Lab Equipment Operation",
+    "Quality Testing Methods",
+    "Chemical Analysis",
+    "ISO Standards",
+    "Documentation"
+  ],
+  "further_education": [
+    "B.Tech Chemical",
+    "Quality Management",
+    "Analytical Chemistry"
+  ],
+  "parentId": "chemical_engineering",
+  "children": []
+}

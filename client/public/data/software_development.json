@@ -1,0 +1,28 @@
+{
+  "id": "software_development",
+  "label": "Software Development",
+  "description": "Programming, application development, and software engineering",
+  "job_roles": [
+    "Junior Software Developer",
+    "Web Developer",
+    "Mobile App Developer (Trainee)",
+    "Software Tester",
+    "Frontend Developer",
+    "Backend Developer (Entry Level)"
+  ],
+  "skills_required": [
+    "Programming Languages (C, C++, Java, Python)",
+    "Web Technologies (HTML, CSS, JavaScript)",
+    "Database Basics (SQL)",
+    "Software Development Life Cycle",
+    "Version Control (Git)",
+    "Problem Solving"
+  ],
+  "further_education": [
+    "B.Tech Computer Science",
+    "Full Stack Development",
+    "Software Engineering"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

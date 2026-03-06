@@ -1,0 +1,356 @@
+{
+    "id": "iti_engineering_trades",
+    "title": "Engineering Trades",
+    "label": "⚙️ Engineering Trades",
+    "description": "Technical and engineering skill-based trades",
+    "children": [
+        {
+            "id": "iti_fitter",
+            "title": "Fitter",
+            "label": "🔧 Fitter",
+            "description": "Mechanical assembly, fitting, and maintenance",
+            "duration": "2 years",
+            "job_roles": [
+                "Maintenance Fitter",
+                "Assembly Technician",
+                "Machine Fitter",
+                "Workshop Technician",
+                "Industrial Fitter",
+                "Mechanical Fitter"
+            ],
+            "skills_required": [
+                "Mechanical Fitting",
+                "Hand Tools",
+                "Engineering Drawing",
+                "Measurement",
+                "Assembly Work",
+                "Machine Maintenance"
+            ],
+            "further_education": [
+                "Diploma in Mechanical Engineering",
+                "Advanced Fitting",
+                "CNC Operations"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_electrician",
+            "title": "Electrician",
+            "label": "⚡ Electrician",
+            "description": "Electrical wiring, installation, and maintenance",
+            "duration": "2 years",
+            "job_roles": [
+                "Industrial Electrician",
+                "Maintenance Electrician",
+                "Domestic Electrician",
+                "Installation Technician",
+                "Wireman",
+                "Electrical Contractor"
+            ],
+            "skills_required": [
+                "Electrical Wiring",
+                "Electrical Safety",
+                "Motor Winding",
+                "Troubleshooting",
+                "Panel Wiring",
+                "Electrical Instruments"
+            ],
+            "further_education": [
+                "Diploma in Electrical Engineering",
+                "Wireman License",
+                "Electrical Supervisor"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_turner",
+            "title": "Turner",
+            "label": "🔩 Turner",
+            "description": "Lathe machine operation and precision turning",
+            "duration": "2 years",
+            "job_roles": [
+                "Lathe Machine Operator",
+                "Turner",
+                "CNC Turner",
+                "Production Turner",
+                "Tool Room Turner",
+                "Precision Machinist"
+            ],
+            "skills_required": [
+                "Lathe Operations",
+                "Precision Measurement",
+                "Tool Selection",
+                "Engineering Drawing",
+                "CNC Basics",
+                "Quality Control"
+            ],
+            "further_education": [
+                "Diploma in Mechanical Engineering",
+                "CNC Programming",
+                "Tool & Die Making"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_machinist",
+            "title": "Machinist",
+            "label": "⚙️ Machinist",
+            "description": "Machine shop operations and precision machining",
+            "duration": "2 years",
+            "job_roles": [
+                "Machine Operator",
+                "CNC Machinist",
+                "Production Machinist",
+                "Precision Machinist",
+                "Tool Room Machinist",
+                "Milling Operator"
+            ],
+            "skills_required": [
+                "Milling Operations",
+                "Drilling Operations",
+                "Grinding",
+                "CNC Programming",
+                "Precision Measurement",
+                "Quality Inspection"
+            ],
+            "further_education": [
+                "Diploma in Mechanical Engineering",
+                "CNC Machining",
+                "Tool & Die Making"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_welder",
+            "title": "Welder",
+            "label": "🔥 Welder",
+            "description": "Welding processes and metal joining",
+            "duration": "1 year",
+            "job_roles": [
+                "Arc Welder",
+                "MIG/MAG Welder",
+                "TIG Welder",
+                "Pipe Welder",
+                "Structural Welder",
+                "Fabrication Welder"
+            ],
+            "skills_required": [
+                "Arc Welding",
+                "Gas Welding",
+                "MIG/TIG Welding",
+                "Blueprint Reading",
+                "Metal Fabrication",
+                "Welding Safety"
+            ],
+            "further_education": [
+                "Welding Inspector",
+                "Advanced Welding",
+                "NDT Certification"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_motor_mechanic",
+            "title": "Motor Mechanic Vehicle",
+            "label": "🚗 Motor Mechanic Vehicle",
+            "description": "Automobile repair and vehicle maintenance",
+            "duration": "2 years",
+            "job_roles": [
+                "Automobile Mechanic",
+                "Service Technician",
+                "Vehicle Inspector",
+                "Garage Technician",
+                "Engine Specialist",
+                "Diagnostic Technician"
+            ],
+            "skills_required": [
+                "Engine Repair",
+                "Vehicle Diagnostics",
+                "Brake Systems",
+                "Transmission Repair",
+                "Electrical Systems",
+                "Customer Service"
+            ],
+            "further_education": [
+                "Diploma in Automobile Engineering",
+                "Advanced Diagnostics",
+                "EV Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_diesel_mechanic",
+            "title": "Diesel Mechanic",
+            "label": "🔧 Diesel Mechanic",
+            "description": "Diesel engine repair and heavy vehicle maintenance",
+            "duration": "1 year",
+            "job_roles": [
+                "Diesel Engine Mechanic",
+                "Heavy Vehicle Mechanic",
+                "Generator Mechanic",
+                "Fleet Maintenance Technician",
+                "Construction Equipment Mechanic",
+                "Agricultural Equipment Mechanic"
+            ],
+            "skills_required": [
+                "Diesel Engines",
+                "Fuel Injection Systems",
+                "Heavy Vehicle Systems",
+                "Engine Overhaul",
+                "Troubleshooting",
+                "Maintenance Practices"
+            ],
+            "further_education": [
+                "Diploma in Automobile Engineering",
+                "Heavy Vehicle Specialist",
+                "Engine Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_electronics_mechanic",
+            "title": "Electronics Mechanic",
+            "label": "📺 Electronics Mechanic",
+            "description": "Electronic equipment repair and maintenance",
+            "duration": "2 years",
+            "job_roles": [
+                "Electronics Technician",
+                "Service Engineer",
+                "PCB Repair Technician",
+                "Audio/Video Technician",
+                "Industrial Electronics Tech",
+                "Consumer Electronics Tech"
+            ],
+            "skills_required": [
+                "Electronics Troubleshooting",
+                "PCB Repair",
+                "Soldering",
+                "Component Testing",
+                "Circuit Analysis",
+                "Equipment Calibration"
+            ],
+            "further_education": [
+                "Diploma in Electronics",
+                "Industrial Electronics",
+                "Automation"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_copa",
+            "title": "COPA (Computer Operator & Programming Assistant)",
+            "label": "💻 COPA",
+            "description": "Computer operations, data entry, and programming basics",
+            "duration": "1 year",
+            "job_roles": [
+                "Computer Operator",
+                "Data Entry Operator",
+                "Office Assistant",
+                "Jr. Programmer",
+                "Help Desk Support",
+                "Computer Lab Assistant"
+            ],
+            "skills_required": [
+                "MS Office",
+                "Data Entry",
+                "Basic Programming",
+                "Internet & Email",
+                "Hardware Basics",
+                "Typing Skills"
+            ],
+            "further_education": [
+                "Diploma in Computer Application",
+                "Web Development",
+                "Programming"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_draughtsman_mechanical",
+            "title": "Draughtsman Mechanical",
+            "label": "📐 Draughtsman Mechanical",
+            "description": "Mechanical engineering drawing and CAD",
+            "duration": "2 years",
+            "job_roles": [
+                "Mechanical Draughtsman",
+                "CAD Operator",
+                "Design Assistant",
+                "Drawing Checker",
+                "Technical Illustrator",
+                "AutoCAD Designer"
+            ],
+            "skills_required": [
+                "Engineering Drawing",
+                "AutoCAD",
+                "SolidWorks Basics",
+                "GD&T",
+                "Technical Sketching",
+                "Blueprint Reading"
+            ],
+            "further_education": [
+                "Diploma in Mechanical Engineering",
+                "CAD/CAM Certification",
+                "Product Design"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_draughtsman_civil",
+            "title": "Draughtsman Civil",
+            "label": "📐 Draughtsman Civil",
+            "description": "Civil engineering drawing and construction documentation",
+            "duration": "2 years",
+            "job_roles": [
+                "Civil Draughtsman",
+                "AutoCAD Civil Operator",
+                "Site Planning Assistant",
+                "Quantity Estimator",
+                "Drawing Office Assistant",
+                "Construction Draughtsman"
+            ],
+            "skills_required": [
+                "Civil Drawing",
+                "AutoCAD Civil 3D",
+                "Building Plans",
+                "Estimation Basics",
+                "Surveying Basics",
+                "Construction Knowledge"
+            ],
+            "further_education": [
+                "Diploma in Civil Engineering",
+                "CAD Certification",
+                "Construction Management"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_refrigeration_ac",
+            "title": "Refrigeration & Air Conditioning Mechanic",
+            "label": "❄️ RAC Mechanic",
+            "description": "AC and refrigeration installation and repair",
+            "duration": "2 years",
+            "job_roles": [
+                "AC Technician",
+                "Refrigeration Technician",
+                "Installation Technician",
+                "Service Engineer (RAC)",
+                "Cold Storage Technician",
+                "HVAC Technician"
+            ],
+            "skills_required": [
+                "AC Installation",
+                "Refrigeration Systems",
+                "Gas Charging",
+                "Troubleshooting",
+                "Electrical Systems",
+                "Customer Service"
+            ],
+            "further_education": [
+                "Diploma in RAC",
+                "HVAC Certification",
+                "Building Services"
+            ],
+            "children": []
+        }
+    ]
+}

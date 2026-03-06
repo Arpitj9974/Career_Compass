@@ -1,0 +1,153 @@
+{
+    "id": "medical_laboratory_technology",
+    "title": "Medical Laboratory Technology",
+    "label": "🔬 Medical Laboratory Technology",
+    "description": "Diagnostic testing and medical laboratory work",
+    "children": [
+        {
+            "id": "medical_lab_technician",
+            "title": "Medical Lab Technology (DMLT)",
+            "label": "Medical Lab Technology (DMLT)",
+            "description": "Clinical laboratory testing and diagnostics",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Medical Lab Technician",
+                "Pathology Technician",
+                "Clinical Lab Analyst",
+                "Diagnostic Lab Technician",
+                "Lab Supervisor",
+                "Quality Control Technician (Lab)"
+            ],
+            "skills_required": [
+                "Laboratory Techniques",
+                "Sample Collection & Processing",
+                "Microscopy",
+                "Biochemical Testing",
+                "Hematology",
+                "Lab Safety Protocols"
+            ],
+            "further_education": [
+                "B.Sc MLT",
+                "M.Sc MLT",
+                "Specialized Lab Technology courses"
+            ]
+        },
+        {
+            "id": "clinical_pathology",
+            "title": "Clinical Pathology",
+            "label": "Clinical Pathology",
+            "description": "Disease diagnosis through laboratory testing",
+            "duration": "1-2 years (Post DMLT)",
+            "eligibility": "DMLT or B.Sc MLT",
+            "job_roles": [
+                "Pathology Technician",
+                "Histopathology Technician",
+                "Cytology Technician",
+                "Clinical Pathology Assistant",
+                "Tissue Processing Technician",
+                "Autopsy Technician"
+            ],
+            "skills_required": [
+                "Histopathology Techniques",
+                "Tissue Processing",
+                "Staining Methods",
+                "Microscopic Examination",
+                "Sample Preparation",
+                "Pathology Reporting"
+            ],
+            "further_education": [
+                "B.Sc Pathology",
+                "Histopathology Specialization",
+                "Cytotechnology"
+            ]
+        },
+        {
+            "id": "blood_bank_technology",
+            "title": "Blood Bank & Transfusion Technology",
+            "label": "Blood Bank & Transfusion Technology",
+            "description": "Blood collection, testing, and transfusion services",
+            "duration": "1-2 years (Post DMLT)",
+            "eligibility": "DMLT or B.Sc MLT",
+            "job_roles": [
+                "Blood Bank Technician",
+                "Transfusion Medicine Technologist",
+                "Blood Donor Counselor",
+                "Component Preparation Technician",
+                "Immunohematology Technician",
+                "Blood Bank Supervisor"
+            ],
+            "skills_required": [
+                "Blood Grouping & Typing",
+                "Cross-Matching",
+                "Component Separation",
+                "Blood Storage",
+                "Donor Screening",
+                "Transfusion Safety"
+            ],
+            "further_education": [
+                "B.Sc Transfusion Medicine",
+                "Blood Bank Management",
+                "Immunohematology"
+            ]
+        },
+        {
+            "id": "microbiology_technology",
+            "title": "Microbiology & Infection Control",
+            "label": "Microbiology & Infection Control",
+            "description": "Microbiological testing and infection diagnosis",
+            "duration": "1-2 years (Post DMLT)",
+            "eligibility": "DMLT or B.Sc MLT",
+            "job_roles": [
+                "Microbiology Technician",
+                "Culture Lab Technician",
+                "Infection Control Specialist",
+                "Clinical Microbiologist",
+                "Bacteriology Technician",
+                "Virology Lab Assistant"
+            ],
+            "skills_required": [
+                "Microbial Culture Techniques",
+                "Bacteria Identification",
+                "Antibiotic Sensitivity Testing",
+                "Sterilization Methods",
+                "Infection Control Protocols",
+                "Laboratory Safety"
+            ],
+            "further_education": [
+                "B.Sc Microbiology",
+                "Clinical Microbiology",
+                "Infection Control"
+            ]
+        },
+        {
+            "id": "biochemistry_technology",
+            "title": "Clinical Biochemistry",
+            "label": "Clinical Biochemistry",
+            "description": "Biochemical analysis and metabolic testing",
+            "duration": "1-2 years (Post DMLT)",
+            "eligibility": "DMLT or B.Sc MLT",
+            "job_roles": [
+                "Biochemistry Technician",
+                "Clinical Chemistry Analyst",
+                "Metabolic Lab Technician",
+                "Hormone Assay Technician",
+                "Automated Analyzer Operator",
+                "Lab Biochemist"
+            ],
+            "skills_required": [
+                "Biochemical Analysis",
+                "Automated Lab Equipment",
+                "Enzyme Assays",
+                "Electrolyte Analysis",
+                "Lipid Profile Testing",
+                "Quality Control"
+            ],
+            "further_education": [
+                "B.Sc Biochemistry",
+                "Clinical Biochemistry",
+                "Medical Biochemistry"
+            ]
+        }
+    ]
+}

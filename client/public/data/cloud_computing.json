@@ -1,0 +1,28 @@
+{
+  "id": "cloud_computing",
+  "label": "Cloud Computing",
+  "description": "Cloud platforms, virtualization, and cloud services",
+  "job_roles": [
+    "Cloud Support Associate",
+    "Cloud Operations Technician",
+    "Junior Cloud Engineer",
+    "Virtualization Technician",
+    "Cloud Migration Assistant",
+    "DevOps Trainee"
+  ],
+  "skills_required": [
+    "Cloud Platforms (AWS, Azure, GCP Basics)",
+    "Virtualization (VMware, Hyper-V)",
+    "Linux Administration",
+    "Networking Basics",
+    "Scripting (Bash, Python)",
+    "Cloud Services Fundamentals"
+  ],
+  "further_education": [
+    "B.Tech Cloud Computing",
+    "AWS/Azure Certifications",
+    "DevOps"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

@@ -1,0 +1,120 @@
+{
+    "id": "agriculture_engineering",
+    "title": "Agriculture Engineering",
+    "label": "🌾 Agriculture Engineering",
+    "description": "Farm machinery, irrigation, and agricultural technology",
+    "children": [
+        {
+            "id": "farm_machinery",
+            "title": "Farm Machinery & Equipment",
+            "label": "🚜 Farm Machinery & Equipment",
+            "description": "Agricultural equipment, tractors, and machinery maintenance",
+            "job_roles": [
+                "Farm Equipment Technician",
+                "Tractor Mechanic",
+                "Agricultural Machinery Operator",
+                "Service Engineer (Agri Equipment)",
+                "Equipment Sales Representative",
+                "Maintenance Supervisor"
+            ],
+            "skills_required": [
+                "Farm Machinery",
+                "Engine Technology",
+                "Hydraulic Systems",
+                "Equipment Maintenance",
+                "Troubleshooting",
+                "Agricultural Operations"
+            ],
+            "further_education": [
+                "B.Tech Agricultural Engineering",
+                "Farm Mechanization",
+                "Agricultural Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "irrigation_water_management",
+            "title": "Irrigation & Water Management",
+            "label": "💧 Irrigation & Water Management",
+            "description": "Irrigation systems, drip technology, and water conservation",
+            "job_roles": [
+                "Irrigation Technician",
+                "Drip Irrigation Installer",
+                "Water Management Officer",
+                "Sprinkler System Technician",
+                "Farm Water Specialist",
+                "Watershed Technician"
+            ],
+            "skills_required": [
+                "Irrigation Systems",
+                "Drip Technology",
+                "Water Conservation",
+                "Pipe Fitting",
+                "Pump Operation",
+                "Agricultural Hydrology"
+            ],
+            "further_education": [
+                "B.Tech Agricultural Engineering",
+                "Irrigation Management",
+                "Water Resources"
+            ],
+            "children": []
+        },
+        {
+            "id": "post_harvest_food_processing",
+            "title": "Post Harvest & Food Processing",
+            "label": "🌾 Post Harvest & Food Processing",
+            "description": "Grain processing, storage, and food technology",
+            "job_roles": [
+                "Food Processing Technician",
+                "Grain Storage Supervisor",
+                "Mill Operator",
+                "Quality Controller (Agri Products)",
+                "Processing Plant Operator",
+                "Cold Storage Manager"
+            ],
+            "skills_required": [
+                "Post Harvest Technology",
+                "Food Processing",
+                "Storage Management",
+                "Quality Control",
+                "Packaging Technology",
+                "Food Safety"
+            ],
+            "further_education": [
+                "B.Tech Food Technology",
+                "Post Harvest Engineering",
+                "Food Processing"
+            ],
+            "children": []
+        },
+        {
+            "id": "precision_agriculture",
+            "title": "Precision Agriculture & AgriTech",
+            "label": "🛰️ Precision Agriculture & AgriTech",
+            "description": "Smart farming, drones, and agricultural technology",
+            "job_roles": [
+                "AgriTech Technician",
+                "Drone Operator (Agriculture)",
+                "Smart Farming Specialist",
+                "Soil Sensor Technician",
+                "GIS/GPS Mapping Technician",
+                "Agricultural Data Analyst"
+            ],
+            "skills_required": [
+                "IoT in Agriculture",
+                "Drone Operation",
+                "GPS/GIS Mapping",
+                "Sensor Technology",
+                "Data Collection",
+                "Smart Farming Tools"
+            ],
+            "further_education": [
+                "B.Tech Agricultural Engineering",
+                "Precision Agriculture",
+                "AgriTech Management"
+            ],
+            "children": []
+        }
+    ]
+}

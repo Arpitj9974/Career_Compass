@@ -1,0 +1,50 @@
+{
+  "id": "chemical_engineering",
+  "label": "Chemical Engineering",
+  "description": "Chemical processes, production, and industrial chemistry",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "process_engineering",
+      "label": "Chemical Process Engineering",
+      "lazy": true,
+      "description": "Chemical plant operations, process control, and production",
+      "children": []
+    },
+    {
+      "id": "quality_control_chemical",
+      "label": "Quality Control & Analysis",
+      "lazy": true,
+      "description": "Laboratory testing, quality assurance, and analytical chemistry",
+      "children": []
+    },
+    {
+      "id": "petrochemical",
+      "label": "Petrochemical Engineering",
+      "lazy": true,
+      "description": "Oil refining, petroleum products, and petrochemical processing",
+      "children": []
+    },
+    {
+      "id": "polymer_plastics",
+      "label": "Polymer & Plastics Engineering",
+      "lazy": true,
+      "description": "Polymer processing, plastics manufacturing, and material science",
+      "children": []
+    },
+    {
+      "id": "pharmaceutical_chemical",
+      "label": "Pharmaceutical Chemical Technology",
+      "lazy": true,
+      "description": "Drug manufacturing, pharmaceutical processes, and GMP",
+      "children": []
+    },
+    {
+      "id": "safety_environment_chemical",
+      "label": "Safety & Environmental Engineering",
+      "lazy": true,
+      "description": "Industrial safety, environmental protection, and waste management",
+      "children": []
+    }
+  ]
+}

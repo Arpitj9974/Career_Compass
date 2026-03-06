@@ -1,0 +1,28 @@
+{
+  "id": "foundryman_iti",
+  "label": "Foundryman",
+  "description": "Metal casting and foundry operations",
+  "job_roles": [
+    "Foundryman",
+    "Molder",
+    "Casting Technician",
+    "Core Maker",
+    "Foundry Supervisor",
+    "Pattern Maker"
+  ],
+  "skills_required": [
+    "Molding Techniques",
+    "Metal Casting",
+    "Pattern Making",
+    "Core Making",
+    "Melting Operations",
+    "Foundry Safety"
+  ],
+  "further_education": [
+    "Advanced Foundry",
+    "Metallurgy",
+    "Casting Technology"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

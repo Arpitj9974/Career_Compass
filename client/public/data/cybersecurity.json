@@ -1,0 +1,28 @@
+{
+  "id": "cybersecurity",
+  "label": "Cybersecurity",
+  "description": "Network security, ethical hacking, and information security",
+  "job_roles": [
+    "Cybersecurity Analyst (Trainee)",
+    "Security Operations Technician",
+    "Ethical Hacker (Entry Level)",
+    "Security Testing Engineer",
+    "Network Security Technician",
+    "IT Security Support"
+  ],
+  "skills_required": [
+    "Network Security Basics",
+    "Ethical Hacking Fundamentals",
+    "Firewall Configuration",
+    "Cryptography Basics",
+    "Vulnerability Assessment",
+    "Security Tools (Wireshark, Nmap)"
+  ],
+  "further_education": [
+    "B.Tech Cybersecurity",
+    "CEH",
+    "Information Security"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

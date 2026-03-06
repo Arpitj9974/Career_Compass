@@ -1,0 +1,95 @@
+{
+    "id": "commerce_finance",
+    "title": "Finance & Economics",
+    "label": "📈 Finance & Economics",
+    "description": "Economics, financial markets, and investment banking",
+    "children": [
+        {
+            "id": "economics_degree",
+            "title": "B.A. / B.Sc. Economics",
+            "label": "B.A. / B.Sc. Economics (Hons)",
+            "description": "Study of economic theory, econometrics, and markets",
+            "duration": "3-4 years",
+            "eligibility": "12th Pass (Maths often required)",
+            "job_roles": [
+                "Economist",
+                "Data Analyst",
+                "Economic Researcher",
+                "Policy Analyst",
+                "Market Analyst",
+                "Risk Analyst"
+            ],
+            "skills_required": [
+                "Micro & Macro Economics",
+                "Econometrics",
+                "Statistical Analysis",
+                "Data Modeling",
+                "Financial Markets",
+                "Research Methodology"
+            ],
+            "further_education": [
+                "M.A. / M.Sc. Economics",
+                "PhD in Economics",
+                "MBA Finance",
+                "Data Science"
+            ]
+        },
+        {
+            "id": "bfia_finance",
+            "title": "BFIA / B.Sc. Finance",
+            "label": "BFIA / B.Sc. Finance",
+            "description": "Bachelor of Financial & Investment Analysis",
+            "duration": "3 years",
+            "eligibility": "12th Pass (Maths required)",
+            "job_roles": [
+                "Financial Analyst",
+                "Investment Banker (Entry)",
+                "Portfolio Analyst",
+                "Wealth Manager",
+                "Equity Research Analyst",
+                "Corporate Finance Associate"
+            ],
+            "skills_required": [
+                "Financial Analysis",
+                "Valuation Techniques",
+                "Investment Management",
+                "Corporate Finance",
+                "Financial Modeling",
+                "Stock Market Knowledge"
+            ],
+            "further_education": [
+                "CFA (Chartered Financial Analyst)",
+                "MBA Finance",
+                "FRM (Financial Risk Manager)"
+            ]
+        },
+        {
+            "id": "certified_financial_planner",
+            "title": "Certified Financial Planner (CFP)",
+            "label": "Certified Financial Planner (CFP)",
+            "description": "Financial planning, wealth management certification",
+            "duration": "6 months - 1 year (Certification)",
+            "eligibility": "12th Pass / Graduate",
+            "job_roles": [
+                "Financial Planner",
+                "Wealth Advisor",
+                "Insurance Consultant",
+                "Retirement Planner",
+                "Investment Advisor",
+                "Personal Finance Consultant"
+            ],
+            "skills_required": [
+                "Financial Planning",
+                "Investment Strategies",
+                "Tax Planning",
+                "Retirement Planning",
+                "Estate Planning",
+                "Risk Management"
+            ],
+            "further_education": [
+                "Advanced Wealth Management",
+                "MBA in Wealth Management"
+            ]
+        }
+    ]
+}

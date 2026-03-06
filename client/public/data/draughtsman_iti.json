@@ -1,0 +1,28 @@
+{
+  "id": "draughtsman_iti",
+  "label": "Draughtsman (Mechanical/Civil)",
+  "description": "Technical drawing and CAD drafting",
+  "job_roles": [
+    "Draughtsman",
+    "CAD Operator",
+    "Design Assistant",
+    "Technical Illustrator",
+    "Production Draughtsman",
+    "Detailing Engineer"
+  ],
+  "skills_required": [
+    "Engineering Drawing",
+    "AutoCAD",
+    "Technical Sketching",
+    "Blueprint Reading",
+    "GD&T Basics",
+    "3D Modeling Basics"
+  ],
+  "further_education": [
+    "Advanced CAD",
+    "3D Modeling",
+    "Diploma in Engineering"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

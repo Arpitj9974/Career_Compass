@@ -1,0 +1,28 @@
+{
+  "id": "petrochemical",
+  "label": "Petrochemical Engineering",
+  "description": "Oil refining, petroleum products, and petrochemical processing",
+  "job_roles": [
+    "Refinery Operator",
+    "Petrochemical Technician",
+    "Petroleum Processing Operator",
+    "Refinery Maintenance Technician",
+    "Crude Oil Analyst",
+    "Petrochemical Plant Operator"
+  ],
+  "skills_required": [
+    "Petroleum Refining",
+    "Petrochemical Processes",
+    "Distillation",
+    "Process Safety",
+    "Equipment Operation",
+    "Product Quality Control"
+  ],
+  "further_education": [
+    "B.Tech Petrochemical",
+    "Petroleum Engineering",
+    "Refinery Management"
+  ],
+  "parentId": "chemical_engineering",
+  "children": []
+}

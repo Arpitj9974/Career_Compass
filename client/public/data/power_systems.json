@@ -1,0 +1,28 @@
+{
+  "id": "power_systems",
+  "label": "Power Systems Engineering",
+  "description": "Power generation, transmission, and distribution",
+  "job_roles": [
+    "Power Plant Operator",
+    "Substation Technician",
+    "Electrical Maintenance Engineer",
+    "Transmission Line Technician",
+    "Distribution Engineer",
+    "Grid Operations Assistant"
+  ],
+  "skills_required": [
+    "Power Generation",
+    "Electrical Machines",
+    "Transmission & Distribution",
+    "Substation Equipment",
+    "Protective Relays",
+    "Power System Analysis Basics"
+  ],
+  "further_education": [
+    "B.Tech Electrical (Power Systems)",
+    "Power Electronics",
+    "Renewable Energy"
+  ],
+  "parentId": "electrical_engineering",
+  "children": []
+}

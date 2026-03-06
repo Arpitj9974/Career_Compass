@@ -1,0 +1,28 @@
+{
+  "id": "electrical_design",
+  "label": "Electrical Design & Estimation",
+  "description": "Electrical layout design, load calculations, and project estimation",
+  "job_roles": [
+    "Electrical Design Engineer",
+    "Estimation Engineer",
+    "Electrical CAD Designer",
+    "Panel Design Engineer",
+    "Lighting Designer",
+    "Electrical Consultant Assistant"
+  ],
+  "skills_required": [
+    "Electrical Design Software (AutoCAD Electrical)",
+    "Load Calculations",
+    "Lighting Design",
+    "Panel Design",
+    "Cost Estimation",
+    "IS & IEC Standards"
+  ],
+  "further_education": [
+    "B.Tech Electrical Design",
+    "Building Services",
+    "Project Management"
+  ],
+  "parentId": "electrical_engineering",
+  "children": []
+}

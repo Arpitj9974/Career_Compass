@@ -1,0 +1,66 @@
+{
+    "id": "cardiac_technology",
+    "title": "Cardiac & Cardiovascular Technology",
+    "label": "❤️ Cardiac Technology",
+    "description": "Heart care and cardiovascular diagnostics",
+    "children": [
+        {
+            "id": "cardiac_technology_ecg_echo",
+            "title": "Cardiac Technology (ECG/Echo)",
+            "label": "Cardiac Technology (ECG/Echo)",
+            "description": "Electrocardiography and echocardiography",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Cardiac Technician",
+                "ECG Technician",
+                "Echocardiography Technician",
+                "Cardiac Diagnostic Specialist",
+                "Heart Function Tester",
+                "Cardiology Lab Technician"
+            ],
+            "skills_required": [
+                "ECG Machine Operation",
+                "Echocardiography",
+                "Holter Monitoring",
+                "Stress Test Procedures",
+                "Cardiac Anatomy",
+                "Patient Preparation"
+            ],
+            "further_education": [
+                "Advanced Cardiac Technology",
+                "Cardiac Sonography",
+                "Cardiovascular Imaging"
+            ]
+        },
+        {
+            "id": "cath_lab_technology",
+            "title": "Cath Lab & Interventional Technology",
+            "label": "Cath Lab & Interventional Technology",
+            "description": "Cardiac catheterization and interventional procedures",
+            "duration": "1 year (Post Cardiac Tech/Radiology)",
+            "eligibility": "Cardiac Tech or Radiology background",
+            "job_roles": [
+                "Cath Lab Technician",
+                "Interventional Cardiology Technologist",
+                "Cardiac Catheterization Specialist",
+                "Angiography Technician",
+                "Interventional Radiology Tech (Cardiac)",
+                "Cardiac Procedure Room Technician"
+            ],
+            "skills_required": [
+                "Catheterization Lab Equipment",
+                "Angiography Procedures",
+                "Radiation Safety",
+                "Interventional Techniques Basics",
+                "Hemodynamic Monitoring",
+                "Emergency Cardiac Care"
+            ],
+            "further_education": [
+                "Advanced Interventional Technology",
+                "Cardiac Imaging",
+                "Electrophysiology"
+            ]
+        }
+    ]
+}

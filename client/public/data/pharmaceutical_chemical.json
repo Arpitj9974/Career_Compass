@@ -1,0 +1,28 @@
+{
+  "id": "pharmaceutical_chemical",
+  "label": "Pharmaceutical Chemical Technology",
+  "description": "Drug manufacturing, pharmaceutical processes, and GMP",
+  "job_roles": [
+    "Pharmaceutical Production Technician",
+    "Drug Manufacturing Operator",
+    "Pharmaceutical QC Analyst",
+    "Formulation Technician",
+    "Pharma Plant Operator",
+    "GMP Compliance Officer"
+  ],
+  "skills_required": [
+    "Pharmaceutical Processes",
+    "GMP (Good Manufacturing Practices)",
+    "Drug Formulation",
+    "Quality Control",
+    "Clean Room Operations",
+    "Regulatory Compliance"
+  ],
+  "further_education": [
+    "B.Tech Pharmaceutical",
+    "B.Pharma",
+    "Drug Manufacturing"
+  ],
+  "parentId": "chemical_engineering",
+  "children": []
+}

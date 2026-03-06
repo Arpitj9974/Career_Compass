@@ -1,0 +1,28 @@
+{
+  "id": "dress_making_iti",
+  "label": "Dress Making",
+  "description": "Garment construction and tailoring",
+  "job_roles": [
+    "Tailor",
+    "Dress Maker",
+    "Fashion Tailor",
+    "Alteration Specialist",
+    "Boutique Owner",
+    "Costume Designer"
+  ],
+  "skills_required": [
+    "Sewing Techniques",
+    "Pattern Making",
+    "Fabric Selection",
+    "Garment Construction",
+    "Measurements",
+    "Design Basics"
+  ],
+  "further_education": [
+    "Fashion Design",
+    "Garment Technology",
+    "Boutique Management"
+  ],
+  "parentId": "iti_non_engineering_trades",
+  "children": []
+}

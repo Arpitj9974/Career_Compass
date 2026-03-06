@@ -1,0 +1,12 @@
+{
+  "id": "root",
+  "label": "Career Explorer",
+  "children": [
+    {
+      "id": "after_10th",
+      "label": "After 10th",
+      "lazy": true,
+      "description": "Explore comprehensive career streams and specializations after completing 10th grade"
+    }
+  ]
+}

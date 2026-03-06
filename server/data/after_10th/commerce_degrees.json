@@ -1,0 +1,97 @@
+{
+    "id": "commerce_degrees",
+    "title": "Degree Courses (B.Com / BBA)",
+    "label": "🎓 Degree Courses",
+    "description": "Undergraduate degrees in Commerce and Business Administration",
+    "children": [
+        {
+            "id": "bcom_general_honours",
+            "title": "B.Com (General / Honours)",
+            "label": "B.Com (General / Honours)",
+            "description": "Bachelor of Commerce - specific or general",
+            "duration": "3-4 years (NEP)",
+            "eligibility": "12th Pass (Commerce favored)",
+            "job_roles": [
+                "Accountant",
+                "Tax Assistant",
+                "Banking Executive",
+                "Financial Analyst",
+                "Accounts Executive",
+                "Operations Analyst"
+            ],
+            "skills_required": [
+                "Financial Accounting",
+                "Business Management",
+                "Taxation Basics",
+                "Auditing Principles",
+                "Business Law",
+                "Basic Economics"
+            ],
+            "further_education": [
+                "M.Com",
+                "MBA",
+                "CA/CS/CMA",
+                "B.Ed (for Teaching)"
+            ]
+        },
+        {
+            "id": "bba_bms",
+            "title": "BBA / BMS",
+            "label": "BBA / BMS",
+            "description": "Bachelor of Business Administration / Management Studies",
+            "duration": "3 years",
+            "eligibility": "12th Pass (Any stream)",
+            "job_roles": [
+                "Management Trainee",
+                "HR Executive",
+                "Marketing Executive",
+                "Business Development Executive",
+                "Operations Coordinator",
+                "Sales Executive"
+            ],
+            "skills_required": [
+                "Business Management",
+                "Leadership & Teamwork",
+                "Marketing Basics",
+                "HR Management",
+                "Financial Management",
+                "Communication Skills"
+            ],
+            "further_education": [
+                "MBA (Master of Business Administration)",
+                "PGDM",
+                "MMS",
+                "Specialized Masters"
+            ]
+        },
+        {
+            "id": "hotel_management",
+            "title": "Hotel Management (BHM)",
+            "label": "Hotel Management (BHM)",
+            "description": "Hospitality and hotel administration",
+            "duration": "3-4 years",
+            "eligibility": "12th Pass (Any stream)",
+            "job_roles": [
+                "Hotel Manager",
+                "Front Office Manager",
+                "Food & Beverage Manager",
+                "Chef / Kitchen Manager",
+                "Housekeeping Manager",
+                "Event Manager"
+            ],
+            "skills_required": [
+                "Hospitality Management",
+                "Customer Service",
+                "Food Production",
+                "Front Office Operations",
+                "Event Coordination",
+                "Communication"
+            ],
+            "further_education": [
+                "MHM (Master of Hotel Management)",
+                "MBA in Hospitality",
+                "Culinary Arts Specialization"
+            ]
+        }
+    ]
+}

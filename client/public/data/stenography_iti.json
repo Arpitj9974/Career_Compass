@@ -1,0 +1,28 @@
+{
+  "id": "stenography_iti",
+  "label": "Stenography (Hindi/English)",
+  "description": "Shorthand writing and office documentation",
+  "job_roles": [
+    "Stenographer",
+    "Personal Assistant",
+    "Office Secretary",
+    "Court Reporter",
+    "Transcriptionist",
+    "Legal Stenographer"
+  ],
+  "skills_required": [
+    "Shorthand (Hindi/English)",
+    "Typing Speed",
+    "MS Office",
+    "Documentation",
+    "Communication",
+    "Office Management"
+  ],
+  "further_education": [
+    "Secretarial Practice",
+    "Office Management",
+    "BBA"
+  ],
+  "parentId": "iti_non_engineering_trades",
+  "children": []
+}

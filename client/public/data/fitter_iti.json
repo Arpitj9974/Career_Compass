@@ -1,0 +1,28 @@
+{
+  "id": "fitter_iti",
+  "label": "Fitter",
+  "description": "Fitting, assembling, and maintaining machinery",
+  "job_roles": [
+    "Fitter",
+    "Mechanical Fitter",
+    "Machine Assembler",
+    "Maintenance Fitter",
+    "Workshop Fitter",
+    "Industrial Fitter"
+  ],
+  "skills_required": [
+    "Hand Tools Usage",
+    "Machine Tools",
+    "Precision Measurement",
+    "Fitting Techniques",
+    "Assembly Work",
+    "Blueprint Reading"
+  ],
+  "further_education": [
+    "Advanced Fitting",
+    "CNC Operation",
+    "Diploma in Mechanical"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

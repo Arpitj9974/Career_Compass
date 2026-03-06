@@ -1,0 +1,28 @@
+{
+  "id": "artificial_intelligence",
+  "label": "Artificial Intelligence & Machine Learning (Basics)",
+  "description": "Introduction to AI, ML algorithms, and intelligent systems",
+  "job_roles": [
+    "AI/ML Trainee",
+    "Machine Learning Intern",
+    "AI Application Tester",
+    "Computer Vision Trainee",
+    "NLP Analyst (Entry)",
+    "AI Support Engineer"
+  ],
+  "skills_required": [
+    "Python Programming",
+    "Machine Learning Algorithms Basics",
+    "Mathematics (Linear Algebra, Calculus)",
+    "TensorFlow/PyTorch Basics",
+    "Data Preprocessing",
+    "Problem Solving"
+  ],
+  "further_education": [
+    "B.Tech AI/ML",
+    "Deep Learning",
+    "Computer Vision"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

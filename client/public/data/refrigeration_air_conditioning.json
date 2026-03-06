@@ -1,0 +1,28 @@
+{
+  "id": "refrigeration_air_conditioning",
+  "label": "Refrigeration & Air Conditioning",
+  "description": "Cooling systems, HVAC design, and cold storage technology",
+  "job_roles": [
+    "RAC Technician",
+    "HVAC Installation Engineer",
+    "Refrigeration Mechanic",
+    "Cold Storage Operator",
+    "AC Service Engineer",
+    "Chiller Operator"
+  ],
+  "skills_required": [
+    "Refrigeration Cycles",
+    "HVAC Systems",
+    "Air Conditioning Installation",
+    "Refrigerant Handling",
+    "System Troubleshooting",
+    "Energy Efficiency"
+  ],
+  "further_education": [
+    "B.Tech RAC",
+    "HVAC Design",
+    "Building Services Engineering"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

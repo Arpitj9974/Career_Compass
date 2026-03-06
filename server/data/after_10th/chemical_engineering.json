@@ -1,0 +1,176 @@
+{
+    "id": "chemical_engineering",
+    "title": "Chemical Engineering",
+    "label": "🧪 Chemical Engineering",
+    "description": "Chemical processes, petrochemicals, and process industries",
+    "children": [
+        {
+            "id": "petrochemical_industry",
+            "title": "Petrochemical Industry",
+            "label": "🛢️ Petrochemical Industry",
+            "description": "Oil refining, gas processing, and petrochemical manufacturing",
+            "job_roles": [
+                "Plant Operator (Refinery)",
+                "Process Technician",
+                "Petrochemical Lab Technician",
+                "Pipeline Operator",
+                "Storage Tank Operator",
+                "Quality Control Analyst"
+            ],
+            "skills_required": [
+                "Petroleum Processing",
+                "Process Control",
+                "Chemical Analysis",
+                "Safety Protocols",
+                "Plant Operations",
+                "Hazardous Material Handling"
+            ],
+            "further_education": [
+                "B.Tech Chemical Engineering",
+                "Petrochemical Engineering",
+                "Process Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "pharmaceutical_industry",
+            "title": "Pharmaceutical Industry",
+            "label": "💊 Pharmaceutical Industry",
+            "description": "Drug manufacturing, quality control, and pharmaceutical operations",
+            "job_roles": [
+                "Pharma Production Technician",
+                "Quality Control Analyst",
+                "Formulation Assistant",
+                "Lab Technician (Pharma)",
+                "Documentation Executive",
+                "Packaging Operator"
+            ],
+            "skills_required": [
+                "Pharmaceutical Processes",
+                "GMP Standards",
+                "Quality Testing",
+                "Documentation",
+                "Clean Room Operations",
+                "Safety Compliance"
+            ],
+            "further_education": [
+                "B.Tech Chemical Engineering",
+                "B.Pharm",
+                "Pharmaceutical Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "food_processing",
+            "title": "Food Processing Industry",
+            "label": "🍔 Food Processing Industry",
+            "description": "Food manufacturing, preservation, and quality control",
+            "job_roles": [
+                "Food Processing Technician",
+                "Quality Control Analyst (Food)",
+                "Food Safety Officer",
+                "Production Supervisor (Food)",
+                "Packaging Technician",
+                "Lab Analyst (Food)"
+            ],
+            "skills_required": [
+                "Food Processing Technology",
+                "Food Safety (HACCP/FSSAI)",
+                "Quality Testing",
+                "Preservation Methods",
+                "Hygiene Standards",
+                "Manufacturing Processes"
+            ],
+            "further_education": [
+                "B.Tech Food Technology",
+                "Food Processing",
+                "Quality Management"
+            ],
+            "children": []
+        },
+        {
+            "id": "paint_coating",
+            "title": "Paint & Coating Industry",
+            "label": "🎨 Paint & Coating Industry",
+            "description": "Paint manufacturing, surface coating, and color technology",
+            "job_roles": [
+                "Paint Manufacturing Technician",
+                "Color Matching Technician",
+                "Coating Inspector",
+                "Quality Control (Paints)",
+                "Production Operator",
+                "Lab Technician (Coatings)"
+            ],
+            "skills_required": [
+                "Paint Chemistry",
+                "Color Science",
+                "Coating Technology",
+                "Quality Testing",
+                "Batch Processing",
+                "Safety Procedures"
+            ],
+            "further_education": [
+                "B.Tech Chemical Engineering",
+                "Surface Coating Technology",
+                "Paint Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "water_treatment",
+            "title": "Water Treatment & Effluent",
+            "label": "💧 Water Treatment",
+            "description": "Water purification, effluent treatment, and environmental compliance",
+            "job_roles": [
+                "Water Treatment Plant Operator",
+                "ETP/STP Operator",
+                "Water Quality Analyst",
+                "Waste Treatment Technician",
+                "Environmental Compliance Officer",
+                "Maintenance Technician (WTP)"
+            ],
+            "skills_required": [
+                "Water Treatment Processes",
+                "Effluent Treatment",
+                "Water Quality Testing",
+                "Chemical Dosing",
+                "Environmental Regulations",
+                "Equipment Maintenance"
+            ],
+            "further_education": [
+                "B.Tech Environmental Engineering",
+                "Water Treatment Technology",
+                "Environmental Management"
+            ],
+            "children": []
+        },
+        {
+            "id": "polymer_plastics",
+            "title": "Polymer & Plastics Industry",
+            "label": "🧬 Polymer & Plastics",
+            "description": "Plastic manufacturing, polymer processing, and injection molding",
+            "job_roles": [
+                "Plastic Process Technician",
+                "Injection Molding Operator",
+                "Polymer Lab Technician",
+                "Extrusion Machine Operator",
+                "Quality Inspector (Plastics)",
+                "Mold Setter"
+            ],
+            "skills_required": [
+                "Polymer Processing",
+                "Injection Molding",
+                "Extrusion Process",
+                "Material Testing",
+                "Mold Setting",
+                "Quality Control"
+            ],
+            "further_education": [
+                "B.Tech Polymer Engineering",
+                "Plastics Technology",
+                "Materials Science"
+            ],
+            "children": []
+        }
+    ]
+}
