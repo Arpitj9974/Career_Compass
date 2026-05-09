@@ -1,0 +1,28 @@
+{
+  "id": "structural_engineering",
+  "label": "Structural Engineering",
+  "description": "Building design, structural analysis, and construction",
+  "job_roles": [
+    "Structural Design Assistant",
+    "Site Engineer",
+    "Construction Supervisor",
+    "Quantity Surveyor",
+    "Structural Draughtsman",
+    "Building Inspector"
+  ],
+  "skills_required": [
+    "Structural Analysis",
+    "AutoCAD Civil 3D",
+    "Building Materials",
+    "Construction Planning",
+    "RCC Design",
+    "Estimation & Costing"
+  ],
+  "further_education": [
+    "B.Tech Civil Engineering",
+    "Structural Design",
+    "Construction Management"
+  ],
+  "parentId": "civil_engineering",
+  "children": []
+}

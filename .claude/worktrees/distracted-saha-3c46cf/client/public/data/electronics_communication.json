@@ -1,0 +1,64 @@
+{
+  "id": "electronics_communication",
+  "label": "Electronics & Communication Engineering",
+  "description": "Electronics, telecommunications, and communication systems",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "telecommunications",
+      "label": "Telecommunications Engineering",
+      "lazy": true,
+      "description": "Telecom networks, mobile communication, and transmission systems",
+      "children": []
+    },
+    {
+      "id": "embedded_systems",
+      "label": "Embedded Systems",
+      "lazy": true,
+      "description": "Microcontrollers, microprocessors, and embedded programming",
+      "children": []
+    },
+    {
+      "id": "vlsi_design",
+      "label": "VLSI Design",
+      "lazy": true,
+      "description": "Chip design, integrated circuits, and semiconductor technology",
+      "children": []
+    },
+    {
+      "id": "consumer_electronics",
+      "label": "Consumer Electronics",
+      "lazy": true,
+      "description": "Home appliances, entertainment systems, and consumer devices",
+      "children": []
+    },
+    {
+      "id": "iot_smart_devices",
+      "label": "IoT & Smart Devices",
+      "lazy": true,
+      "description": "Internet of Things, smart home systems, and connected devices",
+      "children": []
+    },
+    {
+      "id": "medical_electronics",
+      "label": "Medical Electronics",
+      "lazy": true,
+      "description": "Medical devices, diagnostic equipment, and healthcare electronics",
+      "children": []
+    },
+    {
+      "id": "signal_processing",
+      "label": "Signal Processing",
+      "lazy": true,
+      "description": "Audio, video, and digital signal processing",
+      "children": []
+    },
+    {
+      "id": "rf_microwave",
+      "label": "RF & Microwave Engineering",
+      "lazy": true,
+      "description": "Radio frequency systems, antenna design, and wireless communication",
+      "children": []
+    }
+  ]
+}

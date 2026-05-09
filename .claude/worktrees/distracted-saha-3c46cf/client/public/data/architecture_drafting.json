@@ -1,0 +1,22 @@
+{
+  "id": "architecture_drafting",
+  "label": "Architectural Assistantship / Drafting",
+  "description": "Architectural drawing, building design assistance, and drafting",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "architectural_drafting",
+      "label": "Architectural Drafting & CAD",
+      "lazy": true,
+      "description": "Architectural drawings, 2D/3D modeling, and design visualization",
+      "children": []
+    },
+    {
+      "id": "building_estimation",
+      "label": "Building Estimation & Quantity Surveying",
+      "lazy": true,
+      "description": "Cost estimation, material quantification, and project budgeting",
+      "children": []
+    }
+  ]
+}

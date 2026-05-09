@@ -1,0 +1,28 @@
+{
+  "id": "signal_processing",
+  "label": "Signal Processing",
+  "description": "Audio, video, and digital signal processing",
+  "job_roles": [
+    "Signal Processing Technician",
+    "Audio Engineer",
+    "Video Processing Operator",
+    "DSP Application Engineer",
+    "Broadcasting Technician",
+    "Multimedia Systems Operator"
+  ],
+  "skills_required": [
+    "Analog & Digital Signal Processing",
+    "Audio/Video Systems",
+    "DSP Processors",
+    "Filtering Techniques",
+    "Data Acquisition",
+    "MATLAB Basics"
+  ],
+  "further_education": [
+    "B.Tech Signal Processing",
+    "Audio Engineering",
+    "Multimedia Technology"
+  ],
+  "parentId": "electronics_communication",
+  "children": []
+}

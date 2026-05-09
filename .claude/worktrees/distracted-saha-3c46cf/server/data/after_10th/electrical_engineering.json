@@ -1,0 +1,232 @@
+{
+    "id": "electrical_engineering",
+    "title": "Electrical Engineering",
+    "label": "⚡ Electrical Engineering",
+    "description": "Power systems, electrical machines, and installations",
+    "children": [
+        {
+            "id": "power_generation",
+            "title": "Power Generation & Transmission",
+            "label": "🔌 Power Generation & Transmission",
+            "description": "Electric power plants, grid systems, and transmission networks",
+            "job_roles": [
+                "Power Plant Technician",
+                "Transmission Line Technician",
+                "Substation Operator",
+                "Grid Control Operator",
+                "Energy Generation Supervisor",
+                "Load Dispatch Operator"
+            ],
+            "skills_required": [
+                "Power Generation Systems",
+                "High Voltage Transmission",
+                "Protection Systems",
+                "Grid Operations",
+                "SCADA Systems",
+                "Power System Analysis"
+            ],
+            "further_education": [
+                "B.Tech Electrical Engineering",
+                "Power Systems",
+                "Smart Grid Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "electrical_machines",
+            "title": "Electrical Machines & Drives",
+            "label": "🔧 Electrical Machines & Drives",
+            "description": "Motors, generators, and variable speed drives",
+            "job_roles": [
+                "Motor Winding Technician",
+                "Electrical Machine Inspector",
+                "Drive Systems Engineer",
+                "Generator Maintenance Technician",
+                "Machine Testing Engineer",
+                "Industrial Electrician"
+            ],
+            "skills_required": [
+                "AC/DC Machines",
+                "Motor Control",
+                "VFD Programming",
+                "Machine Rewinding",
+                "Electrical Testing",
+                "Troubleshooting"
+            ],
+            "further_education": [
+                "B.Tech Electrical Engineering",
+                "Electric Drives",
+                "Industrial Automation"
+            ],
+            "children": []
+        },
+        {
+            "id": "industrial_electrical",
+            "title": "Industrial Electrical Systems",
+            "label": "🏭 Industrial Electrical Systems",
+            "description": "Factory electrical installations and industrial power",
+            "job_roles": [
+                "Industrial Electrician",
+                "Panel Wiring Technician",
+                "Factory Electrical Supervisor",
+                "Maintenance Electrician",
+                "Control Panel Designer",
+                "Electrical Safety Officer"
+            ],
+            "skills_required": [
+                "Industrial Wiring",
+                "Panel Design & Fabrication",
+                "Motor Control Centers",
+                "Power Distribution",
+                "Earthing & Protection",
+                "Industrial Safety"
+            ],
+            "further_education": [
+                "B.Tech Electrical Engineering",
+                "Industrial Electrical Systems",
+                "Plant Maintenance"
+            ],
+            "children": []
+        },
+        {
+            "id": "building_electrical",
+            "title": "Building Electrical Systems",
+            "label": "🏢 Building Electrical Systems",
+            "description": "Commercial and residential electrical installations",
+            "job_roles": [
+                "Building Electrician",
+                "Electrical Estimator",
+                "Electrical Contractor",
+                "Lighting Designer",
+                "Fire Alarm Technician",
+                "Building Automation Technician"
+            ],
+            "skills_required": [
+                "Electrical Installation",
+                "Load Calculation",
+                "Wiring Standards",
+                "Lighting Design",
+                "Fire Safety Systems",
+                "Building Automation"
+            ],
+            "further_education": [
+                "B.Tech Electrical Engineering",
+                "Building Services",
+                "MEP Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "renewable_energy_electrical",
+            "title": "Renewable Energy Systems",
+            "label": "☀️ Renewable Energy Systems",
+            "description": "Solar, wind, and other renewable power installations",
+            "job_roles": [
+                "Solar Installation Technician",
+                "Wind Turbine Technician",
+                "Solar System Designer",
+                "Renewable Energy Auditor",
+                "Battery Storage Technician",
+                "Green Energy Consultant"
+            ],
+            "skills_required": [
+                "Solar PV Systems",
+                "Wind Energy Basics",
+                "Inverter Technology",
+                "Battery Systems",
+                "Net Metering",
+                "Energy Storage"
+            ],
+            "further_education": [
+                "B.Tech Renewable Energy",
+                "Solar Engineering",
+                "Clean Energy Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "control_instrumentation",
+            "title": "Control & Instrumentation",
+            "label": "📊 Control & Instrumentation",
+            "description": "Process control, sensors, and industrial instrumentation",
+            "job_roles": [
+                "Instrumentation Technician",
+                "Control Panel Operator",
+                "PLC Programmer",
+                "Process Control Technician",
+                "SCADA Operator",
+                "Calibration Technician"
+            ],
+            "skills_required": [
+                "Process Instrumentation",
+                "PLC/SCADA",
+                "Control Systems",
+                "Sensor Technology",
+                "Calibration",
+                "DCS Operations"
+            ],
+            "further_education": [
+                "B.Tech Instrumentation",
+                "Control Systems",
+                "Process Automation"
+            ],
+            "children": []
+        },
+        {
+            "id": "electrical_testing_protection",
+            "title": "Electrical Testing & Protection",
+            "label": "🔍 Electrical Testing & Protection",
+            "description": "Electrical testing, relay protection, and safety systems",
+            "job_roles": [
+                "Relay Testing Technician",
+                "Protection Engineer",
+                "Electrical Testing Engineer",
+                "Safety Systems Technician",
+                "Switchgear Technician",
+                "Power Quality Analyst"
+            ],
+            "skills_required": [
+                "Relay Protection",
+                "Electrical Testing",
+                "Power Quality",
+                "Switchgear Operation",
+                "CT/PT Testing",
+                "Insulation Testing"
+            ],
+            "further_education": [
+                "B.Tech Electrical Engineering",
+                "Power System Protection",
+                "Electrical Testing"
+            ],
+            "children": []
+        },
+        {
+            "id": "ev_charging",
+            "title": "Electric Vehicle & Charging Infrastructure",
+            "label": "🚗 EV & Charging Infrastructure",
+            "description": "Electric vehicle technology and charging station installation",
+            "job_roles": [
+                "EV Charging Station Technician",
+                "EV Service Technician",
+                "Charging Infrastructure Installer",
+                "EV Battery Technician",
+                "Electric Vehicle Inspector",
+                "EV Charging Network Operator"
+            ],
+            "skills_required": [
+                "EV Charging Systems",
+                "High Voltage Safety",
+                "Battery Management",
+                "DC Fast Charging",
+                "Power Electronics",
+                "Grid Integration"
+            ],
+            "further_education": [
+                "B.Tech Electrical Engineering",
+                "EV Technology",
+                "Power Electronics"
+            ],
+            "children": []
+        }
+    ]
+}

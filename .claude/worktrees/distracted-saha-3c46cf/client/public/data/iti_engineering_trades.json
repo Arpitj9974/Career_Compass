@@ -1,0 +1,92 @@
+{
+  "id": "iti_engineering_trades",
+  "label": "Engineering Trades",
+  "description": "Technical and mechanical skill-based trades",
+  "parentId": "iti_courses",
+  "children": [
+    {
+      "id": "electrician_iti",
+      "label": "Electrician",
+      "lazy": true,
+      "description": "Electrical wiring, installation, and maintenance work",
+      "children": []
+    },
+    {
+      "id": "fitter_iti",
+      "label": "Fitter",
+      "lazy": true,
+      "description": "Fitting, assembling, and maintaining machinery",
+      "children": []
+    },
+    {
+      "id": "welder_iti",
+      "label": "Welder",
+      "lazy": true,
+      "description": "Welding and metal joining processes",
+      "children": []
+    },
+    {
+      "id": "machinist_iti",
+      "label": "Machinist",
+      "lazy": true,
+      "description": "Machine operation and precision machining",
+      "children": []
+    },
+    {
+      "id": "turner_iti",
+      "label": "Turner",
+      "lazy": true,
+      "description": "Lathe work and cylindrical component machining",
+      "children": []
+    },
+    {
+      "id": "plumber_iti",
+      "label": "Plumber",
+      "lazy": true,
+      "description": "Plumbing installation and maintenance",
+      "children": []
+    },
+    {
+      "id": "electronics_mechanic_iti",
+      "label": "Electronics Mechanic",
+      "lazy": true,
+      "description": "Electronic equipment repair and maintenance",
+      "children": []
+    },
+    {
+      "id": "refrigeration_ac_mechanic_iti",
+      "label": "Refrigeration & AC Mechanic",
+      "lazy": true,
+      "description": "Cooling systems installation and repair",
+      "children": []
+    },
+    {
+      "id": "draughtsman_iti",
+      "label": "Draughtsman (Mechanical/Civil)",
+      "lazy": true,
+      "description": "Technical drawing and CAD drafting",
+      "children": []
+    },
+    {
+      "id": "mechanic_motor_vehicle_iti",
+      "label": "Mechanic Motor Vehicle",
+      "lazy": true,
+      "description": "Automobile repair and maintenance",
+      "children": []
+    },
+    {
+      "id": "tool_die_maker_iti",
+      "label": "Tool & Die Maker",
+      "lazy": true,
+      "description": "Precision tool and die manufacturing",
+      "children": []
+    },
+    {
+      "id": "foundryman_iti",
+      "label": "Foundryman",
+      "lazy": true,
+      "description": "Metal casting and foundry operations",
+      "children": []
+    }
+  ]
+}

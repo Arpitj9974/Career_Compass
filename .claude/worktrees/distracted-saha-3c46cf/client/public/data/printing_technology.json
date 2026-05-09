@@ -1,0 +1,22 @@
+{
+  "id": "printing_technology",
+  "label": "Printing Technology",
+  "description": "Printing processes, press operations, and graphic reproduction",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "offset_printing",
+      "label": "Offset & Digital Printing",
+      "lazy": true,
+      "description": "Offset press operation, digital printing, and production",
+      "children": []
+    },
+    {
+      "id": "packaging_printing",
+      "label": "Packaging & Flexographic Printing",
+      "lazy": true,
+      "description": "Packaging design, flexo printing, and label production",
+      "children": []
+    }
+  ]
+}

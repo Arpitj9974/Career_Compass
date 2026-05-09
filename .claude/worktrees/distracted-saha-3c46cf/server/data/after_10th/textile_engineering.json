@@ -1,0 +1,120 @@
+{
+    "id": "textile_engineering",
+    "title": "Textile Engineering",
+    "label": "🧵 Textile Engineering",
+    "description": "Fabric manufacturing and textile technology",
+    "children": [
+        {
+            "id": "textile_manufacturing",
+            "title": "Textile Manufacturing",
+            "label": "🏭 Textile Manufacturing",
+            "description": "Fabric production, weaving, and textile processing",
+            "job_roles": [
+                "Spinning Technician",
+                "Weaving Supervisor",
+                "Loom Operator",
+                "Textile Production Executive",
+                "Fabric Inspector",
+                "Process Control Technician"
+            ],
+            "skills_required": [
+                "Spinning Technology",
+                "Weaving Technology",
+                "Loom Operations",
+                "Quality Control",
+                "Fabric Testing",
+                "Production Planning"
+            ],
+            "further_education": [
+                "B.Tech Textile Engineering",
+                "Textile Technology",
+                "Production Management"
+            ],
+            "children": []
+        },
+        {
+            "id": "textile_processing",
+            "title": "Textile Processing & Dyeing",
+            "label": "🎨 Textile Processing & Dyeing",
+            "description": "Fabric finishing, dyeing, and printing",
+            "job_roles": [
+                "Dyeing Technician",
+                "Printing Technician",
+                "Finishing Operator",
+                "Color Matching Specialist",
+                "Process Technician",
+                "Quality Inspector (Finishing)"
+            ],
+            "skills_required": [
+                "Dyeing Processes",
+                "Printing Technology",
+                "Finishing Methods",
+                "Color Science",
+                "Chemical Processing",
+                "Quality Testing"
+            ],
+            "further_education": [
+                "B.Tech Textile Chemistry",
+                "Textile Processing",
+                "Dyeing Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "garment_apparel",
+            "title": "Garment & Apparel Manufacturing",
+            "label": "👕 Garment & Apparel",
+            "description": "Clothing production, pattern making, and garment quality",
+            "job_roles": [
+                "Production Supervisor (Garments)",
+                "Quality Controller",
+                "Pattern Maker",
+                "Cutting Supervisor",
+                "Merchandiser",
+                "Industrial Engineer (Apparel)"
+            ],
+            "skills_required": [
+                "Garment Construction",
+                "Pattern Making",
+                "Cutting Technology",
+                "Quality Standards",
+                "Production Planning",
+                "Merchandising"
+            ],
+            "further_education": [
+                "B.Tech Apparel Production",
+                "Fashion Technology",
+                "Garment Manufacturing"
+            ],
+            "children": []
+        },
+        {
+            "id": "fashion_design_textile",
+            "title": "Fashion Design & Textile Design",
+            "label": "✨ Fashion & Textile Design",
+            "description": "Fashion design, fabric design, and creative textiles",
+            "job_roles": [
+                "Fashion Designer Assistant",
+                "Textile Designer",
+                "CAD Operator (Fashion)",
+                "Sample Developer",
+                "Fashion Illustrator",
+                "Trend Researcher"
+            ],
+            "skills_required": [
+                "Fashion Design",
+                "Textile Design",
+                "CAD Software",
+                "Pattern Design",
+                "Color Coordination",
+                "Trend Analysis"
+            ],
+            "further_education": [
+                "B.Des Fashion Design",
+                "Textile Design",
+                "Fashion Technology"
+            ],
+            "children": []
+        }
+    ]
+}

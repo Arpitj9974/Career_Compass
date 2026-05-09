@@ -1,0 +1,64 @@
+{
+  "id": "iti_non_engineering_trades",
+  "label": "Non-Engineering Trades",
+  "description": "Service and administrative skill-based trades",
+  "parentId": "iti_courses",
+  "children": [
+    {
+      "id": "copa_iti",
+      "label": "COPA (Computer Operator & Programming Assistant)",
+      "lazy": true,
+      "description": "Computer operations and basic programming",
+      "children": []
+    },
+    {
+      "id": "stenography_iti",
+      "label": "Stenography (Hindi/English)",
+      "lazy": true,
+      "description": "Shorthand writing and office documentation",
+      "children": []
+    },
+    {
+      "id": "commercial_art_iti",
+      "label": "Commercial Art",
+      "lazy": true,
+      "description": "Graphic design, illustration, and visual communication",
+      "children": []
+    },
+    {
+      "id": "dress_making_iti",
+      "label": "Dress Making",
+      "lazy": true,
+      "description": "Garment construction and tailoring",
+      "children": []
+    },
+    {
+      "id": "hair_skin_care_iti",
+      "label": "Hair & Skin Care",
+      "lazy": true,
+      "description": "Beauty treatments and cosmetology",
+      "children": []
+    },
+    {
+      "id": "secretarial_practice_iti",
+      "label": "Secretarial Practice",
+      "lazy": true,
+      "description": "Office administration and secretarial skills",
+      "children": []
+    },
+    {
+      "id": "leather_goods_maker_iti",
+      "label": "Leather Goods Maker",
+      "lazy": true,
+      "description": "Leather products manufacturing and design",
+      "children": []
+    },
+    {
+      "id": "food_production_iti",
+      "label": "Food Production (General)",
+      "lazy": true,
+      "description": "Cooking and food preparation",
+      "children": []
+    }
+  ]
+}

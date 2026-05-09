@@ -1,0 +1,28 @@
+{
+  "id": "automobile_engineering",
+  "label": "Automobile Engineering",
+  "description": "Design, development, and maintenance of vehicles",
+  "job_roles": [
+    "Automobile Design Engineer",
+    "Vehicle Testing Engineer",
+    "Service Engineer (Automotive)",
+    "Production Engineer (Auto Industry)",
+    "Quality Control Engineer (Automobiles)",
+    "Showroom Technical Advisor"
+  ],
+  "skills_required": [
+    "Vehicle Dynamics",
+    "Engine Technology",
+    "CAD (AutoCAD, CATIA, SolidWorks)",
+    "Automotive Electronics",
+    "Diagnostics & Troubleshooting",
+    "Manufacturing Processes"
+  ],
+  "further_education": [
+    "B.Tech Automobile Engineering (Lateral Entry)",
+    "EV Technology",
+    "Hybrid Vehicle Systems"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

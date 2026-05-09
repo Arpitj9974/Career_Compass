@@ -1,6 +1,6 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
-const db = require('../models/db');
+const pool = require('../../db/connection');
 const { generateToken, authenticateToken } = require('../middleware/auth');
 
 const router = express.Router();
@@ -15,20 +15,21 @@ router.post('/register', async (req, res) => {
         }
 
         // Check if user exists
-        const existingUser = db.prepare('SELECT id FROM users WHERE email = ?').get(email);
-        if (existingUser) {
-            return res.status(400).json({ error: 'Email already registered' });
+        const existingUserResult = await pool.query('SELECT id FROM users WHERE email = $1', [email]);
+        if (existingUserResult.rows.length > 0) {
+            return res.status(409).json({ error: 'Email already registered' });
         }
 
         // Hash password
         const passwordHash = await bcrypt.hash(password, 10);
 
         // Insert user
-        const result = db.prepare(
-            'INSERT INTO users (email, password_hash, name, role) VALUES (?, ?, ?, ?)'
-        ).run(email, passwordHash, name, role);
+        const result = await pool.query(
+            'INSERT INTO users (email, password_hash, name, role) VALUES ($1, $2, $3, $4) RETURNING *',
+            [email, passwordHash, name, role]
+        );
 
-        const user = { id: result.lastInsertRowid, email, name, role };
+        const user = { id: result.rows[0].id, email, name, role };
         const token = generateToken(user);
 
         res.status(201).json({ user, token });
@@ -48,7 +49,8 @@ router.post('/login', async (req, res) => {
         }
 
         // Find user
-        const user = db.prepare('SELECT * FROM users WHERE email = ?').get(email);
+        const result = await pool.query('SELECT * FROM users WHERE email = $1', [email]);
+        const user = result.rows[0];
         if (!user) {
             return res.status(401).json({ error: 'Invalid credentials' });
         }
@@ -72,12 +74,18 @@ router.post('/login', async (req, res) => {
 });
 
 // Get current user
-router.get('/me', authenticateToken, (req, res) => {
-    const user = db.prepare('SELECT id, email, name, role FROM users WHERE id = ?').get(req.user.id);
-    if (!user) {
-        return res.status(404).json({ error: 'User not found' });
+router.get('/me', authenticateToken, async (req, res) => {
+    try {
+        const result = await pool.query('SELECT id, email, name, role FROM users WHERE id = $1', [req.user.id]);
+        const user = result.rows[0];
+        if (!user) {
+            return res.status(404).json({ error: 'User not found' });
+        }
+        res.json({ user });
+    } catch (error) {
+        console.error('Fetch me error:', error);
+        res.status(500).json({ error: 'Failed to fetch user profile' });
     }
-    res.json({ user });
 });
 
 module.exports = router;

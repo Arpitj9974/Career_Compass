@@ -1,0 +1,344 @@
+{
+    "id": "mechanical_engineering",
+    "title": "Mechanical Engineering",
+    "label": "🔧 Mechanical Engineering",
+    "description": "Study of mechanical systems, manufacturing, and energy",
+    "children": [
+        {
+            "id": "automobile_engineering",
+            "title": "Automobile Engineering",
+            "label": "🚗 Automobile Engineering",
+            "description": "Design, development, and maintenance of vehicles",
+            "job_roles": [
+                "Automobile Design Engineer",
+                "Vehicle Testing Engineer",
+                "Service Engineer (Automotive)",
+                "Production Engineer (Auto Industry)",
+                "Quality Control Engineer (Automobiles)",
+                "Showroom Technical Advisor"
+            ],
+            "skills_required": [
+                "Vehicle Dynamics",
+                "Engine Technology",
+                "CAD (AutoCAD, CATIA, SolidWorks)",
+                "Automotive Electronics",
+                "Diagnostics & Troubleshooting",
+                "Manufacturing Processes"
+            ],
+            "further_education": [
+                "B.Tech Automobile Engineering (Lateral Entry)",
+                "EV Technology",
+                "Hybrid Vehicle Systems"
+            ],
+            "children": []
+        },
+        {
+            "id": "production_manufacturing",
+            "title": "Production / Manufacturing Engineering",
+            "label": "🏭 Production / Manufacturing",
+            "description": "Manufacturing processes, production planning, and optimization",
+            "job_roles": [
+                "Production Supervisor",
+                "Manufacturing Engineer",
+                "Production Planning Executive",
+                "Process Engineer",
+                "Operations Executive",
+                "Shop Floor Supervisor"
+            ],
+            "skills_required": [
+                "Production Planning & Control",
+                "Manufacturing Processes (Casting, Forging, Machining)",
+                "Lean Manufacturing",
+                "Quality Management",
+                "CNC Programming",
+                "Industrial Safety"
+            ],
+            "further_education": [
+                "B.Tech Production Engineering",
+                "Industrial Engineering",
+                "Operations Management"
+            ],
+            "children": []
+        },
+        {
+            "id": "thermal_engineering",
+            "title": "Thermal Engineering",
+            "label": "🔥 Thermal Engineering",
+            "description": "Heat transfer, thermodynamics, and energy systems",
+            "job_roles": [
+                "Thermal Engineer",
+                "HVAC Engineer",
+                "Boiler Operator",
+                "Power Plant Technician",
+                "Energy Auditor",
+                "Refrigeration Technician"
+            ],
+            "skills_required": [
+                "Thermodynamics",
+                "Heat Transfer",
+                "HVAC Systems Design",
+                "Energy Management",
+                "Boiler & Pressure Vessel",
+                "Thermal Analysis Software"
+            ],
+            "further_education": [
+                "B.Tech Thermal Engineering",
+                "Energy Management",
+                "HVAC Design"
+            ],
+            "children": []
+        },
+        {
+            "id": "design_engineering",
+            "title": "Design Engineering",
+            "label": "✏️ Design Engineering",
+            "description": "Product design, mechanical design, and engineering drawing",
+            "job_roles": [
+                "CAD Design Engineer",
+                "Product Designer",
+                "Mechanical Design Engineer",
+                "3D Modeler",
+                "Design Draughtsman",
+                "Tool Design Engineer"
+            ],
+            "skills_required": [
+                "CAD Software (AutoCAD, SolidWorks, CATIA, NX)",
+                "3D Modeling & Rendering",
+                "Engineering Drawing",
+                "GD&T (Geometric Dimensioning & Tolerancing)",
+                "Product Development",
+                "Finite Element Analysis (FEA)"
+            ],
+            "further_education": [
+                "B.Tech Mechanical Design",
+                "Advanced CAD/CAM",
+                "Product Design"
+            ],
+            "children": []
+        },
+        {
+            "id": "mechatronics_robotics",
+            "title": "Mechatronics / Robotics",
+            "label": "🤖 Mechatronics / Robotics",
+            "description": "Integration of mechanical, electronics, and computer systems",
+            "job_roles": [
+                "Robotics Technician",
+                "Automation Engineer",
+                "Mechatronics Engineer",
+                "Industrial Automation Technician",
+                "PLC Programmer",
+                "Control Systems Technician"
+            ],
+            "skills_required": [
+                "Robotics & Automation",
+                "PLC Programming",
+                "Sensor & Actuator Systems",
+                "Control Systems",
+                "Embedded Systems Basics",
+                "Industrial Automation"
+            ],
+            "further_education": [
+                "B.Tech Mechatronics",
+                "Robotics Engineering",
+                "Industrial Automation"
+            ],
+            "children": []
+        },
+        {
+            "id": "industrial_engineering",
+            "title": "Industrial Engineering",
+            "label": "📊 Industrial Engineering",
+            "description": "Process optimization, productivity improvement, and systems management",
+            "job_roles": [
+                "Industrial Engineer",
+                "Quality Control Engineer",
+                "Process Improvement Engineer",
+                "Methods Engineer",
+                "Production Planner",
+                "Operations Analyst"
+            ],
+            "skills_required": [
+                "Work Study & Time Study",
+                "Process Optimization",
+                "Quality Control (Six Sigma)",
+                "Ergonomics",
+                "Supply Chain Basics",
+                "Productivity Analysis"
+            ],
+            "further_education": [
+                "B.Tech Industrial Engineering",
+                "Six Sigma Certification",
+                "Operations Research"
+            ],
+            "children": []
+        },
+        {
+            "id": "energy_engineering",
+            "title": "Energy Engineering (Renewable & Conventional)",
+            "label": "⚡ Energy Engineering",
+            "description": "Renewable energy, power generation, and energy conservation",
+            "job_roles": [
+                "Renewable Energy Technician",
+                "Solar PV Installer",
+                "Wind Energy Technician",
+                "Energy Conservation Officer",
+                "Power Plant Operator",
+                "Energy Auditor"
+            ],
+            "skills_required": [
+                "Solar Energy Systems",
+                "Wind Energy Technology",
+                "Energy Storage Systems",
+                "Power Generation",
+                "Energy Audit & Conservation",
+                "Grid Integration"
+            ],
+            "further_education": [
+                "B.Tech Renewable Energy",
+                "Energy Management",
+                "Sustainable Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "aerospace_engineering",
+            "title": "Aerospace Engineering",
+            "label": "✈️ Aerospace Engineering",
+            "description": "Aircraft and spacecraft systems (limited at diploma level)",
+            "job_roles": [
+                "Aircraft Maintenance Technician",
+                "Aerospace Manufacturing Technician",
+                "Quality Inspector (Aerospace)",
+                "Aerospace Design Assistant",
+                "Ground Equipment Operator",
+                "Aviation Workshop Technician"
+            ],
+            "skills_required": [
+                "Aircraft Systems Knowledge",
+                "Aerospace Materials",
+                "Manufacturing Processes",
+                "Quality Standards (AS9100)",
+                "Technical Drawing",
+                "Safety Protocols"
+            ],
+            "further_education": [
+                "B.Tech Aerospace Engineering",
+                "Aircraft Maintenance Engineering (AME)",
+                "Avionics"
+            ],
+            "children": []
+        },
+        {
+            "id": "marine_engineering",
+            "title": "Marine Engineering",
+            "label": "🚢 Marine Engineering",
+            "description": "Ship machinery, marine propulsion, and offshore systems",
+            "job_roles": [
+                "Marine Technician",
+                "Ship Maintenance Engineer",
+                "Port Equipment Operator",
+                "Offshore Maintenance Technician",
+                "Shipyard Technician",
+                "Marine Equipment Installer"
+            ],
+            "skills_required": [
+                "Ship Machinery",
+                "Marine Propulsion Systems",
+                "Marine Electrical Systems",
+                "Naval Architecture Basics",
+                "Maintenance & Repair",
+                "Maritime Safety"
+            ],
+            "further_education": [
+                "B.Tech Marine Engineering",
+                "Marine Engineering License",
+                "Offshore Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "metallurgical_materials",
+            "title": "Metallurgical / Materials Engineering",
+            "label": "🔩 Metallurgical / Materials",
+            "description": "Metals processing, material properties, and quality testing",
+            "job_roles": [
+                "Metallurgical Technician",
+                "Materials Testing Engineer",
+                "Heat Treatment Operator",
+                "Quality Control Inspector (Materials)",
+                "Foundry Supervisor",
+                "Welding Inspector"
+            ],
+            "skills_required": [
+                "Material Science",
+                "Metallurgy Basics",
+                "Heat Treatment Processes",
+                "Material Testing (NDT)",
+                "Welding Technology",
+                "Quality Assurance"
+            ],
+            "further_education": [
+                "B.Tech Metallurgy",
+                "Materials Engineering",
+                "Welding Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "cad_cam_automation",
+            "title": "CAD/CAM & Automation",
+            "label": "🖥️ CAD/CAM & Automation",
+            "description": "Computer-aided design, manufacturing, and industrial automation",
+            "job_roles": [
+                "CAD/CAM Programmer",
+                "CNC Programmer",
+                "Automation Technician",
+                "Manufacturing Engineer (CAM)",
+                "3D Design Specialist",
+                "Tool Path Programmer"
+            ],
+            "skills_required": [
+                "CAD Software (AutoCAD, CATIA, SolidWorks)",
+                "CAM Programming",
+                "CNC Machine Programming",
+                "G-Code & M-Code",
+                "3D Modeling",
+                "Manufacturing Automation"
+            ],
+            "further_education": [
+                "B.Tech CAD/CAM",
+                "Advanced Manufacturing",
+                "Industrial Automation"
+            ],
+            "children": []
+        },
+        {
+            "id": "refrigeration_air_conditioning",
+            "title": "Refrigeration & Air Conditioning",
+            "label": "❄️ Refrigeration & Air Conditioning",
+            "description": "Cooling systems, HVAC design, and cold storage technology",
+            "job_roles": [
+                "RAC Technician",
+                "HVAC Installation Engineer",
+                "Refrigeration Mechanic",
+                "Cold Storage Operator",
+                "AC Service Engineer",
+                "Chiller Operator"
+            ],
+            "skills_required": [
+                "Refrigeration Cycles",
+                "HVAC Systems",
+                "Air Conditioning Installation",
+                "Refrigerant Handling",
+                "System Troubleshooting",
+                "Energy Efficiency"
+            ],
+            "further_education": [
+                "B.Tech RAC",
+                "HVAC Design",
+                "Building Services Engineering"
+            ],
+            "children": []
+        }
+    ]
+}

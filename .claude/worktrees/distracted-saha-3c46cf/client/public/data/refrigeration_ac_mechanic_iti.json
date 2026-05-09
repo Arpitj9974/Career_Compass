@@ -1,0 +1,28 @@
+{
+  "id": "refrigeration_ac_mechanic_iti",
+  "label": "Refrigeration & AC Mechanic",
+  "description": "Cooling systems installation and repair",
+  "job_roles": [
+    "RAC Mechanic",
+    "AC Technician",
+    "Refrigeration Technician",
+    "HVAC Service Engineer",
+    "Cold Storage Technician",
+    "Chiller Mechanic"
+  ],
+  "skills_required": [
+    "Refrigeration Principles",
+    "AC Installation",
+    "System Troubleshooting",
+    "Refrigerant Handling",
+    "Electrical Basics",
+    "Preventive Maintenance"
+  ],
+  "further_education": [
+    "HVAC Technician",
+    "Diploma in RAC",
+    "Industrial Refrigeration"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

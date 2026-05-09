@@ -1,0 +1,48 @@
+{
+    "id": "100",
+    "title": "After 10th",
+    "label": "🎯 After 10th",
+    "description": "Early career paths and streams after Class 10",
+    "children": [
+        {
+            "id": "10_engineering",
+            "title": "Engineering (Diploma & ITI)",
+            "label": "⚙️ Engineering",
+            "description": "Technical paths including Diploma and ITI",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "10_medical_healthcare",
+            "title": "Medical & Healthcare",
+            "label": "🏥 Medical & Healthcare",
+            "description": "Healthcare, nursing, and paramedical paths",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "10_commerce",
+            "title": "Commerce & Business",
+            "label": "📊 Commerce & Business",
+            "description": "Business, finance, accountancy, and corporate laws",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "10_arts",
+            "title": "Arts & Humanities",
+            "label": "🎨 Arts & Humanities",
+            "description": "Creative arts, social sciences, and humanities",
+            "lazy": false,
+            "children": []
+        },
+        {
+            "id": "10_vocational",
+            "title": "Vocational & Skill Training",
+            "label": "🛠️ Vocational Skills",
+            "description": "Short-term skill certifications and NSQF courses",
+            "lazy": false,
+            "children": []
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "energy_engineering",
+  "label": "Energy Engineering (Renewable & Conventional)",
+  "description": "Renewable energy, power generation, and energy conservation",
+  "job_roles": [
+    "Renewable Energy Technician",
+    "Solar PV Installer",
+    "Wind Energy Technician",
+    "Energy Conservation Officer",
+    "Power Plant Operator",
+    "Energy Auditor"
+  ],
+  "skills_required": [
+    "Solar Energy Systems",
+    "Wind Energy Technology",
+    "Energy Storage Systems",
+    "Power Generation",
+    "Energy Audit & Conservation",
+    "Grid Integration"
+  ],
+  "further_education": [
+    "B.Tech Renewable Energy",
+    "Energy Management",
+    "Sustainable Engineering"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

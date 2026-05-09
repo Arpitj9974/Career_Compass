@@ -1,0 +1,28 @@
+{
+  "id": "power_electronics",
+  "label": "Power Electronics",
+  "description": "Converters, inverters, and electronic power control",
+  "job_roles": [
+    "Power Electronics Technician",
+    "Inverter Design Engineer",
+    "UPS Maintenance Engineer",
+    "Battery Management Technician",
+    "Solar Inverter Technician",
+    "Power Supply Designer"
+  ],
+  "skills_required": [
+    "Power Electronic Devices",
+    "Converters & Inverters",
+    "SMPS Design",
+    "Battery Technology",
+    "Power Quality",
+    "Circuit Simulation"
+  ],
+  "further_education": [
+    "B.Tech Power Electronics",
+    "Electric Vehicles",
+    "Renewable Energy Systems"
+  ],
+  "parentId": "electrical_engineering",
+  "children": []
+}

@@ -1,0 +1,66 @@
+{
+    "id": "operation_theatre_technology",
+    "title": "Operation Theatre & Surgical Technology",
+    "label": "⚕️ Operation Theatre Technology",
+    "description": "Surgical assistance and OT services",
+    "children": [
+        {
+            "id": "operation_theatre_technician",
+            "title": "Operation Theatre Technician",
+            "label": "Operation Theatre Technician",
+            "description": "Surgical room preparation and OT assistance",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "OT Technician",
+                "Surgical Technologist",
+                "Operating Room Assistant",
+                "Scrub Technician",
+                "OT Equipment Technician",
+                "Surgical Instrument Sterilization Specialist"
+            ],
+            "skills_required": [
+                "Surgical Instruments Knowledge",
+                "OT Setup & Preparation",
+                "Sterilization Techniques",
+                "Surgical Assistance",
+                "Aseptic Techniques",
+                "Emergency Protocols"
+            ],
+            "further_education": [
+                "Advanced OT Technology",
+                "Surgical Nursing",
+                "Infection Control"
+            ]
+        },
+        {
+            "id": "anesthesia_technology",
+            "title": "Anesthesia Technology",
+            "label": "Anesthesia Technology",
+            "description": "Anesthesia equipment and intraoperative support",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Anesthesia Technician",
+                "Anesthesia Assistant",
+                "Anesthesia Equipment Technologist",
+                "OT Anesthesia Support",
+                "Critical Care Anesthesia Tech",
+                "Pain Management Technician"
+            ],
+            "skills_required": [
+                "Anesthesia Equipment Operation",
+                "Patient Monitoring",
+                "Airway Management Basics",
+                "Anesthetic Drugs Knowledge",
+                "Ventilator Operation",
+                "Emergency Response"
+            ],
+            "further_education": [
+                "Advanced Anesthesia Technology",
+                "Critical Care",
+                "Respiratory Therapy"
+            ]
+        }
+    ]
+}

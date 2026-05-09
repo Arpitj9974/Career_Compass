@@ -1,0 +1,78 @@
+{
+  "id": "computer_engineering",
+  "label": "Computer Engineering / Information Technology",
+  "description": "Computer systems, software, networking, and IT infrastructure",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "software_development",
+      "label": "Software Development",
+      "lazy": true,
+      "description": "Programming, application development, and software engineering",
+      "children": []
+    },
+    {
+      "id": "networking_systems",
+      "label": "Networking & System Administration",
+      "lazy": true,
+      "description": "Computer networks, server management, and IT infrastructure",
+      "children": []
+    },
+    {
+      "id": "database_management",
+      "label": "Database Management",
+      "lazy": true,
+      "description": "Database design, administration, and data management",
+      "children": []
+    },
+    {
+      "id": "cybersecurity",
+      "label": "Cybersecurity",
+      "lazy": true,
+      "description": "Network security, ethical hacking, and information security",
+      "children": []
+    },
+    {
+      "id": "cloud_computing",
+      "label": "Cloud Computing",
+      "lazy": true,
+      "description": "Cloud platforms, virtualization, and cloud services",
+      "children": []
+    },
+    {
+      "id": "web_development",
+      "label": "Web Development & Design",
+      "lazy": true,
+      "description": "Website creation, web applications, and responsive design",
+      "children": []
+    },
+    {
+      "id": "mobile_app_development",
+      "label": "Mobile Application Development",
+      "lazy": true,
+      "description": "Android and iOS app development",
+      "children": []
+    },
+    {
+      "id": "hardware_maintenance",
+      "label": "Hardware & Maintenance",
+      "lazy": true,
+      "description": "Computer assembly, repair, and hardware troubleshooting",
+      "children": []
+    },
+    {
+      "id": "data_science_basics",
+      "label": "Data Science & Analytics (Fundamentals)",
+      "lazy": true,
+      "description": "Data analysis, visualization, and basic machine learning",
+      "children": []
+    },
+    {
+      "id": "artificial_intelligence",
+      "label": "Artificial Intelligence & Machine Learning (Basics)",
+      "lazy": true,
+      "description": "Introduction to AI, ML algorithms, and intelligent systems",
+      "children": []
+    }
+  ]
+}

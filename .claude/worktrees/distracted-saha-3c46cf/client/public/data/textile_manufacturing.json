@@ -1,0 +1,28 @@
+{
+  "id": "textile_manufacturing",
+  "label": "Textile Manufacturing",
+  "description": "Spinning, weaving, and fabric production processes",
+  "job_roles": [
+    "Textile Production Supervisor",
+    "Spinning Technician",
+    "Weaving Operator",
+    "Textile Mill Supervisor",
+    "Fabric Manufacturing Engineer",
+    "Textile Process Controller"
+  ],
+  "skills_required": [
+    "Textile Machinery",
+    "Spinning Technology",
+    "Weaving Processes",
+    "Fabric Production",
+    "Quality Control",
+    "Process Optimization"
+  ],
+  "further_education": [
+    "B.Tech Textile Engineering",
+    "Fashion Technology",
+    "Textile Management"
+  ],
+  "parentId": "textile_engineering",
+  "children": []
+}

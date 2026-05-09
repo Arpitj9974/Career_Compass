@@ -1,0 +1,28 @@
+{
+  "id": "production_manufacturing",
+  "label": "Production / Manufacturing Engineering",
+  "description": "Manufacturing processes, production planning, and optimization",
+  "job_roles": [
+    "Production Supervisor",
+    "Manufacturing Engineer",
+    "Production Planning Executive",
+    "Process Engineer",
+    "Operations Executive",
+    "Shop Floor Supervisor"
+  ],
+  "skills_required": [
+    "Production Planning & Control",
+    "Manufacturing Processes (Casting, Forging, Machining)",
+    "Lean Manufacturing",
+    "Quality Management",
+    "CNC Programming",
+    "Industrial Safety"
+  ],
+  "further_education": [
+    "B.Tech Production Engineering",
+    "Industrial Engineering",
+    "Operations Management"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

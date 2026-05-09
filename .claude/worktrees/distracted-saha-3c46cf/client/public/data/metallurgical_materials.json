@@ -1,0 +1,28 @@
+{
+  "id": "metallurgical_materials",
+  "label": "Metallurgical / Materials Engineering",
+  "description": "Metals processing, material properties, and quality testing",
+  "job_roles": [
+    "Metallurgical Technician",
+    "Materials Testing Engineer",
+    "Heat Treatment Operator",
+    "Quality Control Inspector (Materials)",
+    "Foundry Supervisor",
+    "Welding Inspector"
+  ],
+  "skills_required": [
+    "Material Science",
+    "Metallurgy Basics",
+    "Heat Treatment Processes",
+    "Material Testing (NDT)",
+    "Welding Technology",
+    "Quality Assurance"
+  ],
+  "further_education": [
+    "B.Tech Metallurgy",
+    "Materials Engineering",
+    "Welding Engineering"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

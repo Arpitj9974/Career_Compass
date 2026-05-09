@@ -1,0 +1,15 @@
+{
+  "id": "after_10th",
+  "label": "Career Paths After 10th Standard",
+  "description": "Explore comprehensive career streams and specializations after completing 10th grade",
+  "children": [
+    {
+      "id": "engineering",
+      "label": "Engineering",
+      "lazy": true,
+      "description": "Technical and engineering career paths",
+      "children": [],
+      "icon": "\u2699\ufe0f"
+    }
+  ]
+}

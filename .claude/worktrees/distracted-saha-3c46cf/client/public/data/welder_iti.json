@@ -1,0 +1,28 @@
+{
+  "id": "welder_iti",
+  "label": "Welder",
+  "description": "Welding and metal joining processes",
+  "job_roles": [
+    "Welder",
+    "Fabricator",
+    "TIG/MIG Welder",
+    "Structural Welder",
+    "Pipeline Welder",
+    "Welding Inspector"
+  ],
+  "skills_required": [
+    "Arc Welding",
+    "Gas Welding",
+    "TIG/MIG Welding",
+    "Metal Fabrication",
+    "Welding Safety",
+    "Blueprint Reading"
+  ],
+  "further_education": [
+    "Advanced Welding",
+    "Welding Inspector Certification",
+    "NDT"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

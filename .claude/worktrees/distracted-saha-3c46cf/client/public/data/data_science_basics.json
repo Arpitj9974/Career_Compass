@@ -1,0 +1,28 @@
+{
+  "id": "data_science_basics",
+  "label": "Data Science & Analytics (Fundamentals)",
+  "description": "Data analysis, visualization, and basic machine learning",
+  "job_roles": [
+    "Data Analyst (Trainee)",
+    "Junior Data Scientist",
+    "Business Intelligence Trainee",
+    "Data Visualization Specialist",
+    "Analytics Support Engineer",
+    "Research Data Analyst"
+  ],
+  "skills_required": [
+    "Python/R Programming Basics",
+    "Statistics Fundamentals",
+    "Data Visualization (Excel, Tableau Basics)",
+    "SQL",
+    "Data Cleaning",
+    "Machine Learning Basics"
+  ],
+  "further_education": [
+    "B.Tech Data Science",
+    "Analytics",
+    "Machine Learning"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

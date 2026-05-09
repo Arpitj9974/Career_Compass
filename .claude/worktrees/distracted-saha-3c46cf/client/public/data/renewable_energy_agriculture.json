@@ -1,0 +1,28 @@
+{
+  "id": "renewable_energy_agriculture",
+  "label": "Renewable Energy in Agriculture",
+  "description": "Solar pumps, biogas, and renewable energy for farming",
+  "job_roles": [
+    "Solar Pump Installer",
+    "Biogas Plant Technician",
+    "Rural Energy Technician",
+    "Farm Renewable Energy Consultant",
+    "Agricultural Energy Systems Engineer",
+    "Solar Irrigation Specialist"
+  ],
+  "skills_required": [
+    "Solar Energy Systems",
+    "Biogas Technology",
+    "Renewable Energy Basics",
+    "Solar Pumping",
+    "Energy Efficiency",
+    "Rural Electrification"
+  ],
+  "further_education": [
+    "B.Tech Renewable Energy",
+    "Sustainable Agriculture",
+    "Rural Technology"
+  ],
+  "parentId": "agriculture_engineering",
+  "children": []
+}

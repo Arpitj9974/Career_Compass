@@ -1,4 +1,4 @@
-const db = require('../models/db');
+const pool = require('../../db/connection');
 
 /**
  * Rule Engine for Career Compass
@@ -10,17 +10,19 @@ const PRIORITY_ORDER = { lock: 4, warn: 3, recommend: 2, hide: 1, normal: 0 };
 
 /**
  * Evaluate all rules for a node given a student profile
- * @param {number} nodeId - The node to evaluate
+ * @param {string|number} nodeId - The node to evaluate
  * @param {Object} profile - Student profile data
  * @returns {Object} - { state: 'normal'|'locked'|'warning'|'recommended', message: string|null }
  */
-function evaluateRulesForNode(nodeId, profile) {
+async function evaluateRulesForNode(nodeId, profile) {
     // Get all rules for this node
-    const rules = db.prepare(`
+    const result = await pool.query(`
         SELECT * FROM rules 
-        WHERE node_id = ? 
+        WHERE node_id = $1 
         ORDER BY priority DESC
-    `).all(nodeId);
+    `, [nodeId]);
+    
+    const rules = result.rows;
 
     if (rules.length === 0) {
         return { state: 'normal', message: null, rules: [] };

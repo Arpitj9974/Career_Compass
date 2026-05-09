@@ -1,0 +1,64 @@
+{
+    "id": "mining_engineering",
+    "title": "Mining Engineering",
+    "label": "⛏️ Mining Engineering",
+    "description": "Mineral extraction and mining operations",
+    "children": [
+        {
+            "id": "mining_operations",
+            "title": "Mining Operations",
+            "label": "⛏️ Mining Operations",
+            "description": "Mining excavation, ore extraction, and mine operations",
+            "job_roles": [
+                "Mining Supervisor",
+                "Blasting Technician",
+                "Drill Operator",
+                "Excavation Technician",
+                "Ore Processing Operator",
+                "Mine Safety Officer"
+            ],
+            "skills_required": [
+                "Mining Methods",
+                "Drilling & Blasting",
+                "Heavy Equipment Operation",
+                "Mine Safety",
+                "Geology Basics",
+                "Ventilation Systems"
+            ],
+            "further_education": [
+                "B.Tech Mining Engineering",
+                "Mine Management",
+                "Mineral Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "mineral_processing",
+            "title": "Mineral Processing & Metallurgy",
+            "label": "🔩 Mineral Processing",
+            "description": "Ore processing, mineral beneficiation, and extraction",
+            "job_roles": [
+                "Mineral Processing Technician",
+                "Beneficiation Operator",
+                "Flotation Technician",
+                "Crusher/Mill Operator",
+                "Lab Analyst (Minerals)",
+                "Quality Controller (Mining)"
+            ],
+            "skills_required": [
+                "Mineral Processing",
+                "Ore Beneficiation",
+                "Crushing & Grinding",
+                "Flotation Process",
+                "Mineral Analysis",
+                "Quality Testing"
+            ],
+            "further_education": [
+                "B.Tech Mining Engineering",
+                "Mineral Processing",
+                "Metallurgy"
+            ],
+            "children": []
+        }
+    ]
+}

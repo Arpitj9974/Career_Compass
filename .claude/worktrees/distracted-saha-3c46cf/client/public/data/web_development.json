@@ -1,0 +1,28 @@
+{
+  "id": "web_development",
+  "label": "Web Development & Design",
+  "description": "Website creation, web applications, and responsive design",
+  "job_roles": [
+    "Web Developer",
+    "Frontend Developer",
+    "UI Developer",
+    "WordPress Developer",
+    "Web Designer",
+    "E-commerce Developer"
+  ],
+  "skills_required": [
+    "HTML5, CSS3, JavaScript",
+    "Responsive Design",
+    "Frontend Frameworks (Bootstrap, React Basics)",
+    "CMS (WordPress, Joomla)",
+    "Web Hosting & Deployment",
+    "UI/UX Basics"
+  ],
+  "further_education": [
+    "B.Tech CS/IT",
+    "Full Stack Development",
+    "UI/UX Design"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

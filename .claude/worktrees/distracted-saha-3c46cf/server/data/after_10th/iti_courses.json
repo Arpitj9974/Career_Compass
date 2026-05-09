@@ -1,0 +1,24 @@
+{
+    "id": "iti_courses",
+    "title": "ITI Courses",
+    "label": "🔨 ITI Courses",
+    "description": "Industrial Training Institute courses for skilled trades",
+    "children": [
+        {
+            "id": "iti_engineering_trades",
+            "title": "Engineering Trades",
+            "label": "⚙️ Engineering Trades",
+            "description": "Technical and engineering skill-based trades",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "iti_non_engineering_trades",
+            "title": "Non-Engineering Trades",
+            "label": "📋 Non-Engineering Trades",
+            "description": "Service and non-technical skill-based trades",
+            "lazy": true,
+            "children": []
+        }
+    ]
+}

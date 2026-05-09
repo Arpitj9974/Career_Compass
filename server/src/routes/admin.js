@@ -1,314 +1,262 @@
 const express = require('express');
-const db = require('../models/db');
+const pool = require('../../db/connection');
 const { authenticateToken, adminOnly } = require('../middleware/auth');
 
 const router = express.Router();
 
-// Apply middleware to all admin routes
-router.use(authenticateToken);
-router.use(adminOnly);
+// Apply auth middleware to all admin routes
+router.use(authenticateToken, adminOnly);
 
-// ============================================
-// NODE CRUD OPERATIONS
-// ============================================
+// ─────────────────────────────────────────────────────────────────────────────
+// NODES
+// ─────────────────────────────────────────────────────────────────────────────
 
-// Create a new node
-router.post('/nodes', (req, res) => {
+// Get all nodes
+router.get('/nodes', async (req, res) => {
+    try {
+        const result = await pool.query("SELECT * FROM nodes WHERE status != 'archived' ORDER BY level ASC, id ASC");
+        
+        // Parse JSON fields
+        const nodes = result.rows.map(node => ({
+            ...node,
+            skills_required: node.skills_required || [],
+            tags: node.tags || []
+        }));
+
+        res.json({ nodes });
+    } catch (error) {
+        console.error('Error fetching admin nodes:', error);
+        res.status(500).json({ error: 'Failed to fetch nodes' });
+    }
+});
+
+// Create new node
+router.post('/nodes', async (req, res) => {
     try {
         const {
-            title,
-            node_type,
-            level,
-            description,
-            duration,
-            cost_min,
-            cost_max,
-            difficulty,
-            skills_required,
-            tags,
-            icon,
-            status = 'draft'
+            name, title, label, description, type,
+            level, duration, eligibility, cost_min, cost_max,
+            difficulty, skills_required, tags, status = 'published', is_leaf = false
         } = req.body;
 
-        if (!title || !node_type) {
-            return res.status(400).json({ error: 'Title and node_type are required' });
-        }
+        const result = await pool.query(`
+            INSERT INTO nodes (
+                name, title, label, description, type,
+                level, duration, eligibility, cost_min, cost_max,
+                difficulty, skills_required, tags, status, is_leaf
+            ) VALUES (
+                $1, $2, $3, $4, $5,
+                $6, $7, $8, $9, $10,
+                $11, $12, $13, $14, $15
+            ) RETURNING *
+        `, [
+            name || null, title || null, label || title || null, description || null, type || 'career',
+            level || 0, duration || null, eligibility || null, cost_min || null, cost_max || null,
+            difficulty || null, JSON.stringify(skills_required || []), JSON.stringify(tags || []), status, is_leaf
+        ]);
 
-        const result = db.prepare(`
-            INSERT INTO nodes 
-            (title, node_type, level, description, duration, cost_min, cost_max, difficulty, skills_required, tags, icon, status, created_by)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        `).run(
-            title,
-            node_type,
-            level || 1,
-            description,
-            duration,
-            cost_min,
-            cost_max,
-            difficulty,
-            JSON.stringify(skills_required || []),
-            JSON.stringify(tags || []),
-            icon,
-            status,
-            req.user.id
-        );
-
-        res.status(201).json({
-            success: true,
-            nodeId: result.lastInsertRowid,
-            message: 'Node created successfully'
-        });
+        res.status(201).json({ node: result.rows[0] });
     } catch (error) {
         console.error('Error creating node:', error);
         res.status(500).json({ error: 'Failed to create node' });
     }
 });
 
-// Update a node
-router.put('/nodes/:id', (req, res) => {
+// Update node
+router.put('/nodes/:id', async (req, res) => {
     try {
         const { id } = req.params;
-        const updates = req.body;
+        const {
+            name, title, label, description, type,
+            level, duration, eligibility, cost_min, cost_max,
+            difficulty, skills_required, tags, status, is_leaf
+        } = req.body;
 
-        // Build dynamic update query
-        const allowedFields = [
-            'title', 'node_type', 'level', 'description', 'duration',
-            'cost_min', 'cost_max', 'difficulty', 'skills_required',
-            'tags', 'icon', 'status'
-        ];
+        // Construct update query
+        const result = await pool.query(`
+            UPDATE nodes SET
+                name = COALESCE($1, name),
+                title = COALESCE($2, title),
+                label = COALESCE($3, label),
+                description = COALESCE($4, description),
+                type = COALESCE($5, type),
+                level = COALESCE($6, level),
+                duration = COALESCE($7, duration),
+                eligibility = COALESCE($8, eligibility),
+                cost_min = COALESCE($9, cost_min),
+                cost_max = COALESCE($10, cost_max),
+                difficulty = COALESCE($11, difficulty),
+                skills_required = COALESCE($12, skills_required),
+                tags = COALESCE($13, tags),
+                status = COALESCE($14, status),
+                is_leaf = COALESCE($15, is_leaf),
+                updated_at = NOW()
+            WHERE id = $16
+            RETURNING *
+        `, [
+            name, title, label, description, type,
+            level, duration, eligibility, cost_min, cost_max,
+            difficulty, 
+            skills_required ? JSON.stringify(skills_required) : null, 
+            tags ? JSON.stringify(tags) : null, 
+            status, is_leaf, 
+            id
+        ]);
 
-        const setClauses = [];
-        const values = [];
-
-        for (const field of allowedFields) {
-            if (updates[field] !== undefined) {
-                setClauses.push(`${field} = ?`);
-                if (field === 'skills_required' || field === 'tags') {
-                    values.push(JSON.stringify(updates[field]));
-                } else {
-                    values.push(updates[field]);
-                }
-            }
+        if (result.rows.length === 0) {
+            return res.status(404).json({ error: 'Node not found' });
         }
 
-        if (setClauses.length === 0) {
-            return res.status(400).json({ error: 'No valid fields to update' });
-        }
-
-        setClauses.push('updated_at = CURRENT_TIMESTAMP');
-        values.push(id);
-
-        db.prepare(`
-            UPDATE nodes SET ${setClauses.join(', ')} WHERE id = ?
-        `).run(...values);
-
-        res.json({ success: true, message: 'Node updated successfully' });
+        res.json({ success: true, node: result.rows[0] });
     } catch (error) {
         console.error('Error updating node:', error);
         res.status(500).json({ error: 'Failed to update node' });
     }
 });
 
-// Delete a node
-router.delete('/nodes/:id', (req, res) => {
+// Archive node
+router.delete('/nodes/:id', async (req, res) => {
     try {
         const { id } = req.params;
-
-        const result = db.prepare('DELETE FROM nodes WHERE id = ?').run(id);
-
-        if (result.changes === 0) {
+        const result = await pool.query("UPDATE nodes SET status = 'archived', updated_at = NOW() WHERE id = $1 RETURNING id", [id]);
+        
+        if (result.rows.length === 0) {
             return res.status(404).json({ error: 'Node not found' });
         }
 
-        res.json({ success: true, message: 'Node deleted successfully' });
+        res.json({ success: true, message: 'Node archived' });
     } catch (error) {
-        console.error('Error deleting node:', error);
-        res.status(500).json({ error: 'Failed to delete node' });
+        console.error('Error archiving node:', error);
+        res.status(500).json({ error: 'Failed to archive node' });
     }
 });
 
-// ============================================
-// EDGE OPERATIONS
-// ============================================
+// ─────────────────────────────────────────────────────────────────────────────
+// RULES
+// ─────────────────────────────────────────────────────────────────────────────
 
-// Create an edge (parent-child connection)
-router.post('/edges', (req, res) => {
+// Get rules (optionally filter by node_id)
+router.get('/rules', async (req, res) => {
     try {
-        const { parent_node_id, child_node_id, order_index = 0 } = req.body;
+        const { node_id } = req.query;
+        let query = 'SELECT * FROM rules ORDER BY priority DESC';
+        const params = [];
 
-        if (!parent_node_id || !child_node_id) {
-            return res.status(400).json({ error: 'parent_node_id and child_node_id are required' });
+        if (node_id) {
+            query = 'SELECT * FROM rules WHERE node_id = $1 ORDER BY priority DESC';
+            params.push(node_id);
         }
 
-        const result = db.prepare(`
-            INSERT INTO edges (parent_node_id, child_node_id, order_index)
-            VALUES (?, ?, ?)
-        `).run(parent_node_id, child_node_id, order_index);
-
-        res.status(201).json({
-            success: true,
-            edgeId: result.lastInsertRowid
-        });
+        const result = await pool.query(query, params);
+        res.json({ rules: result.rows });
     } catch (error) {
-        if (error.message.includes('UNIQUE constraint failed')) {
-            return res.status(400).json({ error: 'This connection already exists' });
-        }
-        console.error('Error creating edge:', error);
-        res.status(500).json({ error: 'Failed to create edge' });
+        console.error('Error fetching rules:', error);
+        res.status(500).json({ error: 'Failed to fetch rules' });
     }
 });
 
-// Delete an edge
-router.delete('/edges/:id', (req, res) => {
+// Create rule
+router.post('/rules', async (req, res) => {
     try {
-        const { id } = req.params;
+        const { node_id, rule_type, field, operator, value, effect, priority, message } = req.body;
 
-        const result = db.prepare('DELETE FROM edges WHERE id = ?').run(id);
+        const result = await pool.query(`
+            INSERT INTO rules (node_id, rule_type, field, operator, value, effect, priority, message)
+            VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+            RETURNING *
+        `, [node_id, rule_type, field, operator, value, effect, priority || 0, message]);
 
-        if (result.changes === 0) {
-            return res.status(404).json({ error: 'Edge not found' });
-        }
-
-        res.json({ success: true, message: 'Edge deleted successfully' });
-    } catch (error) {
-        console.error('Error deleting edge:', error);
-        res.status(500).json({ error: 'Failed to delete edge' });
-    }
-});
-
-// ============================================
-// RULE OPERATIONS
-// ============================================
-
-// Create a rule
-router.post('/rules', (req, res) => {
-    try {
-        const {
-            node_id,
-            rule_type,
-            field,
-            operator,
-            value,
-            message,
-            effect,
-            priority = 0
-        } = req.body;
-
-        if (!node_id || !rule_type || !operator || !value || !effect) {
-            return res.status(400).json({
-                error: 'node_id, rule_type, operator, value, and effect are required'
-            });
-        }
-
-        const result = db.prepare(`
-            INSERT INTO rules (node_id, rule_type, field, operator, value, message, effect, priority)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        `).run(node_id, rule_type, field, operator, value, message, effect, priority);
-
-        res.status(201).json({
-            success: true,
-            ruleId: result.lastInsertRowid
-        });
+        res.status(201).json({ rule: result.rows[0] });
     } catch (error) {
         console.error('Error creating rule:', error);
         res.status(500).json({ error: 'Failed to create rule' });
     }
 });
 
-// Update a rule
-router.put('/rules/:id', (req, res) => {
+// Delete rule
+router.delete('/rules/:id', async (req, res) => {
     try {
         const { id } = req.params;
-        const { rule_type, field, operator, value, message, effect, priority } = req.body;
-
-        db.prepare(`
-            UPDATE rules SET
-                rule_type = COALESCE(?, rule_type),
-                field = COALESCE(?, field),
-                operator = COALESCE(?, operator),
-                value = COALESCE(?, value),
-                message = COALESCE(?, message),
-                effect = COALESCE(?, effect),
-                priority = COALESCE(?, priority)
-            WHERE id = ?
-        `).run(rule_type, field, operator, value, message, effect, priority, id);
-
-        res.json({ success: true, message: 'Rule updated successfully' });
-    } catch (error) {
-        console.error('Error updating rule:', error);
-        res.status(500).json({ error: 'Failed to update rule' });
-    }
-});
-
-// Delete a rule
-router.delete('/rules/:id', (req, res) => {
-    try {
-        const { id } = req.params;
-
-        const result = db.prepare('DELETE FROM rules WHERE id = ?').run(id);
-
-        if (result.changes === 0) {
-            return res.status(404).json({ error: 'Rule not found' });
-        }
-
-        res.json({ success: true, message: 'Rule deleted successfully' });
+        await pool.query('DELETE FROM rules WHERE id = $1', [id]);
+        res.json({ success: true });
     } catch (error) {
         console.error('Error deleting rule:', error);
         res.status(500).json({ error: 'Failed to delete rule' });
     }
 });
 
-// ============================================
-// ANALYTICS
-// ============================================
+// ─────────────────────────────────────────────────────────────────────────────
+// EDGES
+// ─────────────────────────────────────────────────────────────────────────────
 
-// Get basic analytics
-router.get('/analytics', (req, res) => {
+// Get edges
+router.get('/edges', async (req, res) => {
     try {
-        const stats = {
-            totalNodes: db.prepare('SELECT COUNT(*) as count FROM nodes').get().count,
-            publishedNodes: db.prepare("SELECT COUNT(*) as count FROM nodes WHERE status = 'published'").get().count,
-            totalTrees: db.prepare('SELECT COUNT(*) as count FROM trees').get().count,
-            totalStudents: db.prepare("SELECT COUNT(*) as count FROM users WHERE role = 'student'").get().count,
-            savedPaths: db.prepare('SELECT COUNT(*) as count FROM saved_paths').get().count
-        };
+        const { parent_node_id } = req.query;
+        let query = 'SELECT * FROM edges ORDER BY parent_node_id ASC, order_index ASC';
+        const params = [];
 
-        // Most clicked nodes (from analytics table)
-        const popularNodes = db.prepare(`
-            SELECT n.id, n.title, n.node_type, COUNT(a.id) as clicks
-            FROM analytics a
-            JOIN nodes n ON a.node_id = n.id
-            WHERE a.action = 'expand'
-            GROUP BY n.id
-            ORDER BY clicks DESC
-            LIMIT 10
-        `).all();
+        if (parent_node_id) {
+            query = 'SELECT * FROM edges WHERE parent_node_id = $1 ORDER BY order_index ASC';
+            params.push(parent_node_id);
+        }
 
-        res.json({ stats, popularNodes });
+        const result = await pool.query(query, params);
+        res.json({ edges: result.rows });
     } catch (error) {
-        console.error('Error fetching analytics:', error);
-        res.status(500).json({ error: 'Failed to fetch analytics' });
+        console.error('Error fetching edges:', error);
+        res.status(500).json({ error: 'Failed to fetch edges' });
     }
 });
 
-// Get all nodes (for admin tree builder)
-router.get('/nodes', (req, res) => {
+// Create edge
+router.post('/edges', async (req, res) => {
     try {
-        const nodes = db.prepare(`
-            SELECT * FROM nodes ORDER BY level, title
-        `).all();
+        const { parent_node_id, child_node_id, order_index } = req.body;
 
-        const parsedNodes = nodes.map(node => ({
-            ...node,
-            skills_required: node.skills_required ? JSON.parse(node.skills_required) : [],
-            tags: node.tags ? JSON.parse(node.tags) : []
-        }));
+        const result = await pool.query(`
+            INSERT INTO edges (parent_node_id, child_node_id, order_index)
+            VALUES ($1, $2, $3)
+            RETURNING *
+        `, [parent_node_id, child_node_id, order_index || 0]);
 
-        res.json({ nodes: parsedNodes });
+        res.status(201).json({ edge: result.rows[0] });
     } catch (error) {
-        console.error('Error fetching nodes:', error);
-        res.status(500).json({ error: 'Failed to fetch nodes' });
+        console.error('Error creating edge:', error);
+        res.status(500).json({ error: 'Failed to create edge' });
+    }
+});
+
+// Delete edge
+router.delete('/edges/:id', async (req, res) => {
+    try {
+        const { id } = req.params;
+        await pool.query('DELETE FROM edges WHERE id = $1', [id]);
+        res.json({ success: true });
+    } catch (error) {
+        console.error('Error deleting edge:', error);
+        res.status(500).json({ error: 'Failed to delete edge' });
+    }
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+// ANALYTICS
+// ─────────────────────────────────────────────────────────────────────────────
+
+router.get('/analytics', async (req, res) => {
+    try {
+        const result = await pool.query(`
+            SELECT a.*, u.name as user_name, n.title as node_title
+            FROM analytics a
+            LEFT JOIN users u ON a.user_id = u.id
+            LEFT JOIN nodes n ON a.node_id = n.id
+            ORDER BY a.created_at DESC
+            LIMIT 100
+        `);
+        res.json({ analytics: result.rows });
+    } catch (error) {
+        console.error('Error fetching analytics:', error);
+        res.status(500).json({ error: 'Failed to fetch analytics' });
     }
 });
 

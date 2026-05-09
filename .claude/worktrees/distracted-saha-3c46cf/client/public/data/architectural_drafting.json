@@ -1,0 +1,28 @@
+{
+  "id": "architectural_drafting",
+  "label": "Architectural Drafting & CAD",
+  "description": "Architectural drawings, 2D/3D modeling, and design visualization",
+  "job_roles": [
+    "Architectural Draughtsman",
+    "CAD Technician (Architecture)",
+    "Building Design Assistant",
+    "3D Visualization Specialist",
+    "Architectural Design Trainee",
+    "BIM Modeler (Entry Level)"
+  ],
+  "skills_required": [
+    "AutoCAD Architecture",
+    "Architectural Drawing",
+    "3D Modeling (SketchUp, Revit)",
+    "Building Codes",
+    "Construction Details",
+    "Rendering & Visualization"
+  ],
+  "further_education": [
+    "B.Arch",
+    "BIM Specialist",
+    "Interior Design"
+  ],
+  "parentId": "architecture_drafting",
+  "children": []
+}

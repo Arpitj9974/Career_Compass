@@ -1,0 +1,28 @@
+{
+  "id": "vlsi_design",
+  "label": "VLSI Design",
+  "description": "Chip design, integrated circuits, and semiconductor technology",
+  "job_roles": [
+    "VLSI Design Trainee",
+    "Chip Testing Technician",
+    "Layout Designer",
+    "IC Fabrication Technician",
+    "Verification Engineer",
+    "CAD Tool Operator"
+  ],
+  "skills_required": [
+    "Digital Electronics",
+    "VLSI Design Basics",
+    "Verilog/VHDL Fundamentals",
+    "Circuit Simulation",
+    "Layout Design",
+    "Semiconductor Physics"
+  ],
+  "further_education": [
+    "B.Tech VLSI",
+    "Chip Design",
+    "Semiconductor Technology"
+  ],
+  "parentId": "electronics_communication",
+  "children": []
+}

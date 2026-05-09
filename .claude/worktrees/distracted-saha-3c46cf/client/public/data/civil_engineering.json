@@ -1,0 +1,64 @@
+{
+  "id": "civil_engineering",
+  "label": "Civil Engineering",
+  "description": "Construction, infrastructure, and built environment",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "structural_engineering",
+      "label": "Structural Engineering",
+      "lazy": true,
+      "description": "Building design, structural analysis, and construction",
+      "children": []
+    },
+    {
+      "id": "transportation_engineering",
+      "label": "Transportation Engineering",
+      "lazy": true,
+      "description": "Roads, highways, traffic management, and transport systems",
+      "children": []
+    },
+    {
+      "id": "water_resources_engineering",
+      "label": "Water Resources Engineering",
+      "lazy": true,
+      "description": "Water supply, irrigation, drainage, and hydraulic structures",
+      "children": []
+    },
+    {
+      "id": "environmental_engineering",
+      "label": "Environmental Engineering",
+      "lazy": true,
+      "description": "Pollution control, waste management, and environmental protection",
+      "children": []
+    },
+    {
+      "id": "geotechnical_engineering",
+      "label": "Geotechnical Engineering",
+      "lazy": true,
+      "description": "Soil mechanics, foundation design, and ground engineering",
+      "children": []
+    },
+    {
+      "id": "surveying_geomatics",
+      "label": "Surveying & Geomatics",
+      "lazy": true,
+      "description": "Land surveying, mapping, GIS, and remote sensing",
+      "children": []
+    },
+    {
+      "id": "construction_management",
+      "label": "Construction Management",
+      "lazy": true,
+      "description": "Project planning, site management, and construction administration",
+      "children": []
+    },
+    {
+      "id": "building_services_engineering",
+      "label": "Building Services Engineering",
+      "lazy": true,
+      "description": "MEP systems, HVAC, plumbing, and electrical systems in buildings",
+      "children": []
+    }
+  ]
+}

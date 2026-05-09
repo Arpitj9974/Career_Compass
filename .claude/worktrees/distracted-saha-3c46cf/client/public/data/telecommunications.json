@@ -1,0 +1,28 @@
+{
+  "id": "telecommunications",
+  "label": "Telecommunications Engineering",
+  "description": "Telecom networks, mobile communication, and transmission systems",
+  "job_roles": [
+    "Telecom Technician",
+    "Network Installation Engineer",
+    "Mobile Tower Technician",
+    "Fiber Optic Technician",
+    "Telecom Field Engineer",
+    "Transmission Engineer"
+  ],
+  "skills_required": [
+    "Telecommunication Networks",
+    "Mobile Communication",
+    "Fiber Optics",
+    "RF Engineering Basics",
+    "Network Equipment",
+    "Signal Processing"
+  ],
+  "further_education": [
+    "B.Tech Telecom",
+    "Wireless Communication",
+    "5G Technology"
+  ],
+  "parentId": "electronics_communication",
+  "children": []
+}

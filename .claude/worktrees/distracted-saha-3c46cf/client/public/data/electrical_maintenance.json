@@ -1,0 +1,28 @@
+{
+  "id": "electrical_maintenance",
+  "label": "Electrical Maintenance & Safety",
+  "description": "Equipment maintenance, troubleshooting, and electrical safety",
+  "job_roles": [
+    "Electrical Maintenance Technician",
+    "Electrical Safety Officer",
+    "Preventive Maintenance Engineer",
+    "Electrical Troubleshooting Specialist",
+    "Facility Electrical Engineer",
+    "Electrical Inspector"
+  ],
+  "skills_required": [
+    "Electrical Troubleshooting",
+    "Preventive Maintenance",
+    "Electrical Safety Standards",
+    "Testing & Diagnostics",
+    "Repair Techniques",
+    "Documentation & Reporting"
+  ],
+  "further_education": [
+    "B.Tech Electrical",
+    "Safety Engineering",
+    "Facility Management"
+  ],
+  "parentId": "electrical_engineering",
+  "children": []
+}

@@ -1,0 +1,66 @@
+{
+    "id": "community_health",
+    "title": "Community Health & Public Health",
+    "label": "🏘️ Community Health",
+    "description": "Public health and community health services",
+    "children": [
+        {
+            "id": "community_health_worker",
+            "title": "Community Health Worker",
+            "label": "Community Health Worker",
+            "description": "Community health education and outreach",
+            "duration": "6 months - 1 year",
+            "eligibility": "10th/12th pass",
+            "job_roles": [
+                "Community Health Worker",
+                "ASHA Worker",
+                "Health Educator",
+                "Village Health Worker",
+                "Community Outreach Coordinator",
+                "Public Health Assistant"
+            ],
+            "skills_required": [
+                "Health Education",
+                "Community Outreach",
+                "Basic Health Assessment",
+                "Immunization Promotion",
+                "Maternal & Child Health",
+                "Communication Skills"
+            ],
+            "further_education": [
+                "Diploma in Community Health",
+                "Public Health",
+                "Health Promotion"
+            ]
+        },
+        {
+            "id": "health_sanitary_inspector",
+            "title": "Health & Sanitary Inspector",
+            "label": "Health & Sanitary Inspector",
+            "description": "Public sanitation and hygiene inspection",
+            "duration": "1-2 years",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Health Inspector",
+                "Sanitary Inspector",
+                "Public Health Inspector",
+                "Food Safety Inspector",
+                "Environmental Health Officer",
+                "Hygiene Compliance Officer"
+            ],
+            "skills_required": [
+                "Public Health Inspection",
+                "Sanitation Standards",
+                "Food Safety Regulations",
+                "Disease Prevention",
+                "Environmental Health",
+                "Report Writing"
+            ],
+            "further_education": [
+                "B.Sc Public Health",
+                "Environmental Health",
+                "Food Safety Management"
+            ]
+        }
+    ]
+}

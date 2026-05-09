@@ -1,0 +1,2361 @@
+{
+    "after_10th": {
+        "title": "Career Paths After 10th Standard",
+        "description": "Explore comprehensive career streams and specializations after completing 10th grade",
+        "main_fields": [
+            {
+                "id": "engineering",
+                "name": "Engineering",
+                "icon": "⚙️",
+                "description": "Technical and engineering career paths",
+                "degree_types": [
+                    {
+                        "id": "diploma_engineering",
+                        "name": "Diploma in Engineering (Polytechnic)",
+                        "duration": "3 years",
+                        "eligibility": "10th pass with Mathematics and Science",
+                        "description": "Professional technical education leading to industry-ready skills",
+                        "branches": [
+                            {
+                                "id": "mechanical_engineering",
+                                "name": "Mechanical Engineering",
+                                "description": "Study of mechanical systems, manufacturing, and energy",
+                                "career_streams": [
+                                    {
+                                        "id": "automobile_engineering",
+                                        "name": "Automobile Engineering",
+                                        "description": "Design, development, and maintenance of vehicles",
+                                        "job_roles": [
+                                            "Automobile Design Engineer",
+                                            "Vehicle Testing Engineer",
+                                            "Service Engineer (Automotive)",
+                                            "Production Engineer (Auto Industry)",
+                                            "Quality Control Engineer (Automobiles)",
+                                            "Showroom Technical Advisor"
+                                        ],
+                                        "skills_required": [
+                                            "Vehicle Dynamics",
+                                            "Engine Technology",
+                                            "CAD (AutoCAD, CATIA, SolidWorks)",
+                                            "Automotive Electronics",
+                                            "Diagnostics & Troubleshooting",
+                                            "Manufacturing Processes"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Automobile Engineering (Lateral Entry)",
+                                            "EV Technology",
+                                            "Hybrid Vehicle Systems"
+                                        ]
+                                    },
+                                    {
+                                        "id": "production_manufacturing",
+                                        "name": "Production / Manufacturing Engineering",
+                                        "description": "Manufacturing processes, production planning, and optimization",
+                                        "job_roles": [
+                                            "Production Supervisor",
+                                            "Manufacturing Engineer",
+                                            "Production Planning Executive",
+                                            "Process Engineer",
+                                            "Operations Executive",
+                                            "Shop Floor Supervisor"
+                                        ],
+                                        "skills_required": [
+                                            "Production Planning & Control",
+                                            "Manufacturing Processes (Casting, Forging, Machining)",
+                                            "Lean Manufacturing",
+                                            "Quality Management",
+                                            "CNC Programming",
+                                            "Industrial Safety"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Production Engineering",
+                                            "Industrial Engineering",
+                                            "Operations Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "thermal_engineering",
+                                        "name": "Thermal Engineering",
+                                        "description": "Heat transfer, thermodynamics, and energy systems",
+                                        "job_roles": [
+                                            "Thermal Engineer",
+                                            "HVAC Engineer",
+                                            "Boiler Operator",
+                                            "Power Plant Technician",
+                                            "Energy Auditor",
+                                            "Refrigeration Technician"
+                                        ],
+                                        "skills_required": [
+                                            "Thermodynamics",
+                                            "Heat Transfer",
+                                            "HVAC Systems Design",
+                                            "Energy Management",
+                                            "Boiler & Pressure Vessel",
+                                            "Thermal Analysis Software"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Thermal Engineering",
+                                            "Energy Management",
+                                            "HVAC Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "design_engineering",
+                                        "name": "Design Engineering",
+                                        "description": "Product design, mechanical design, and engineering drawing",
+                                        "job_roles": [
+                                            "CAD Design Engineer",
+                                            "Product Designer",
+                                            "Mechanical Design Engineer",
+                                            "3D Modeler",
+                                            "Design Draughtsman",
+                                            "Tool Design Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "CAD Software (AutoCAD, SolidWorks, CATIA, NX)",
+                                            "3D Modeling & Rendering",
+                                            "Engineering Drawing",
+                                            "GD&T (Geometric Dimensioning & Tolerancing)",
+                                            "Product Development",
+                                            "Finite Element Analysis (FEA)"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Mechanical Design",
+                                            "Advanced CAD/CAM",
+                                            "Product Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "mechatronics_robotics",
+                                        "name": "Mechatronics / Robotics",
+                                        "description": "Integration of mechanical, electronics, and computer systems",
+                                        "job_roles": [
+                                            "Robotics Technician",
+                                            "Automation Engineer",
+                                            "Mechatronics Engineer",
+                                            "Industrial Automation Technician",
+                                            "PLC Programmer",
+                                            "Control Systems Technician"
+                                        ],
+                                        "skills_required": [
+                                            "Robotics & Automation",
+                                            "PLC Programming",
+                                            "Sensor & Actuator Systems",
+                                            "Control Systems",
+                                            "Embedded Systems Basics",
+                                            "Industrial Automation"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Mechatronics",
+                                            "Robotics Engineering",
+                                            "Industrial Automation"
+                                        ]
+                                    },
+                                    {
+                                        "id": "industrial_engineering",
+                                        "name": "Industrial Engineering",
+                                        "description": "Process optimization, productivity improvement, and systems management",
+                                        "job_roles": [
+                                            "Industrial Engineer",
+                                            "Quality Control Engineer",
+                                            "Process Improvement Engineer",
+                                            "Methods Engineer",
+                                            "Production Planner",
+                                            "Operations Analyst"
+                                        ],
+                                        "skills_required": [
+                                            "Work Study & Time Study",
+                                            "Process Optimization",
+                                            "Quality Control (Six Sigma)",
+                                            "Ergonomics",
+                                            "Supply Chain Basics",
+                                            "Productivity Analysis"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Industrial Engineering",
+                                            "Six Sigma Certification",
+                                            "Operations Research"
+                                        ]
+                                    },
+                                    {
+                                        "id": "energy_engineering",
+                                        "name": "Energy Engineering (Renewable & Conventional)",
+                                        "description": "Renewable energy, power generation, and energy conservation",
+                                        "job_roles": [
+                                            "Renewable Energy Technician",
+                                            "Solar PV Installer",
+                                            "Wind Energy Technician",
+                                            "Energy Conservation Officer",
+                                            "Power Plant Operator",
+                                            "Energy Auditor"
+                                        ],
+                                        "skills_required": [
+                                            "Solar Energy Systems",
+                                            "Wind Energy Technology",
+                                            "Energy Storage Systems",
+                                            "Power Generation",
+                                            "Energy Audit & Conservation",
+                                            "Grid Integration"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Renewable Energy",
+                                            "Energy Management",
+                                            "Sustainable Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "aerospace_engineering",
+                                        "name": "Aerospace Engineering",
+                                        "description": "Aircraft and spacecraft systems (limited at diploma level)",
+                                        "job_roles": [
+                                            "Aircraft Maintenance Technician",
+                                            "Aerospace Manufacturing Technician",
+                                            "Quality Inspector (Aerospace)",
+                                            "Aerospace Design Assistant",
+                                            "Ground Equipment Operator",
+                                            "Aviation Workshop Technician"
+                                        ],
+                                        "skills_required": [
+                                            "Aircraft Systems Knowledge",
+                                            "Aerospace Materials",
+                                            "Manufacturing Processes",
+                                            "Quality Standards (AS9100)",
+                                            "Technical Drawing",
+                                            "Safety Protocols"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Aerospace Engineering",
+                                            "Aircraft Maintenance Engineering (AME)",
+                                            "Avionics"
+                                        ]
+                                    },
+                                    {
+                                        "id": "marine_engineering",
+                                        "name": "Marine Engineering",
+                                        "description": "Ship machinery, marine propulsion, and offshore systems",
+                                        "job_roles": [
+                                            "Marine Technician",
+                                            "Ship Maintenance Engineer",
+                                            "Port Equipment Operator",
+                                            "Offshore Maintenance Technician",
+                                            "Shipyard Technician",
+                                            "Marine Equipment Installer"
+                                        ],
+                                        "skills_required": [
+                                            "Ship Machinery",
+                                            "Marine Propulsion Systems",
+                                            "Marine Electrical Systems",
+                                            "Naval Architecture Basics",
+                                            "Maintenance & Repair",
+                                            "Maritime Safety"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Marine Engineering",
+                                            "Marine Engineering License",
+                                            "Offshore Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "metallurgical_materials",
+                                        "name": "Metallurgical / Materials Engineering",
+                                        "description": "Metals processing, material properties, and quality testing",
+                                        "job_roles": [
+                                            "Metallurgical Technician",
+                                            "Materials Testing Engineer",
+                                            "Heat Treatment Operator",
+                                            "Quality Control Inspector (Materials)",
+                                            "Foundry Supervisor",
+                                            "Welding Inspector"
+                                        ],
+                                        "skills_required": [
+                                            "Material Science",
+                                            "Metallurgy Basics",
+                                            "Heat Treatment Processes",
+                                            "Material Testing (NDT)",
+                                            "Welding Technology",
+                                            "Quality Assurance"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Metallurgy",
+                                            "Materials Engineering",
+                                            "Welding Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "cad_cam_automation",
+                                        "name": "CAD/CAM & Automation",
+                                        "description": "Computer-aided design, manufacturing, and industrial automation",
+                                        "job_roles": [
+                                            "CAD/CAM Programmer",
+                                            "CNC Programmer",
+                                            "Automation Technician",
+                                            "Manufacturing Engineer (CAM)",
+                                            "3D Design Specialist",
+                                            "Tool Path Programmer"
+                                        ],
+                                        "skills_required": [
+                                            "CAD Software (AutoCAD, CATIA, SolidWorks)",
+                                            "CAM Programming",
+                                            "CNC Machine Programming",
+                                            "G-Code & M-Code",
+                                            "3D Modeling",
+                                            "Manufacturing Automation"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech CAD/CAM",
+                                            "Advanced Manufacturing",
+                                            "Industrial Automation"
+                                        ]
+                                    },
+                                    {
+                                        "id": "refrigeration_air_conditioning",
+                                        "name": "Refrigeration & Air Conditioning",
+                                        "description": "Cooling systems, HVAC design, and cold storage technology",
+                                        "job_roles": [
+                                            "RAC Technician",
+                                            "HVAC Installation Engineer",
+                                            "Refrigeration Mechanic",
+                                            "Cold Storage Operator",
+                                            "AC Service Engineer",
+                                            "Chiller Operator"
+                                        ],
+                                        "skills_required": [
+                                            "Refrigeration Cycles",
+                                            "HVAC Systems",
+                                            "Air Conditioning Installation",
+                                            "Refrigerant Handling",
+                                            "System Troubleshooting",
+                                            "Energy Efficiency"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech RAC",
+                                            "HVAC Design",
+                                            "Building Services Engineering"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "civil_engineering",
+                                "name": "Civil Engineering",
+                                "description": "Construction, infrastructure, and built environment",
+                                "career_streams": [
+                                    {
+                                        "id": "structural_engineering",
+                                        "name": "Structural Engineering",
+                                        "description": "Building design, structural analysis, and construction",
+                                        "job_roles": [
+                                            "Structural Design Assistant",
+                                            "Site Engineer",
+                                            "Construction Supervisor",
+                                            "Quantity Surveyor",
+                                            "Structural Draughtsman",
+                                            "Building Inspector"
+                                        ],
+                                        "skills_required": [
+                                            "Structural Analysis",
+                                            "AutoCAD Civil 3D",
+                                            "Building Materials",
+                                            "Construction Planning",
+                                            "RCC Design",
+                                            "Estimation & Costing"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Civil Engineering",
+                                            "Structural Design",
+                                            "Construction Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "transportation_engineering",
+                                        "name": "Transportation Engineering",
+                                        "description": "Roads, highways, traffic management, and transport systems",
+                                        "job_roles": [
+                                            "Highway Technician",
+                                            "Traffic Survey Engineer",
+                                            "Road Construction Supervisor",
+                                            "Transportation Planner Assistant",
+                                            "Pavement Design Technician",
+                                            "Railway Track Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Highway Engineering",
+                                            "Traffic Engineering",
+                                            "Surveying",
+                                            "Pavement Design",
+                                            "Transportation Planning Basics",
+                                            "Road Construction Methods"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Transportation",
+                                            "Traffic Management",
+                                            "Urban Planning"
+                                        ]
+                                    },
+                                    {
+                                        "id": "water_resources_engineering",
+                                        "name": "Water Resources Engineering",
+                                        "description": "Water supply, irrigation, drainage, and hydraulic structures",
+                                        "job_roles": [
+                                            "Water Supply Engineer",
+                                            "Irrigation Technician",
+                                            "Drainage Engineer",
+                                            "Hydraulic Structures Supervisor",
+                                            "Water Treatment Plant Operator",
+                                            "Dam Safety Inspector"
+                                        ],
+                                        "skills_required": [
+                                            "Hydraulics & Hydrology",
+                                            "Water Supply Systems",
+                                            "Irrigation Engineering",
+                                            "Drainage Systems",
+                                            "Water Treatment",
+                                            "Fluid Mechanics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Water Resources",
+                                            "Environmental Engineering",
+                                            "Hydraulic Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "environmental_engineering",
+                                        "name": "Environmental Engineering",
+                                        "description": "Pollution control, waste management, and environmental protection",
+                                        "job_roles": [
+                                            "Environmental Technician",
+                                            "Waste Management Officer",
+                                            "Pollution Control Inspector",
+                                            "Water Quality Analyst",
+                                            "Environmental Auditor",
+                                            "ETP/STP Operator"
+                                        ],
+                                        "skills_required": [
+                                            "Environmental Science",
+                                            "Pollution Control",
+                                            "Waste Management",
+                                            "Water & Air Quality Testing",
+                                            "EIA (Environmental Impact Assessment)",
+                                            "Sustainability Practices"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Environmental Engineering",
+                                            "Environmental Management",
+                                            "Sustainability"
+                                        ]
+                                    },
+                                    {
+                                        "id": "geotechnical_engineering",
+                                        "name": "Geotechnical Engineering",
+                                        "description": "Soil mechanics, foundation design, and ground engineering",
+                                        "job_roles": [
+                                            "Soil Testing Technician",
+                                            "Foundation Engineer",
+                                            "Geotechnical Surveyor",
+                                            "Ground Investigation Technician",
+                                            "Foundation Design Assistant",
+                                            "Site Investigation Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Soil Mechanics",
+                                            "Foundation Engineering",
+                                            "Soil Testing & Analysis",
+                                            "Geotechnical Investigation",
+                                            "Rock Mechanics Basics",
+                                            "Site Characterization"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Geotechnical",
+                                            "Foundation Engineering",
+                                            "Soil Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "surveying_geomatics",
+                                        "name": "Surveying & Geomatics",
+                                        "description": "Land surveying, mapping, GIS, and remote sensing",
+                                        "job_roles": [
+                                            "Land Surveyor",
+                                            "GIS Technician",
+                                            "Survey Engineer",
+                                            "Mapping Technician",
+                                            "Cadastral Surveyor",
+                                            "GPS Survey Operator"
+                                        ],
+                                        "skills_required": [
+                                            "Surveying Instruments (Total Station, GPS)",
+                                            "AutoCAD Civil 3D",
+                                            "GIS Software Basics",
+                                            "Land Measurement",
+                                            "Topographic Surveying",
+                                            "Remote Sensing Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Geomatics",
+                                            "GIS & Remote Sensing",
+                                            "Surveying Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "construction_management",
+                                        "name": "Construction Management",
+                                        "description": "Project planning, site management, and construction administration",
+                                        "job_roles": [
+                                            "Site Supervisor",
+                                            "Construction Manager Assistant",
+                                            "Project Coordinator",
+                                            "Billing Engineer",
+                                            "Site Documentation Engineer",
+                                            "Construction Planner"
+                                        ],
+                                        "skills_required": [
+                                            "Project Management",
+                                            "Construction Planning",
+                                            "Cost Estimation",
+                                            "Contract Management Basics",
+                                            "Site Coordination",
+                                            "MS Project / Primavera Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Construction Management",
+                                            "Project Management",
+                                            "Real Estate Development"
+                                        ]
+                                    },
+                                    {
+                                        "id": "building_services_engineering",
+                                        "name": "Building Services Engineering",
+                                        "description": "MEP systems, HVAC, plumbing, and electrical systems in buildings",
+                                        "job_roles": [
+                                            "MEP Technician",
+                                            "Building Services Engineer",
+                                            "HVAC Installation Supervisor",
+                                            "Plumbing Systems Designer",
+                                            "Fire Safety Engineer",
+                                            "Building Automation Technician"
+                                        ],
+                                        "skills_required": [
+                                            "MEP (Mechanical, Electrical, Plumbing)",
+                                            "HVAC Systems",
+                                            "Plumbing Design",
+                                            "Fire Safety Systems",
+                                            "Building Automation",
+                                            "Energy Management"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Building Services",
+                                            "MEP Design",
+                                            "Facility Management"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "electrical_engineering",
+                                "name": "Electrical Engineering",
+                                "description": "Electrical power systems, machines, and energy distribution",
+                                "career_streams": [
+                                    {
+                                        "id": "power_systems",
+                                        "name": "Power Systems Engineering",
+                                        "description": "Power generation, transmission, and distribution",
+                                        "job_roles": [
+                                            "Power Plant Operator",
+                                            "Substation Technician",
+                                            "Electrical Maintenance Engineer",
+                                            "Transmission Line Technician",
+                                            "Distribution Engineer",
+                                            "Grid Operations Assistant"
+                                        ],
+                                        "skills_required": [
+                                            "Power Generation",
+                                            "Electrical Machines",
+                                            "Transmission & Distribution",
+                                            "Substation Equipment",
+                                            "Protective Relays",
+                                            "Power System Analysis Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Electrical (Power Systems)",
+                                            "Power Electronics",
+                                            "Renewable Energy"
+                                        ]
+                                    },
+                                    {
+                                        "id": "electrical_machines",
+                                        "name": "Electrical Machines & Drives",
+                                        "description": "Motors, generators, transformers, and drive systems",
+                                        "job_roles": [
+                                            "Electrical Machine Technician",
+                                            "Motor Winding Technician",
+                                            "Transformer Maintenance Engineer",
+                                            "Drive Systems Operator",
+                                            "Electrical Testing Engineer",
+                                            "Motor Repair Specialist"
+                                        ],
+                                        "skills_required": [
+                                            "DC & AC Machines",
+                                            "Transformer Design & Maintenance",
+                                            "Motor Control",
+                                            "Electrical Drives",
+                                            "Winding Technology",
+                                            "Testing & Commissioning"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Electrical",
+                                            "Power Electronics",
+                                            "Machine Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "industrial_automation_electrical",
+                                        "name": "Industrial Automation & Control",
+                                        "description": "PLC, SCADA, DCS, and industrial control systems",
+                                        "job_roles": [
+                                            "PLC Programmer",
+                                            "SCADA Engineer",
+                                            "Automation Technician",
+                                            "Control Panel Designer",
+                                            "Instrumentation Engineer",
+                                            "DCS Operator"
+                                        ],
+                                        "skills_required": [
+                                            "PLC Programming (Siemens, Allen Bradley)",
+                                            "SCADA Systems",
+                                            "HMI Development",
+                                            "Control Systems",
+                                            "Instrumentation",
+                                            "Industrial Networking"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Automation",
+                                            "Industrial IoT",
+                                            "Process Control"
+                                        ]
+                                    },
+                                    {
+                                        "id": "power_electronics",
+                                        "name": "Power Electronics",
+                                        "description": "Converters, inverters, and electronic power control",
+                                        "job_roles": [
+                                            "Power Electronics Technician",
+                                            "Inverter Design Engineer",
+                                            "UPS Maintenance Engineer",
+                                            "Battery Management Technician",
+                                            "Solar Inverter Technician",
+                                            "Power Supply Designer"
+                                        ],
+                                        "skills_required": [
+                                            "Power Electronic Devices",
+                                            "Converters & Inverters",
+                                            "SMPS Design",
+                                            "Battery Technology",
+                                            "Power Quality",
+                                            "Circuit Simulation"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Power Electronics",
+                                            "Electric Vehicles",
+                                            "Renewable Energy Systems"
+                                        ]
+                                    },
+                                    {
+                                        "id": "renewable_energy_electrical",
+                                        "name": "Renewable Energy Systems",
+                                        "description": "Solar, wind, and alternative energy electrical systems",
+                                        "job_roles": [
+                                            "Solar PV System Installer",
+                                            "Wind Turbine Technician",
+                                            "Renewable Energy Technician",
+                                            "Solar Plant Operator",
+                                            "Energy Storage Specialist",
+                                            "Grid Integration Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Solar PV Systems",
+                                            "Wind Energy Systems",
+                                            "Grid-Tied Inverters",
+                                            "Battery Storage Systems",
+                                            "Power Conditioning",
+                                            "Energy Management Systems"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Renewable Energy",
+                                            "Solar Energy Engineering",
+                                            "Smart Grid"
+                                        ]
+                                    },
+                                    {
+                                        "id": "electrical_design",
+                                        "name": "Electrical Design & Estimation",
+                                        "description": "Electrical layout design, load calculations, and project estimation",
+                                        "job_roles": [
+                                            "Electrical Design Engineer",
+                                            "Estimation Engineer",
+                                            "Electrical CAD Designer",
+                                            "Panel Design Engineer",
+                                            "Lighting Designer",
+                                            "Electrical Consultant Assistant"
+                                        ],
+                                        "skills_required": [
+                                            "Electrical Design Software (AutoCAD Electrical)",
+                                            "Load Calculations",
+                                            "Lighting Design",
+                                            "Panel Design",
+                                            "Cost Estimation",
+                                            "IS & IEC Standards"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Electrical Design",
+                                            "Building Services",
+                                            "Project Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "instrumentation",
+                                        "name": "Instrumentation & Process Control",
+                                        "description": "Measurement instruments, sensors, and process automation",
+                                        "job_roles": [
+                                            "Instrumentation Technician",
+                                            "Calibration Engineer",
+                                            "Process Control Engineer",
+                                            "Sensor Technician",
+                                            "Field Instrument Specialist",
+                                            "Measurement & Control Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Instrumentation Devices",
+                                            "Calibration Techniques",
+                                            "Process Control",
+                                            "Sensor Technology",
+                                            "Control Valves",
+                                            "Data Acquisition Systems"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Instrumentation",
+                                            "Process Automation",
+                                            "Control Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "electrical_maintenance",
+                                        "name": "Electrical Maintenance & Safety",
+                                        "description": "Equipment maintenance, troubleshooting, and electrical safety",
+                                        "job_roles": [
+                                            "Electrical Maintenance Technician",
+                                            "Electrical Safety Officer",
+                                            "Preventive Maintenance Engineer",
+                                            "Electrical Troubleshooting Specialist",
+                                            "Facility Electrical Engineer",
+                                            "Electrical Inspector"
+                                        ],
+                                        "skills_required": [
+                                            "Electrical Troubleshooting",
+                                            "Preventive Maintenance",
+                                            "Electrical Safety Standards",
+                                            "Testing & Diagnostics",
+                                            "Repair Techniques",
+                                            "Documentation & Reporting"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Electrical",
+                                            "Safety Engineering",
+                                            "Facility Management"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "electronics_communication",
+                                "name": "Electronics & Communication Engineering",
+                                "description": "Electronics, telecommunications, and communication systems",
+                                "career_streams": [
+                                    {
+                                        "id": "telecommunications",
+                                        "name": "Telecommunications Engineering",
+                                        "description": "Telecom networks, mobile communication, and transmission systems",
+                                        "job_roles": [
+                                            "Telecom Technician",
+                                            "Network Installation Engineer",
+                                            "Mobile Tower Technician",
+                                            "Fiber Optic Technician",
+                                            "Telecom Field Engineer",
+                                            "Transmission Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Telecommunication Networks",
+                                            "Mobile Communication",
+                                            "Fiber Optics",
+                                            "RF Engineering Basics",
+                                            "Network Equipment",
+                                            "Signal Processing"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Telecom",
+                                            "Wireless Communication",
+                                            "5G Technology"
+                                        ]
+                                    },
+                                    {
+                                        "id": "embedded_systems",
+                                        "name": "Embedded Systems",
+                                        "description": "Microcontrollers, microprocessors, and embedded programming",
+                                        "job_roles": [
+                                            "Embedded Systems Technician",
+                                            "Firmware Developer",
+                                            "Microcontroller Programmer",
+                                            "Hardware Testing Engineer",
+                                            "IoT Device Technician",
+                                            "Embedded Design Assistant"
+                                        ],
+                                        "skills_required": [
+                                            "Microcontrollers (8051, ARM, PIC)",
+                                            "Embedded C Programming",
+                                            "Circuit Design",
+                                            "PCB Design Basics",
+                                            "Sensors & Actuators",
+                                            "Debugging Tools"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Embedded Systems",
+                                            "IoT Engineering",
+                                            "VLSI Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "vlsi_design",
+                                        "name": "VLSI Design",
+                                        "description": "Chip design, integrated circuits, and semiconductor technology",
+                                        "job_roles": [
+                                            "VLSI Design Trainee",
+                                            "Chip Testing Technician",
+                                            "Layout Designer",
+                                            "IC Fabrication Technician",
+                                            "Verification Engineer",
+                                            "CAD Tool Operator"
+                                        ],
+                                        "skills_required": [
+                                            "Digital Electronics",
+                                            "VLSI Design Basics",
+                                            "Verilog/VHDL Fundamentals",
+                                            "Circuit Simulation",
+                                            "Layout Design",
+                                            "Semiconductor Physics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech VLSI",
+                                            "Chip Design",
+                                            "Semiconductor Technology"
+                                        ]
+                                    },
+                                    {
+                                        "id": "consumer_electronics",
+                                        "name": "Consumer Electronics",
+                                        "description": "Home appliances, entertainment systems, and consumer devices",
+                                        "job_roles": [
+                                            "Electronics Service Technician",
+                                            "Consumer Electronics Repair Engineer",
+                                            "Product Testing Engineer",
+                                            "Quality Control Inspector (Electronics)",
+                                            "After-Sales Service Engineer",
+                                            "Electronics Showroom Technical Advisor"
+                                        ],
+                                        "skills_required": [
+                                            "Electronic Circuits",
+                                            "Troubleshooting & Repair",
+                                            "Consumer Product Knowledge",
+                                            "Testing Equipment",
+                                            "Customer Service",
+                                            "Product Assembly"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Electronics",
+                                            "Product Design",
+                                            "Quality Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "iot_smart_devices",
+                                        "name": "IoT & Smart Devices",
+                                        "description": "Internet of Things, smart home systems, and connected devices",
+                                        "job_roles": [
+                                            "IoT Technician",
+                                            "Smart Home Installer",
+                                            "IoT Device Programmer",
+                                            "Sensor Network Technician",
+                                            "IoT Testing Engineer",
+                                            "Smart Device Support Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "IoT Protocols (MQTT, CoAP)",
+                                            "Wireless Communication (WiFi, Bluetooth, Zigbee)",
+                                            "Sensor Integration",
+                                            "Cloud Basics (IoT Platforms)",
+                                            "Arduino/Raspberry Pi",
+                                            "Mobile App Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech IoT",
+                                            "Embedded IoT",
+                                            "Smart Systems"
+                                        ]
+                                    },
+                                    {
+                                        "id": "medical_electronics",
+                                        "name": "Medical Electronics",
+                                        "description": "Medical devices, diagnostic equipment, and healthcare electronics",
+                                        "job_roles": [
+                                            "Medical Equipment Technician",
+                                            "Biomedical Instrument Engineer",
+                                            "Hospital Equipment Maintenance",
+                                            "Diagnostic Equipment Operator",
+                                            "Medical Electronics Service Engineer",
+                                            "Healthcare Technology Support"
+                                        ],
+                                        "skills_required": [
+                                            "Medical Electronics",
+                                            "Biomedical Instrumentation",
+                                            "Patient Monitoring Systems",
+                                            "Diagnostic Equipment",
+                                            "Safety Standards (Medical)",
+                                            "Calibration & Maintenance"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Biomedical Engineering",
+                                            "Medical Devices",
+                                            "Healthcare Technology"
+                                        ]
+                                    },
+                                    {
+                                        "id": "signal_processing",
+                                        "name": "Signal Processing",
+                                        "description": "Audio, video, and digital signal processing",
+                                        "job_roles": [
+                                            "Signal Processing Technician",
+                                            "Audio Engineer",
+                                            "Video Processing Operator",
+                                            "DSP Application Engineer",
+                                            "Broadcasting Technician",
+                                            "Multimedia Systems Operator"
+                                        ],
+                                        "skills_required": [
+                                            "Analog & Digital Signal Processing",
+                                            "Audio/Video Systems",
+                                            "DSP Processors",
+                                            "Filtering Techniques",
+                                            "Data Acquisition",
+                                            "MATLAB Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Signal Processing",
+                                            "Audio Engineering",
+                                            "Multimedia Technology"
+                                        ]
+                                    },
+                                    {
+                                        "id": "rf_microwave",
+                                        "name": "RF & Microwave Engineering",
+                                        "description": "Radio frequency systems, antenna design, and wireless communication",
+                                        "job_roles": [
+                                            "RF Technician",
+                                            "Antenna Installation Engineer",
+                                            "Wireless Systems Technician",
+                                            "Satellite Communication Technician",
+                                            "RF Testing Engineer",
+                                            "Microwave Systems Operator"
+                                        ],
+                                        "skills_required": [
+                                            "RF Fundamentals",
+                                            "Antenna Theory",
+                                            "Microwave Engineering Basics",
+                                            "RF Test Equipment",
+                                            "Wireless Standards",
+                                            "EMI/EMC Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech RF Engineering",
+                                            "Antenna Design",
+                                            "Satellite Communication"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "computer_engineering",
+                                "name": "Computer Engineering / Information Technology",
+                                "description": "Computer systems, software, networking, and IT infrastructure",
+                                "career_streams": [
+                                    {
+                                        "id": "software_development",
+                                        "name": "Software Development",
+                                        "description": "Programming, application development, and software engineering",
+                                        "job_roles": [
+                                            "Junior Software Developer",
+                                            "Web Developer",
+                                            "Mobile App Developer (Trainee)",
+                                            "Software Tester",
+                                            "Frontend Developer",
+                                            "Backend Developer (Entry Level)"
+                                        ],
+                                        "skills_required": [
+                                            "Programming Languages (C, C++, Java, Python)",
+                                            "Web Technologies (HTML, CSS, JavaScript)",
+                                            "Database Basics (SQL)",
+                                            "Software Development Life Cycle",
+                                            "Version Control (Git)",
+                                            "Problem Solving"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Computer Science",
+                                            "Full Stack Development",
+                                            "Software Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "networking_systems",
+                                        "name": "Networking & System Administration",
+                                        "description": "Computer networks, server management, and IT infrastructure",
+                                        "job_roles": [
+                                            "Network Technician",
+                                            "System Administrator (Junior)",
+                                            "IT Support Engineer",
+                                            "Network Installation Engineer",
+                                            "Server Administrator",
+                                            "Help Desk Support"
+                                        ],
+                                        "skills_required": [
+                                            "Computer Networks (LAN, WAN)",
+                                            "Network Devices (Router, Switch, Firewall)",
+                                            "Windows/Linux Administration",
+                                            "Troubleshooting",
+                                            "Network Protocols (TCP/IP)",
+                                            "Cisco/Microsoft Certifications"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech IT/CS",
+                                            "CCNA",
+                                            "Network Security"
+                                        ]
+                                    },
+                                    {
+                                        "id": "database_management",
+                                        "name": "Database Management",
+                                        "description": "Database design, administration, and data management",
+                                        "job_roles": [
+                                            "Database Administrator (Junior)",
+                                            "Data Entry Specialist",
+                                            "Database Developer",
+                                            "SQL Developer",
+                                            "Data Analyst (Trainee)",
+                                            "Database Support Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Database Management Systems (MySQL, Oracle, SQL Server)",
+                                            "SQL Programming",
+                                            "Database Design",
+                                            "Data Backup & Recovery",
+                                            "Data Security",
+                                            "Performance Tuning Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech IT",
+                                            "Data Science",
+                                            "Database Administration"
+                                        ]
+                                    },
+                                    {
+                                        "id": "cybersecurity",
+                                        "name": "Cybersecurity",
+                                        "description": "Network security, ethical hacking, and information security",
+                                        "job_roles": [
+                                            "Cybersecurity Analyst (Trainee)",
+                                            "Security Operations Technician",
+                                            "Ethical Hacker (Entry Level)",
+                                            "Security Testing Engineer",
+                                            "Network Security Technician",
+                                            "IT Security Support"
+                                        ],
+                                        "skills_required": [
+                                            "Network Security Basics",
+                                            "Ethical Hacking Fundamentals",
+                                            "Firewall Configuration",
+                                            "Cryptography Basics",
+                                            "Vulnerability Assessment",
+                                            "Security Tools (Wireshark, Nmap)"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Cybersecurity",
+                                            "CEH",
+                                            "Information Security"
+                                        ]
+                                    },
+                                    {
+                                        "id": "cloud_computing",
+                                        "name": "Cloud Computing",
+                                        "description": "Cloud platforms, virtualization, and cloud services",
+                                        "job_roles": [
+                                            "Cloud Support Associate",
+                                            "Cloud Operations Technician",
+                                            "Junior Cloud Engineer",
+                                            "Virtualization Technician",
+                                            "Cloud Migration Assistant",
+                                            "DevOps Trainee"
+                                        ],
+                                        "skills_required": [
+                                            "Cloud Platforms (AWS, Azure, GCP Basics)",
+                                            "Virtualization (VMware, Hyper-V)",
+                                            "Linux Administration",
+                                            "Networking Basics",
+                                            "Scripting (Bash, Python)",
+                                            "Cloud Services Fundamentals"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Cloud Computing",
+                                            "AWS/Azure Certifications",
+                                            "DevOps"
+                                        ]
+                                    },
+                                    {
+                                        "id": "web_development",
+                                        "name": "Web Development & Design",
+                                        "description": "Website creation, web applications, and responsive design",
+                                        "job_roles": [
+                                            "Web Developer",
+                                            "Frontend Developer",
+                                            "UI Developer",
+                                            "WordPress Developer",
+                                            "Web Designer",
+                                            "E-commerce Developer"
+                                        ],
+                                        "skills_required": [
+                                            "HTML5, CSS3, JavaScript",
+                                            "Responsive Design",
+                                            "Frontend Frameworks (Bootstrap, React Basics)",
+                                            "CMS (WordPress, Joomla)",
+                                            "Web Hosting & Deployment",
+                                            "UI/UX Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech CS/IT",
+                                            "Full Stack Development",
+                                            "UI/UX Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "mobile_app_development",
+                                        "name": "Mobile Application Development",
+                                        "description": "Android and iOS app development",
+                                        "job_roles": [
+                                            "Mobile App Developer (Trainee)",
+                                            "Android Developer (Junior)",
+                                            "iOS Developer (Entry Level)",
+                                            "App Testing Engineer",
+                                            "Hybrid App Developer",
+                                            "Mobile UI Designer"
+                                        ],
+                                        "skills_required": [
+                                            "Java/Kotlin (Android)",
+                                            "Swift (iOS Basics)",
+                                            "Cross-Platform Frameworks (Flutter, React Native)",
+                                            "Mobile UI/UX",
+                                            "API Integration",
+                                            "App Store Deployment"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech CS",
+                                            "Mobile Development Specialization",
+                                            "App Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "hardware_maintenance",
+                                        "name": "Hardware & Maintenance",
+                                        "description": "Computer assembly, repair, and hardware troubleshooting",
+                                        "job_roles": [
+                                            "Computer Hardware Technician",
+                                            "Desktop Support Engineer",
+                                            "Laptop Repair Technician",
+                                            "Hardware Service Engineer",
+                                            "PC Assembly Technician",
+                                            "Peripheral Device Technician"
+                                        ],
+                                        "skills_required": [
+                                            "Computer Hardware Components",
+                                            "Troubleshooting & Repair",
+                                            "Operating Systems Installation",
+                                            "Peripheral Devices",
+                                            "BIOS Configuration",
+                                            "Customer Support"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech CS/IT",
+                                            "Hardware Certifications (A+)",
+                                            "Electronics"
+                                        ]
+                                    },
+                                    {
+                                        "id": "data_science_basics",
+                                        "name": "Data Science & Analytics (Fundamentals)",
+                                        "description": "Data analysis, visualization, and basic machine learning",
+                                        "job_roles": [
+                                            "Data Analyst (Trainee)",
+                                            "Junior Data Scientist",
+                                            "Business Intelligence Trainee",
+                                            "Data Visualization Specialist",
+                                            "Analytics Support Engineer",
+                                            "Research Data Analyst"
+                                        ],
+                                        "skills_required": [
+                                            "Python/R Programming Basics",
+                                            "Statistics Fundamentals",
+                                            "Data Visualization (Excel, Tableau Basics)",
+                                            "SQL",
+                                            "Data Cleaning",
+                                            "Machine Learning Basics"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Data Science",
+                                            "Analytics",
+                                            "Machine Learning"
+                                        ]
+                                    },
+                                    {
+                                        "id": "artificial_intelligence",
+                                        "name": "Artificial Intelligence & Machine Learning (Basics)",
+                                        "description": "Introduction to AI, ML algorithms, and intelligent systems",
+                                        "job_roles": [
+                                            "AI/ML Trainee",
+                                            "Machine Learning Intern",
+                                            "AI Application Tester",
+                                            "Computer Vision Trainee",
+                                            "NLP Analyst (Entry)",
+                                            "AI Support Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Python Programming",
+                                            "Machine Learning Algorithms Basics",
+                                            "Mathematics (Linear Algebra, Calculus)",
+                                            "TensorFlow/PyTorch Basics",
+                                            "Data Preprocessing",
+                                            "Problem Solving"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech AI/ML",
+                                            "Deep Learning",
+                                            "Computer Vision"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "chemical_engineering",
+                                "name": "Chemical Engineering",
+                                "description": "Chemical processes, production, and industrial chemistry",
+                                "career_streams": [
+                                    {
+                                        "id": "process_engineering",
+                                        "name": "Chemical Process Engineering",
+                                        "description": "Chemical plant operations, process control, and production",
+                                        "job_roles": [
+                                            "Process Technician",
+                                            "Chemical Plant Operator",
+                                            "Production Supervisor",
+                                            "Process Control Operator",
+                                            "Chemical Manufacturing Technician",
+                                            "Batch Processing Operator"
+                                        ],
+                                        "skills_required": [
+                                            "Chemical Processes",
+                                            "Process Equipment",
+                                            "Process Control",
+                                            "Unit Operations",
+                                            "Safety Protocols",
+                                            "Production Planning"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Chemical Engineering",
+                                            "Process Technology",
+                                            "Industrial Chemistry"
+                                        ]
+                                    },
+                                    {
+                                        "id": "quality_control_chemical",
+                                        "name": "Quality Control & Analysis",
+                                        "description": "Laboratory testing, quality assurance, and analytical chemistry",
+                                        "job_roles": [
+                                            "Quality Control Analyst",
+                                            "Chemical Lab Technician",
+                                            "QA Inspector (Chemical Industry)",
+                                            "Analytical Chemist",
+                                            "Testing Laboratory Technician",
+                                            "Quality Assurance Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Analytical Chemistry",
+                                            "Lab Equipment Operation",
+                                            "Quality Testing Methods",
+                                            "Chemical Analysis",
+                                            "ISO Standards",
+                                            "Documentation"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Chemical",
+                                            "Quality Management",
+                                            "Analytical Chemistry"
+                                        ]
+                                    },
+                                    {
+                                        "id": "petrochemical",
+                                        "name": "Petrochemical Engineering",
+                                        "description": "Oil refining, petroleum products, and petrochemical processing",
+                                        "job_roles": [
+                                            "Refinery Operator",
+                                            "Petrochemical Technician",
+                                            "Petroleum Processing Operator",
+                                            "Refinery Maintenance Technician",
+                                            "Crude Oil Analyst",
+                                            "Petrochemical Plant Operator"
+                                        ],
+                                        "skills_required": [
+                                            "Petroleum Refining",
+                                            "Petrochemical Processes",
+                                            "Distillation",
+                                            "Process Safety",
+                                            "Equipment Operation",
+                                            "Product Quality Control"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Petrochemical",
+                                            "Petroleum Engineering",
+                                            "Refinery Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "polymer_plastics",
+                                        "name": "Polymer & Plastics Engineering",
+                                        "description": "Polymer processing, plastics manufacturing, and material science",
+                                        "job_roles": [
+                                            "Polymer Processing Technician",
+                                            "Plastics Manufacturing Operator",
+                                            "Injection Molding Technician",
+                                            "Extrusion Operator",
+                                            "Polymer Testing Engineer",
+                                            "Plastics Quality Inspector"
+                                        ],
+                                        "skills_required": [
+                                            "Polymer Science",
+                                            "Plastics Processing",
+                                            "Molding Techniques",
+                                            "Material Testing",
+                                            "Process Optimization",
+                                            "Quality Control"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Polymer Engineering",
+                                            "Plastics Technology",
+                                            "Material Science"
+                                        ]
+                                    },
+                                    {
+                                        "id": "pharmaceutical_chemical",
+                                        "name": "Pharmaceutical Chemical Technology",
+                                        "description": "Drug manufacturing, pharmaceutical processes, and GMP",
+                                        "job_roles": [
+                                            "Pharmaceutical Production Technician",
+                                            "Drug Manufacturing Operator",
+                                            "Pharmaceutical QC Analyst",
+                                            "Formulation Technician",
+                                            "Pharma Plant Operator",
+                                            "GMP Compliance Officer"
+                                        ],
+                                        "skills_required": [
+                                            "Pharmaceutical Processes",
+                                            "GMP (Good Manufacturing Practices)",
+                                            "Drug Formulation",
+                                            "Quality Control",
+                                            "Clean Room Operations",
+                                            "Regulatory Compliance"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Pharmaceutical",
+                                            "B.Pharma",
+                                            "Drug Manufacturing"
+                                        ]
+                                    },
+                                    {
+                                        "id": "safety_environment_chemical",
+                                        "name": "Safety & Environmental Engineering",
+                                        "description": "Industrial safety, environmental protection, and waste management",
+                                        "job_roles": [
+                                            "Safety Officer (Chemical Industry)",
+                                            "Environmental Engineer",
+                                            "Hazardous Waste Manager",
+                                            "EHS Technician",
+                                            "Pollution Control Officer",
+                                            "Industrial Hygienist"
+                                        ],
+                                        "skills_required": [
+                                            "Industrial Safety",
+                                            "Environmental Regulations",
+                                            "Hazard Analysis",
+                                            "Waste Management",
+                                            "Emergency Response",
+                                            "Risk Assessment"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Safety Engineering",
+                                            "Environmental Management",
+                                            "Industrial Hygiene"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "textile_engineering",
+                                "name": "Textile Engineering / Technology",
+                                "description": "Textile manufacturing, fabric production, and garment technology",
+                                "career_streams": [
+                                    {
+                                        "id": "textile_manufacturing",
+                                        "name": "Textile Manufacturing",
+                                        "description": "Spinning, weaving, and fabric production processes",
+                                        "job_roles": [
+                                            "Textile Production Supervisor",
+                                            "Spinning Technician",
+                                            "Weaving Operator",
+                                            "Textile Mill Supervisor",
+                                            "Fabric Manufacturing Engineer",
+                                            "Textile Process Controller"
+                                        ],
+                                        "skills_required": [
+                                            "Textile Machinery",
+                                            "Spinning Technology",
+                                            "Weaving Processes",
+                                            "Fabric Production",
+                                            "Quality Control",
+                                            "Process Optimization"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Textile Engineering",
+                                            "Fashion Technology",
+                                            "Textile Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "garment_technology",
+                                        "name": "Garment & Apparel Technology",
+                                        "description": "Garment production, pattern making, and apparel manufacturing",
+                                        "job_roles": [
+                                            "Garment Production Supervisor",
+                                            "Pattern Making Technician",
+                                            "Apparel Quality Controller",
+                                            "Cutting Room Supervisor",
+                                            "Sewing Production Engineer",
+                                            "Garment Export Coordinator"
+                                        ],
+                                        "skills_required": [
+                                            "Garment Construction",
+                                            "Pattern Making",
+                                            "CAD for Apparel",
+                                            "Production Planning (Garments)",
+                                            "Quality Standards",
+                                            "Industrial Sewing"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Garment Technology",
+                                            "Fashion Design",
+                                            "Apparel Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "textile_design",
+                                        "name": "Textile Design & Printing",
+                                        "description": "Fabric design, textile printing, and color technology",
+                                        "job_roles": [
+                                            "Textile Designer",
+                                            "Fabric Print Designer",
+                                            "Color Technologist",
+                                            "Textile CAD Designer",
+                                            "Print Production Supervisor",
+                                            "Dyeing Specialist"
+                                        ],
+                                        "skills_required": [
+                                            "Textile Design",
+                                            "Fabric Printing",
+                                            "Color Matching",
+                                            "Dyeing Technology",
+                                            "CAD for Textiles",
+                                            "Surface Design"
+                                        ],
+                                        "further_education": [
+                                            "B.Des Textile Design",
+                                            "Fashion Design",
+                                            "Surface Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "textile_chemistry",
+                                        "name": "Textile Chemistry & Processing",
+                                        "description": "Textile wet processing, dyeing, and chemical treatment",
+                                        "job_roles": [
+                                            "Textile Chemist",
+                                            "Dyeing & Finishing Technician",
+                                            "Textile Processing Engineer",
+                                            "Wet Processing Supervisor",
+                                            "Textile Lab Analyst",
+                                            "Chemical Application Specialist"
+                                        ],
+                                        "skills_required": [
+                                            "Textile Chemistry",
+                                            "Dyeing Processes",
+                                            "Finishing Techniques",
+                                            "Wet Processing",
+                                            "Chemical Testing",
+                                            "Color Fastness Testing"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Textile Chemistry",
+                                            "Chemical Processing",
+                                            "Textile Science"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "architecture_drafting",
+                                "name": "Architectural Assistantship / Drafting",
+                                "description": "Architectural drawing, building design assistance, and drafting",
+                                "career_streams": [
+                                    {
+                                        "id": "architectural_drafting",
+                                        "name": "Architectural Drafting & CAD",
+                                        "description": "Architectural drawings, 2D/3D modeling, and design visualization",
+                                        "job_roles": [
+                                            "Architectural Draughtsman",
+                                            "CAD Technician (Architecture)",
+                                            "Building Design Assistant",
+                                            "3D Visualization Specialist",
+                                            "Architectural Design Trainee",
+                                            "BIM Modeler (Entry Level)"
+                                        ],
+                                        "skills_required": [
+                                            "AutoCAD Architecture",
+                                            "Architectural Drawing",
+                                            "3D Modeling (SketchUp, Revit)",
+                                            "Building Codes",
+                                            "Construction Details",
+                                            "Rendering & Visualization"
+                                        ],
+                                        "further_education": [
+                                            "B.Arch",
+                                            "BIM Specialist",
+                                            "Interior Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "building_estimation",
+                                        "name": "Building Estimation & Quantity Surveying",
+                                        "description": "Cost estimation, material quantification, and project budgeting",
+                                        "job_roles": [
+                                            "Quantity Surveyor Assistant",
+                                            "Estimation Engineer",
+                                            "Cost Estimator",
+                                            "Material Quantity Analyst",
+                                            "Billing Engineer",
+                                            "Project Costing Specialist"
+                                        ],
+                                        "skills_required": [
+                                            "Quantity Take-off",
+                                            "Cost Estimation",
+                                            "Building Materials Knowledge",
+                                            "Rate Analysis",
+                                            "Excel for Estimation",
+                                            "Construction Economics"
+                                        ],
+                                        "further_education": [
+                                            "B.Arch",
+                                            "Quantity Surveying",
+                                            "Construction Management"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "agriculture_engineering",
+                                "name": "Agriculture Engineering",
+                                "description": "Agricultural machinery, irrigation, and farm technology",
+                                "career_streams": [
+                                    {
+                                        "id": "farm_mechanization",
+                                        "name": "Farm Mechanization",
+                                        "description": "Agricultural machinery operation, maintenance, and farm equipment",
+                                        "job_roles": [
+                                            "Farm Machinery Operator",
+                                            "Tractor Mechanic",
+                                            "Agricultural Equipment Technician",
+                                            "Farm Machinery Service Engineer",
+                                            "Harvester Operator",
+                                            "Agricultural Workshop Supervisor"
+                                        ],
+                                        "skills_required": [
+                                            "Farm Machinery",
+                                            "Tractor Technology",
+                                            "Equipment Maintenance",
+                                            "Agricultural Operations",
+                                            "Mechanical Repairs",
+                                            "Hydraulic Systems"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Agriculture Engineering",
+                                            "Farm Management",
+                                            "Agricultural Mechanization"
+                                        ]
+                                    },
+                                    {
+                                        "id": "irrigation_water_management",
+                                        "name": "Irrigation & Water Management",
+                                        "description": "Irrigation systems, water conservation, and precision agriculture",
+                                        "job_roles": [
+                                            "Irrigation Engineer",
+                                            "Drip Irrigation Specialist",
+                                            "Water Management Technician",
+                                            "Sprinkler System Installer",
+                                            "Precision Agriculture Technician",
+                                            "Farm Water Consultant"
+                                        ],
+                                        "skills_required": [
+                                            "Irrigation Systems Design",
+                                            "Water Management",
+                                            "Drip & Sprinkler Systems",
+                                            "Soil-Water Relations",
+                                            "Pump Technology",
+                                            "Precision Agriculture"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Irrigation",
+                                            "Water Resources",
+                                            "Precision Agriculture"
+                                        ]
+                                    },
+                                    {
+                                        "id": "post_harvest_technology",
+                                        "name": "Post-Harvest Technology & Processing",
+                                        "description": "Food processing, storage, and agricultural product handling",
+                                        "job_roles": [
+                                            "Food Processing Technician",
+                                            "Grain Storage Manager",
+                                            "Agricultural Product Inspector",
+                                            "Cold Storage Operator",
+                                            "Food Preservation Technician",
+                                            "Agro-Processing Supervisor"
+                                        ],
+                                        "skills_required": [
+                                            "Post-Harvest Handling",
+                                            "Food Processing",
+                                            "Storage Technology",
+                                            "Quality Control",
+                                            "Preservation Methods",
+                                            "Food Safety"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Food Technology",
+                                            "Post-Harvest Management",
+                                            "Food Processing"
+                                        ]
+                                    },
+                                    {
+                                        "id": "renewable_energy_agriculture",
+                                        "name": "Renewable Energy in Agriculture",
+                                        "description": "Solar pumps, biogas, and renewable energy for farming",
+                                        "job_roles": [
+                                            "Solar Pump Installer",
+                                            "Biogas Plant Technician",
+                                            "Rural Energy Technician",
+                                            "Farm Renewable Energy Consultant",
+                                            "Agricultural Energy Systems Engineer",
+                                            "Solar Irrigation Specialist"
+                                        ],
+                                        "skills_required": [
+                                            "Solar Energy Systems",
+                                            "Biogas Technology",
+                                            "Renewable Energy Basics",
+                                            "Solar Pumping",
+                                            "Energy Efficiency",
+                                            "Rural Electrification"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Renewable Energy",
+                                            "Sustainable Agriculture",
+                                            "Rural Technology"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "mining_engineering",
+                                "name": "Mining Engineering",
+                                "description": "Mining operations, mineral extraction, and mine safety",
+                                "career_streams": [
+                                    {
+                                        "id": "mining_operations",
+                                        "name": "Mining Operations",
+                                        "description": "Mineral extraction, mine planning, and production",
+                                        "job_roles": [
+                                            "Mining Technician",
+                                            "Mine Surveyor",
+                                            "Blasting Technician",
+                                            "Drilling Operator",
+                                            "Mine Production Supervisor",
+                                            "Mineral Processing Operator"
+                                        ],
+                                        "skills_required": [
+                                            "Mining Methods",
+                                            "Mine Surveying",
+                                            "Drilling & Blasting",
+                                            "Rock Mechanics",
+                                            "Mineral Processing",
+                                            "Mine Planning"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Mining Engineering",
+                                            "Mineral Processing",
+                                            "Mine Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "mine_safety",
+                                        "name": "Mine Safety & Environment",
+                                        "description": "Mine safety, ventilation, and environmental compliance",
+                                        "job_roles": [
+                                            "Mine Safety Officer",
+                                            "Ventilation Technician",
+                                            "Mine Rescue Team Member",
+                                            "Environmental Compliance Officer",
+                                            "Safety Inspector (Mines)",
+                                            "Mine Health Supervisor"
+                                        ],
+                                        "skills_required": [
+                                            "Mine Safety Regulations",
+                                            "Ventilation Systems",
+                                            "Emergency Response",
+                                            "Environmental Protection",
+                                            "Gas Detection",
+                                            "Safety Audits"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Mining",
+                                            "Industrial Safety",
+                                            "Environmental Management"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "printing_technology",
+                                "name": "Printing Technology",
+                                "description": "Printing processes, press operations, and graphic reproduction",
+                                "career_streams": [
+                                    {
+                                        "id": "offset_printing",
+                                        "name": "Offset & Digital Printing",
+                                        "description": "Offset press operation, digital printing, and production",
+                                        "job_roles": [
+                                            "Printing Press Operator",
+                                            "Digital Printing Technician",
+                                            "Pre-Press Operator",
+                                            "Offset Machine Operator",
+                                            "Print Production Supervisor",
+                                            "Quality Controller (Printing)"
+                                        ],
+                                        "skills_required": [
+                                            "Offset Printing",
+                                            "Digital Printing Technology",
+                                            "Pre-Press Operations",
+                                            "Color Management",
+                                            "Print Quality Control",
+                                            "Production Planning"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Printing",
+                                            "Graphic Arts",
+                                            "Print Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "packaging_printing",
+                                        "name": "Packaging & Flexographic Printing",
+                                        "description": "Packaging design, flexo printing, and label production",
+                                        "job_roles": [
+                                            "Flexographic Press Operator",
+                                            "Packaging Print Technician",
+                                            "Label Printing Operator",
+                                            "Packaging Designer",
+                                            "Flexo Production Supervisor",
+                                            "Packaging Quality Inspector"
+                                        ],
+                                        "skills_required": [
+                                            "Flexographic Printing",
+                                            "Packaging Technology",
+                                            "Label Production",
+                                            "Substrate Knowledge",
+                                            "Print Finishing",
+                                            "Design for Packaging"
+                                        ],
+                                        "further_education": [
+                                            "B.Tech Printing",
+                                            "Packaging Technology",
+                                            "Graphic Design"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "iti_courses",
+                        "name": "ITI (Industrial Training Institute) Courses",
+                        "duration": "1-2 years",
+                        "eligibility": "10th pass (course dependent)",
+                        "description": "Skill-based vocational training for immediate employment",
+                        "branches": [
+                            {
+                                "id": "iti_engineering_trades",
+                                "name": "Engineering Trades",
+                                "description": "Technical and mechanical skill-based trades",
+                                "career_streams": [
+                                    {
+                                        "id": "electrician_iti",
+                                        "name": "Electrician",
+                                        "description": "Electrical wiring, installation, and maintenance work",
+                                        "job_roles": [
+                                            "Electrician",
+                                            "Wireman",
+                                            "Electrical Installer",
+                                            "Maintenance Electrician",
+                                            "Panel Wireman",
+                                            "Industrial Electrician"
+                                        ],
+                                        "skills_required": [
+                                            "Electrical Wiring",
+                                            "Circuit Installation",
+                                            "Electrical Safety",
+                                            "Troubleshooting",
+                                            "Measuring Instruments",
+                                            "Blueprint Reading"
+                                        ],
+                                        "further_education": [
+                                            "Supervisor Training",
+                                            "Diploma in Electrical",
+                                            "Solar Installation"
+                                        ]
+                                    },
+                                    {
+                                        "id": "fitter_iti",
+                                        "name": "Fitter",
+                                        "description": "Fitting, assembling, and maintaining machinery",
+                                        "job_roles": [
+                                            "Fitter",
+                                            "Mechanical Fitter",
+                                            "Machine Assembler",
+                                            "Maintenance Fitter",
+                                            "Workshop Fitter",
+                                            "Industrial Fitter"
+                                        ],
+                                        "skills_required": [
+                                            "Hand Tools Usage",
+                                            "Machine Tools",
+                                            "Precision Measurement",
+                                            "Fitting Techniques",
+                                            "Assembly Work",
+                                            "Blueprint Reading"
+                                        ],
+                                        "further_education": [
+                                            "Advanced Fitting",
+                                            "CNC Operation",
+                                            "Diploma in Mechanical"
+                                        ]
+                                    },
+                                    {
+                                        "id": "welder_iti",
+                                        "name": "Welder",
+                                        "description": "Welding and metal joining processes",
+                                        "job_roles": [
+                                            "Welder",
+                                            "Fabricator",
+                                            "TIG/MIG Welder",
+                                            "Structural Welder",
+                                            "Pipeline Welder",
+                                            "Welding Inspector"
+                                        ],
+                                        "skills_required": [
+                                            "Arc Welding",
+                                            "Gas Welding",
+                                            "TIG/MIG Welding",
+                                            "Metal Fabrication",
+                                            "Welding Safety",
+                                            "Blueprint Reading"
+                                        ],
+                                        "further_education": [
+                                            "Advanced Welding",
+                                            "Welding Inspector Certification",
+                                            "NDT"
+                                        ]
+                                    },
+                                    {
+                                        "id": "machinist_iti",
+                                        "name": "Machinist",
+                                        "description": "Machine operation and precision machining",
+                                        "job_roles": [
+                                            "Machinist",
+                                            "Lathe Operator",
+                                            "CNC Operator",
+                                            "Milling Machine Operator",
+                                            "Grinding Operator",
+                                            "Tool Room Machinist"
+                                        ],
+                                        "skills_required": [
+                                            "Lathe Operation",
+                                            "Milling Operations",
+                                            "Precision Measurement",
+                                            "CNC Basics",
+                                            "Tool Selection",
+                                            "Blueprint Reading"
+                                        ],
+                                        "further_education": [
+                                            "CNC Programming",
+                                            "Advanced Machining",
+                                            "CAD/CAM"
+                                        ]
+                                    },
+                                    {
+                                        "id": "turner_iti",
+                                        "name": "Turner",
+                                        "description": "Lathe work and cylindrical component machining",
+                                        "job_roles": [
+                                            "Turner",
+                                            "Lathe Operator",
+                                            "Precision Turner",
+                                            "CNC Turner",
+                                            "Production Turner",
+                                            "Job Work Turner"
+                                        ],
+                                        "skills_required": [
+                                            "Lathe Operations",
+                                            "Turning Techniques",
+                                            "Precision Measurement",
+                                            "Tool Grinding",
+                                            "Metal Cutting Theory",
+                                            "Quality Inspection"
+                                        ],
+                                        "further_education": [
+                                            "CNC Turning",
+                                            "Advanced Turning",
+                                            "Production Technology"
+                                        ]
+                                    },
+                                    {
+                                        "id": "plumber_iti",
+                                        "name": "Plumber",
+                                        "description": "Plumbing installation and maintenance",
+                                        "job_roles": [
+                                            "Plumber",
+                                            "Pipefitter",
+                                            "Plumbing Contractor",
+                                            "Maintenance Plumber",
+                                            "Industrial Plumber",
+                                            "Sanitary Inspector"
+                                        ],
+                                        "skills_required": [
+                                            "Pipe Fitting",
+                                            "Plumbing Systems",
+                                            "Water Supply Installation",
+                                            "Drainage Systems",
+                                            "Fixture Installation",
+                                            "Plumbing Tools"
+                                        ],
+                                        "further_education": [
+                                            "Advanced Plumbing",
+                                            "Fire Fighting Systems",
+                                            "Building Services"
+                                        ]
+                                    },
+                                    {
+                                        "id": "electronics_mechanic_iti",
+                                        "name": "Electronics Mechanic",
+                                        "description": "Electronic equipment repair and maintenance",
+                                        "job_roles": [
+                                            "Electronics Mechanic",
+                                            "Electronic Equipment Technician",
+                                            "TV/Audio Repair Technician",
+                                            "Consumer Electronics Service",
+                                            "Electronics Assembly Worker",
+                                            "Industrial Electronics Technician"
+                                        ],
+                                        "skills_required": [
+                                            "Electronic Circuits",
+                                            "Troubleshooting",
+                                            "Component Testing",
+                                            "PCB Repair",
+                                            "Soldering",
+                                            "Testing Equipment"
+                                        ],
+                                        "further_education": [
+                                            "Diploma in Electronics",
+                                            "Mobile Repairing",
+                                            "Industrial Electronics"
+                                        ]
+                                    },
+                                    {
+                                        "id": "refrigeration_ac_mechanic_iti",
+                                        "name": "Refrigeration & AC Mechanic",
+                                        "description": "Cooling systems installation and repair",
+                                        "job_roles": [
+                                            "RAC Mechanic",
+                                            "AC Technician",
+                                            "Refrigeration Technician",
+                                            "HVAC Service Engineer",
+                                            "Cold Storage Technician",
+                                            "Chiller Mechanic"
+                                        ],
+                                        "skills_required": [
+                                            "Refrigeration Principles",
+                                            "AC Installation",
+                                            "System Troubleshooting",
+                                            "Refrigerant Handling",
+                                            "Electrical Basics",
+                                            "Preventive Maintenance"
+                                        ],
+                                        "further_education": [
+                                            "HVAC Technician",
+                                            "Diploma in RAC",
+                                            "Industrial Refrigeration"
+                                        ]
+                                    },
+                                    {
+                                        "id": "draughtsman_iti",
+                                        "name": "Draughtsman (Mechanical/Civil)",
+                                        "description": "Technical drawing and CAD drafting",
+                                        "job_roles": [
+                                            "Draughtsman",
+                                            "CAD Operator",
+                                            "Design Assistant",
+                                            "Technical Illustrator",
+                                            "Production Draughtsman",
+                                            "Detailing Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Engineering Drawing",
+                                            "AutoCAD",
+                                            "Technical Sketching",
+                                            "Blueprint Reading",
+                                            "GD&T Basics",
+                                            "3D Modeling Basics"
+                                        ],
+                                        "further_education": [
+                                            "Advanced CAD",
+                                            "3D Modeling",
+                                            "Diploma in Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "mechanic_motor_vehicle_iti",
+                                        "name": "Mechanic Motor Vehicle",
+                                        "description": "Automobile repair and maintenance",
+                                        "job_roles": [
+                                            "Motor Vehicle Mechanic",
+                                            "Car Mechanic",
+                                            "Bike Mechanic",
+                                            "Service Station Technician",
+                                            "Automotive Workshop Manager",
+                                            "Fleet Maintenance Mechanic"
+                                        ],
+                                        "skills_required": [
+                                            "Engine Repair",
+                                            "Vehicle Diagnostics",
+                                            "Brake Systems",
+                                            "Electrical Systems",
+                                            "Transmission Repair",
+                                            "Preventive Maintenance"
+                                        ],
+                                        "further_education": [
+                                            "Advanced Automobile",
+                                            "EV Technology",
+                                            "Automotive Engineering"
+                                        ]
+                                    },
+                                    {
+                                        "id": "tool_die_maker_iti",
+                                        "name": "Tool & Die Maker",
+                                        "description": "Precision tool and die manufacturing",
+                                        "job_roles": [
+                                            "Tool & Die Maker",
+                                            "Mold Maker",
+                                            "Precision Toolmaker",
+                                            "Die Designer",
+                                            "Jig & Fixture Maker",
+                                            "Tool Room Engineer"
+                                        ],
+                                        "skills_required": [
+                                            "Precision Machining",
+                                            "Tool Making",
+                                            "Die Design Basics",
+                                            "Heat Treatment",
+                                            "Grinding Operations",
+                                            "Measurement & Inspection"
+                                        ],
+                                        "further_education": [
+                                            "Advanced Tool Making",
+                                            "CNC Milling",
+                                            "Die Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "foundryman_iti",
+                                        "name": "Foundryman",
+                                        "description": "Metal casting and foundry operations",
+                                        "job_roles": [
+                                            "Foundryman",
+                                            "Molder",
+                                            "Casting Technician",
+                                            "Core Maker",
+                                            "Foundry Supervisor",
+                                            "Pattern Maker"
+                                        ],
+                                        "skills_required": [
+                                            "Molding Techniques",
+                                            "Metal Casting",
+                                            "Pattern Making",
+                                            "Core Making",
+                                            "Melting Operations",
+                                            "Foundry Safety"
+                                        ],
+                                        "further_education": [
+                                            "Advanced Foundry",
+                                            "Metallurgy",
+                                            "Casting Technology"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "iti_non_engineering_trades",
+                                "name": "Non-Engineering Trades",
+                                "description": "Service and administrative skill-based trades",
+                                "career_streams": [
+                                    {
+                                        "id": "copa_iti",
+                                        "name": "COPA (Computer Operator & Programming Assistant)",
+                                        "description": "Computer operations and basic programming",
+                                        "job_roles": [
+                                            "Computer Operator",
+                                            "Data Entry Operator",
+                                            "Office Assistant",
+                                            "Desktop Publishing Operator",
+                                            "IT Support Trainee",
+                                            "Junior Programmer"
+                                        ],
+                                        "skills_required": [
+                                            "MS Office",
+                                            "Data Entry",
+                                            "Basic Programming (C, C++)",
+                                            "Internet Applications",
+                                            "Database Basics",
+                                            "Typing Speed"
+                                        ],
+                                        "further_education": [
+                                            "Web Development",
+                                            "Programming Courses",
+                                            "Diploma in CS/IT"
+                                        ]
+                                    },
+                                    {
+                                        "id": "stenography_iti",
+                                        "name": "Stenography (Hindi/English)",
+                                        "description": "Shorthand writing and office documentation",
+                                        "job_roles": [
+                                            "Stenographer",
+                                            "Personal Assistant",
+                                            "Office Secretary",
+                                            "Court Reporter",
+                                            "Transcriptionist",
+                                            "Legal Stenographer"
+                                        ],
+                                        "skills_required": [
+                                            "Shorthand (Hindi/English)",
+                                            "Typing Speed",
+                                            "MS Office",
+                                            "Documentation",
+                                            "Communication",
+                                            "Office Management"
+                                        ],
+                                        "further_education": [
+                                            "Secretarial Practice",
+                                            "Office Management",
+                                            "BBA"
+                                        ]
+                                    },
+                                    {
+                                        "id": "commercial_art_iti",
+                                        "name": "Commercial Art",
+                                        "description": "Graphic design, illustration, and visual communication",
+                                        "job_roles": [
+                                            "Commercial Artist",
+                                            "Graphic Designer",
+                                            "Illustrator",
+                                            "Layout Designer",
+                                            "Advertising Artist",
+                                            "Digital Artist"
+                                        ],
+                                        "skills_required": [
+                                            "Drawing & Sketching",
+                                            "Graphic Design Software",
+                                            "Layout Design",
+                                            "Color Theory",
+                                            "Typography",
+                                            "Creative Thinking"
+                                        ],
+                                        "further_education": [
+                                            "Graphic Design",
+                                            "Fine Arts",
+                                            "Digital Marketing"
+                                        ]
+                                    },
+                                    {
+                                        "id": "dress_making_iti",
+                                        "name": "Dress Making",
+                                        "description": "Garment construction and tailoring",
+                                        "job_roles": [
+                                            "Tailor",
+                                            "Dress Maker",
+                                            "Fashion Tailor",
+                                            "Alteration Specialist",
+                                            "Boutique Owner",
+                                            "Costume Designer"
+                                        ],
+                                        "skills_required": [
+                                            "Sewing Techniques",
+                                            "Pattern Making",
+                                            "Fabric Selection",
+                                            "Garment Construction",
+                                            "Measurements",
+                                            "Design Basics"
+                                        ],
+                                        "further_education": [
+                                            "Fashion Design",
+                                            "Garment Technology",
+                                            "Boutique Management"
+                                        ]
+                                    },
+                                    {
+                                        "id": "hair_skin_care_iti",
+                                        "name": "Hair & Skin Care",
+                                        "description": "Beauty treatments and cosmetology",
+                                        "job_roles": [
+                                            "Beautician",
+                                            "Hair Stylist",
+                                            "Makeup Artist",
+                                            "Salon Manager",
+                                            "Beauty Consultant",
+                                            "Spa Therapist"
+                                        ],
+                                        "skills_required": [
+                                            "Hair Cutting & Styling",
+                                            "Skin Care Treatments",
+                                            "Makeup Application",
+                                            "Beauty Product Knowledge",
+                                            "Customer Service",
+                                            "Hygiene & Safety"
+                                        ],
+                                        "further_education": [
+                                            "Advanced Cosmetology",
+                                            "Spa Management",
+                                            "Makeup Artistry"
+                                        ]
+                                    },
+                                    {
+                                        "id": "secretarial_practice_iti",
+                                        "name": "Secretarial Practice",
+                                        "description": "Office administration and secretarial skills",
+                                        "job_roles": [
+                                            "Secretary",
+                                            "Office Administrator",
+                                            "Executive Assistant",
+                                            "Front Office Executive",
+                                            "Administrative Coordinator",
+                                            "Office Manager"
+                                        ],
+                                        "skills_required": [
+                                            "Office Management",
+                                            "MS Office",
+                                            "Communication",
+                                            "Scheduling",
+                                            "Documentation",
+                                            "Professional Etiquette"
+                                        ],
+                                        "further_education": [
+                                            "Office Management",
+                                            "BBA",
+                                            "Executive Assistant Training"
+                                        ]
+                                    },
+                                    {
+                                        "id": "leather_goods_maker_iti",
+                                        "name": "Leather Goods Maker",
+                                        "description": "Leather products manufacturing and design",
+                                        "job_roles": [
+                                            "Leather Craftsman",
+                                            "Leather Goods Maker",
+                                            "Bag Maker",
+                                            "Leather Product Designer",
+                                            "Footwear Maker",
+                                            "Leather Workshop Supervisor"
+                                        ],
+                                        "skills_required": [
+                                            "Leather Cutting",
+                                            "Stitching Techniques",
+                                            "Product Design",
+                                            "Leather Treatment",
+                                            "Quality Control",
+                                            "Tool Usage"
+                                        ],
+                                        "further_education": [
+                                            "Leather Technology",
+                                            "Product Design",
+                                            "Footwear Design"
+                                        ]
+                                    },
+                                    {
+                                        "id": "food_production_iti",
+                                        "name": "Food Production (General)",
+                                        "description": "Cooking and food preparation",
+                                        "job_roles": [
+                                            "Cook",
+                                            "Commis Chef",
+                                            "Kitchen Supervisor",
+                                            "Food Production Assistant",
+                                            "Catering Staff",
+                                            "Bakery Assistant"
+                                        ],
+                                        "skills_required": [
+                                            "Cooking Techniques",
+                                            "Food Safety",
+                                            "Menu Planning",
+                                            "Kitchen Management",
+                                            "Food Presentation",
+                                            "Knife Skills"
+                                        ],
+                                        "further_education": [
+                                            "Hotel Management",
+                                            "Culinary Arts",
+                                            "Bakery & Confectionery"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

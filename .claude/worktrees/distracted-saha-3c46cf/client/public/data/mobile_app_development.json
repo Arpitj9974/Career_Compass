@@ -1,0 +1,28 @@
+{
+  "id": "mobile_app_development",
+  "label": "Mobile Application Development",
+  "description": "Android and iOS app development",
+  "job_roles": [
+    "Mobile App Developer (Trainee)",
+    "Android Developer (Junior)",
+    "iOS Developer (Entry Level)",
+    "App Testing Engineer",
+    "Hybrid App Developer",
+    "Mobile UI Designer"
+  ],
+  "skills_required": [
+    "Java/Kotlin (Android)",
+    "Swift (iOS Basics)",
+    "Cross-Platform Frameworks (Flutter, React Native)",
+    "Mobile UI/UX",
+    "API Integration",
+    "App Store Deployment"
+  ],
+  "further_education": [
+    "B.Tech CS",
+    "Mobile Development Specialization",
+    "App Design"
+  ],
+  "parentId": "computer_engineering",
+  "children": []
+}

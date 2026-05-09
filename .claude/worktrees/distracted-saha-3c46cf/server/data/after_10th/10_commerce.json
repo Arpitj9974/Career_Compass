@@ -1,0 +1,48 @@
+{
+    "id": "10_commerce",
+    "title": "Commerce & Business",
+    "label": "📊 Commerce & Business",
+    "description": "Business, finance, accountancy, and corporate laws",
+    "children": [
+        {
+            "id": "commerce_professional",
+            "title": "Professional Certifications",
+            "label": "🏆 Professional Certifications",
+            "description": "Chartered Accountancy, Company Secretary, and Cost Management",
+            "duration": "3-5 years",
+            "eligibility": "12th Commerce (Foundation Route)",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "commerce_degrees",
+            "title": "Degree Courses (B.Com / BBA)",
+            "label": "🎓 Degree Courses",
+            "description": "Undergraduate degrees in Commerce and Business Administration",
+            "duration": "3-4 years",
+            "eligibility": "12th Pass",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "commerce_finance",
+            "title": "Finance & Economics",
+            "label": "📈 Finance & Economics",
+            "description": "Economics, financial markets, and investment banking",
+            "duration": "3 years",
+            "eligibility": "12th Commerce/Science",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "commerce_law",
+            "title": "Law (Integrated)",
+            "label": "⚖️ Law (Integrated)",
+            "description": "Integrated law degrees (BA LLB / BBA LLB)",
+            "duration": "5 years",
+            "eligibility": "12th Pass (CLAT/AILET)",
+            "lazy": true,
+            "children": []
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mining_operations",
+  "label": "Mining Operations",
+  "description": "Mineral extraction, mine planning, and production",
+  "job_roles": [
+    "Mining Technician",
+    "Mine Surveyor",
+    "Blasting Technician",
+    "Drilling Operator",
+    "Mine Production Supervisor",
+    "Mineral Processing Operator"
+  ],
+  "skills_required": [
+    "Mining Methods",
+    "Mine Surveying",
+    "Drilling & Blasting",
+    "Rock Mechanics",
+    "Mineral Processing",
+    "Mine Planning"
+  ],
+  "further_education": [
+    "B.Tech Mining Engineering",
+    "Mineral Processing",
+    "Mine Management"
+  ],
+  "parentId": "mining_engineering",
+  "children": []
+}

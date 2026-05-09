@@ -1,0 +1,36 @@
+{
+  "id": "agriculture_engineering",
+  "label": "Agriculture Engineering",
+  "description": "Agricultural machinery, irrigation, and farm technology",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "farm_mechanization",
+      "label": "Farm Mechanization",
+      "lazy": true,
+      "description": "Agricultural machinery operation, maintenance, and farm equipment",
+      "children": []
+    },
+    {
+      "id": "irrigation_water_management",
+      "label": "Irrigation & Water Management",
+      "lazy": true,
+      "description": "Irrigation systems, water conservation, and precision agriculture",
+      "children": []
+    },
+    {
+      "id": "post_harvest_technology",
+      "label": "Post-Harvest Technology & Processing",
+      "lazy": true,
+      "description": "Food processing, storage, and agricultural product handling",
+      "children": []
+    },
+    {
+      "id": "renewable_energy_agriculture",
+      "label": "Renewable Energy in Agriculture",
+      "lazy": true,
+      "description": "Solar pumps, biogas, and renewable energy for farming",
+      "children": []
+    }
+  ]
+}

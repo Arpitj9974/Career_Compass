@@ -1,0 +1,28 @@
+{
+  "id": "farm_mechanization",
+  "label": "Farm Mechanization",
+  "description": "Agricultural machinery operation, maintenance, and farm equipment",
+  "job_roles": [
+    "Farm Machinery Operator",
+    "Tractor Mechanic",
+    "Agricultural Equipment Technician",
+    "Farm Machinery Service Engineer",
+    "Harvester Operator",
+    "Agricultural Workshop Supervisor"
+  ],
+  "skills_required": [
+    "Farm Machinery",
+    "Tractor Technology",
+    "Equipment Maintenance",
+    "Agricultural Operations",
+    "Mechanical Repairs",
+    "Hydraulic Systems"
+  ],
+  "further_education": [
+    "B.Tech Agriculture Engineering",
+    "Farm Management",
+    "Agricultural Mechanization"
+  ],
+  "parentId": "agriculture_engineering",
+  "children": []
+}

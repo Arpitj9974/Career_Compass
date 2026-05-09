@@ -1,0 +1,28 @@
+{
+  "id": "copa_iti",
+  "label": "COPA (Computer Operator & Programming Assistant)",
+  "description": "Computer operations and basic programming",
+  "job_roles": [
+    "Computer Operator",
+    "Data Entry Operator",
+    "Office Assistant",
+    "Desktop Publishing Operator",
+    "IT Support Trainee",
+    "Junior Programmer"
+  ],
+  "skills_required": [
+    "MS Office",
+    "Data Entry",
+    "Basic Programming (C, C++)",
+    "Internet Applications",
+    "Database Basics",
+    "Typing Speed"
+  ],
+  "further_education": [
+    "Web Development",
+    "Programming Courses",
+    "Diploma in CS/IT"
+  ],
+  "parentId": "iti_non_engineering_trades",
+  "children": []
+}

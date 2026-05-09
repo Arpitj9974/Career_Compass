@@ -1,0 +1,182 @@
+{
+    "id": "nursing",
+    "title": "Nursing",
+    "label": "💉 Nursing",
+    "description": "Patient care, medical assistance, and healthcare nursing",
+    "children": [
+        {
+            "id": "general_nursing_midwifery",
+            "title": "General Nursing & Midwifery (GNM)",
+            "label": "General Nursing & Midwifery (GNM)",
+            "description": "Comprehensive nursing care and midwifery services",
+            "duration": "3.5 years",
+            "eligibility": "10+2 with Science (PCB) or 10th + ANM",
+            "job_roles": [
+                "Staff Nurse",
+                "Community Health Nurse",
+                "Pediatric Nurse",
+                "Geriatric Nurse",
+                "Ward Nurse",
+                "Midwife"
+            ],
+            "skills_required": [
+                "Patient Care",
+                "Medical Procedures (Injections, Wound Dressing)",
+                "Medication Administration",
+                "Vital Signs Monitoring",
+                "Emergency Response",
+                "Patient Communication"
+            ],
+            "further_education": [
+                "B.Sc Nursing",
+                "Post Basic B.Sc Nursing",
+                "Specialization in Critical Care/ICU"
+            ]
+        },
+        {
+            "id": "auxiliary_nurse_midwife",
+            "title": "Auxiliary Nurse Midwife (ANM)",
+            "label": "Auxiliary Nurse Midwife (ANM)",
+            "description": "Basic nursing and midwifery in rural and community settings",
+            "duration": "2 years",
+            "eligibility": "10th pass",
+            "job_roles": [
+                "ANM Nurse",
+                "Village Health Nurse",
+                "Primary Health Center Nurse",
+                "School Health Nurse",
+                "Maternity Nurse",
+                "Community Health Worker"
+            ],
+            "skills_required": [
+                "Basic Nursing Care",
+                "Maternal & Child Health",
+                "Immunization",
+                "Health Education",
+                "First Aid",
+                "Community Outreach"
+            ],
+            "further_education": [
+                "GNM",
+                "B.Sc Nursing (through bridge course)",
+                "Community Health Worker Certification"
+            ]
+        },
+        {
+            "id": "critical_care_nursing",
+            "title": "Critical Care & Emergency Nursing",
+            "label": "Critical Care & Emergency Nursing",
+            "description": "Intensive care and emergency medical response",
+            "duration": "6 months - 1 year (Post-GNM/B.Sc)",
+            "eligibility": "GNM or B.Sc Nursing",
+            "job_roles": [
+                "ICU Nurse",
+                "Emergency Room Nurse",
+                "Trauma Nurse",
+                "Cardiac Care Nurse",
+                "Neonatal ICU Nurse",
+                "Critical Care Specialist"
+            ],
+            "skills_required": [
+                "Advanced Life Support (BLS/ACLS)",
+                "Critical Patient Monitoring",
+                "Ventilator Management",
+                "Emergency Procedures",
+                "Crisis Management",
+                "Advanced Medical Equipment"
+            ],
+            "further_education": [
+                "B.Sc Nursing with ICU specialization",
+                "Critical Care Nursing Certification",
+                "Emergency Medicine"
+            ]
+        },
+        {
+            "id": "pediatric_nursing",
+            "title": "Pediatric Nursing",
+            "label": "Pediatric Nursing",
+            "description": "Nursing care for infants, children, and adolescents",
+            "duration": "6 months - 1 year (Post-GNM/B.Sc)",
+            "eligibility": "GNM or B.Sc Nursing",
+            "job_roles": [
+                "Pediatric Nurse",
+                "Child Health Nurse",
+                "NICU Nurse",
+                "Pediatric Ward Nurse",
+                "Immunization Nurse",
+                "School Health Nurse"
+            ],
+            "skills_required": [
+                "Child Development Knowledge",
+                "Pediatric Care Protocols",
+                "Parent Communication",
+                "Pediatric Medication",
+                "Growth Monitoring",
+                "Child Psychology Basics"
+            ],
+            "further_education": [
+                "B.Sc Nursing (Pediatrics)",
+                "Child Health Specialization",
+                "Neonatology"
+            ]
+        },
+        {
+            "id": "psychiatric_nursing",
+            "title": "Psychiatric & Mental Health Nursing",
+            "label": "Psychiatric & Mental Health Nursing",
+            "description": "Mental health care and psychiatric patient support",
+            "duration": "6 months - 1 year (Post-GNM/B.Sc)",
+            "eligibility": "GNM or B.Sc Nursing",
+            "job_roles": [
+                "Psychiatric Nurse",
+                "Mental Health Nurse",
+                "Rehabilitation Nurse",
+                "Addiction Care Nurse",
+                "Counseling Nurse",
+                "Community Mental Health Nurse"
+            ],
+            "skills_required": [
+                "Psychiatric Assessment",
+                "Therapeutic Communication",
+                "Crisis Intervention",
+                "Mental Health Medications",
+                "Behavioral Management",
+                "Empathy & Patience"
+            ],
+            "further_education": [
+                "B.Sc Nursing (Psychiatric)",
+                "Mental Health Counseling",
+                "Clinical Psychology"
+            ]
+        },
+        {
+            "id": "oncology_nursing",
+            "title": "Oncology Nursing",
+            "label": "Oncology Nursing",
+            "description": "Cancer patient care and chemotherapy support",
+            "duration": "6 months - 1 year (Post-GNM/B.Sc)",
+            "eligibility": "GNM or B.Sc Nursing",
+            "job_roles": [
+                "Oncology Nurse",
+                "Chemotherapy Nurse",
+                "Radiation Oncology Nurse",
+                "Palliative Care Nurse",
+                "Cancer Ward Nurse",
+                "Oncology Clinic Nurse"
+            ],
+            "skills_required": [
+                "Cancer Care Protocols",
+                "Chemotherapy Administration",
+                "Pain Management",
+                "Patient Support",
+                "Infection Control",
+                "Palliative Care"
+            ],
+            "further_education": [
+                "Oncology Nursing Certification",
+                "Palliative Care",
+                "Cancer Research"
+            ]
+        }
+    ]
+}

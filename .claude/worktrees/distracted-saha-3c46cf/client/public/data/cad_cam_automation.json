@@ -1,0 +1,28 @@
+{
+  "id": "cad_cam_automation",
+  "label": "CAD/CAM & Automation",
+  "description": "Computer-aided design, manufacturing, and industrial automation",
+  "job_roles": [
+    "CAD/CAM Programmer",
+    "CNC Programmer",
+    "Automation Technician",
+    "Manufacturing Engineer (CAM)",
+    "3D Design Specialist",
+    "Tool Path Programmer"
+  ],
+  "skills_required": [
+    "CAD Software (AutoCAD, CATIA, SolidWorks)",
+    "CAM Programming",
+    "CNC Machine Programming",
+    "G-Code & M-Code",
+    "3D Modeling",
+    "Manufacturing Automation"
+  ],
+  "further_education": [
+    "B.Tech CAD/CAM",
+    "Advanced Manufacturing",
+    "Industrial Automation"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "water_resources_engineering",
+  "label": "Water Resources Engineering",
+  "description": "Water supply, irrigation, drainage, and hydraulic structures",
+  "job_roles": [
+    "Water Supply Engineer",
+    "Irrigation Technician",
+    "Drainage Engineer",
+    "Hydraulic Structures Supervisor",
+    "Water Treatment Plant Operator",
+    "Dam Safety Inspector"
+  ],
+  "skills_required": [
+    "Hydraulics & Hydrology",
+    "Water Supply Systems",
+    "Irrigation Engineering",
+    "Drainage Systems",
+    "Water Treatment",
+    "Fluid Mechanics"
+  ],
+  "further_education": [
+    "B.Tech Water Resources",
+    "Environmental Engineering",
+    "Hydraulic Engineering"
+  ],
+  "parentId": "civil_engineering",
+  "children": []
+}

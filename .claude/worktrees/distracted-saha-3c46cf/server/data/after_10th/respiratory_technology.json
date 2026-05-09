@@ -1,0 +1,37 @@
+{
+    "id": "respiratory_technology",
+    "title": "Respiratory Care & Pulmonary Technology",
+    "label": "🫁 Respiratory Technology",
+    "description": "Respiratory therapy and pulmonary care",
+    "children": [
+        {
+            "id": "respiratory_therapy_technician",
+            "title": "Respiratory Therapy Technician",
+            "label": "Respiratory Therapy Technician",
+            "description": "Respiratory care and breathing support systems",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Respiratory Therapist",
+                "Respiratory Care Technician",
+                "Pulmonary Function Technician",
+                "Ventilator Specialist",
+                "Sleep Lab Technician",
+                "Respiratory Equipment Technologist"
+            ],
+            "skills_required": [
+                "Ventilator Management",
+                "Oxygen Therapy",
+                "Pulmonary Function Testing",
+                "Airway Management",
+                "CPAP/BiPAP Operation",
+                "Respiratory Assessment"
+            ],
+            "further_education": [
+                "Advanced Respiratory Therapy",
+                "Critical Care Respiratory",
+                "Pulmonary Rehabilitation"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,232 @@
+{
+    "id": "civil_engineering",
+    "title": "Civil Engineering",
+    "label": "🏗️ Civil Engineering",
+    "description": "Construction, infrastructure, and built environment",
+    "children": [
+        {
+            "id": "structural_engineering",
+            "title": "Structural Engineering",
+            "label": "🏢 Structural Engineering",
+            "description": "Building design, structural analysis, and construction",
+            "job_roles": [
+                "Structural Design Assistant",
+                "Site Engineer",
+                "Construction Supervisor",
+                "Quantity Surveyor",
+                "Structural Draughtsman",
+                "Building Inspector"
+            ],
+            "skills_required": [
+                "Structural Analysis",
+                "AutoCAD Civil 3D",
+                "Building Materials",
+                "Construction Planning",
+                "RCC Design",
+                "Estimation & Costing"
+            ],
+            "further_education": [
+                "B.Tech Civil Engineering",
+                "Structural Design",
+                "Construction Management"
+            ],
+            "children": []
+        },
+        {
+            "id": "transportation_engineering",
+            "title": "Transportation Engineering",
+            "label": "🛣️ Transportation Engineering",
+            "description": "Roads, highways, traffic management, and transport systems",
+            "job_roles": [
+                "Highway Technician",
+                "Traffic Survey Engineer",
+                "Road Construction Supervisor",
+                "Transportation Planner Assistant",
+                "Pavement Design Technician",
+                "Railway Track Engineer"
+            ],
+            "skills_required": [
+                "Highway Engineering",
+                "Traffic Engineering",
+                "Surveying",
+                "Pavement Design",
+                "Transportation Planning Basics",
+                "Road Construction Methods"
+            ],
+            "further_education": [
+                "B.Tech Transportation",
+                "Traffic Management",
+                "Urban Planning"
+            ],
+            "children": []
+        },
+        {
+            "id": "water_resources_engineering",
+            "title": "Water Resources Engineering",
+            "label": "💧 Water Resources Engineering",
+            "description": "Water supply, irrigation, drainage, and hydraulic structures",
+            "job_roles": [
+                "Water Supply Engineer",
+                "Irrigation Technician",
+                "Drainage Engineer",
+                "Hydraulic Structures Supervisor",
+                "Water Treatment Plant Operator",
+                "Dam Safety Inspector"
+            ],
+            "skills_required": [
+                "Hydraulics & Hydrology",
+                "Water Supply Systems",
+                "Irrigation Engineering",
+                "Drainage Systems",
+                "Water Treatment",
+                "Fluid Mechanics"
+            ],
+            "further_education": [
+                "B.Tech Water Resources",
+                "Environmental Engineering",
+                "Hydraulic Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "environmental_engineering",
+            "title": "Environmental Engineering",
+            "label": "🌿 Environmental Engineering",
+            "description": "Pollution control, waste management, and environmental protection",
+            "job_roles": [
+                "Environmental Technician",
+                "Waste Management Officer",
+                "Pollution Control Inspector",
+                "Water Quality Analyst",
+                "Environmental Auditor",
+                "ETP/STP Operator"
+            ],
+            "skills_required": [
+                "Environmental Science",
+                "Pollution Control",
+                "Waste Management",
+                "Water & Air Quality Testing",
+                "EIA (Environmental Impact Assessment)",
+                "Sustainability Practices"
+            ],
+            "further_education": [
+                "B.Tech Environmental Engineering",
+                "Environmental Management",
+                "Sustainability"
+            ],
+            "children": []
+        },
+        {
+            "id": "geotechnical_engineering",
+            "title": "Geotechnical Engineering",
+            "label": "🪨 Geotechnical Engineering",
+            "description": "Soil mechanics, foundation design, and ground improvement",
+            "job_roles": [
+                "Soil Testing Technician",
+                "Foundation Design Assistant",
+                "Geotechnical Lab Technician",
+                "Ground Investigation Supervisor",
+                "Pile Foundation Technician",
+                "Slope Stability Analyst"
+            ],
+            "skills_required": [
+                "Soil Mechanics",
+                "Foundation Engineering",
+                "Soil Testing & Analysis",
+                "Ground Improvement Techniques",
+                "Geological Survey",
+                "Lab Testing Procedures"
+            ],
+            "further_education": [
+                "B.Tech Geotechnical Engineering",
+                "Foundation Design",
+                "Rock Mechanics"
+            ],
+            "children": []
+        },
+        {
+            "id": "construction_project_management",
+            "title": "Construction & Project Management",
+            "label": "📋 Construction & Project Management",
+            "description": "Construction planning, project scheduling, and site management",
+            "job_roles": [
+                "Site Supervisor",
+                "Project Coordinator",
+                "Construction Planner",
+                "Contract Administrator",
+                "Material Procurement Officer",
+                "Quality Control Inspector"
+            ],
+            "skills_required": [
+                "Project Management",
+                "Construction Planning",
+                "MS Project / Primavera",
+                "Contract Management",
+                "Cost Control",
+                "Quality Assurance"
+            ],
+            "further_education": [
+                "B.Tech Construction Management",
+                "Project Management Professional (PMP)",
+                "Quantity Surveying"
+            ],
+            "children": []
+        },
+        {
+            "id": "surveying_leveling",
+            "title": "Surveying & Leveling",
+            "label": "📏 Surveying & Leveling",
+            "description": "Land surveying, mapping, and geographic information systems",
+            "job_roles": [
+                "Land Surveyor",
+                "Surveying Technician",
+                "GIS Technician",
+                "Mapping Specialist",
+                "Drone Survey Operator",
+                "Cadastral Surveyor"
+            ],
+            "skills_required": [
+                "Total Station Operation",
+                "GPS/GNSS Surveying",
+                "AutoCAD Land Desktop",
+                "GIS Software",
+                "Drone Surveying",
+                "Topographic Mapping"
+            ],
+            "further_education": [
+                "B.Tech Geomatics",
+                "Remote Sensing",
+                "Geospatial Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "urban_planning_development",
+            "title": "Urban Planning & Development",
+            "label": "🏙️ Urban Planning & Development",
+            "description": "City planning, smart cities, and infrastructure development",
+            "job_roles": [
+                "Town Planning Assistant",
+                "Urban Development Officer",
+                "Infrastructure Planner",
+                "Smart City Technician",
+                "Municipal Engineer",
+                "Development Control Officer"
+            ],
+            "skills_required": [
+                "Urban Planning Basics",
+                "AutoCAD/GIS",
+                "Zoning Regulations",
+                "Smart City Concepts",
+                "Infrastructure Design",
+                "Public Works Management"
+            ],
+            "further_education": [
+                "B.Tech Urban Planning",
+                "Masters in Planning",
+                "Smart City Management"
+            ],
+            "children": []
+        }
+    ]
+}

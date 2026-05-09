@@ -1,0 +1,28 @@
+{
+  "id": "textile_design",
+  "label": "Textile Design & Printing",
+  "description": "Fabric design, textile printing, and color technology",
+  "job_roles": [
+    "Textile Designer",
+    "Fabric Print Designer",
+    "Color Technologist",
+    "Textile CAD Designer",
+    "Print Production Supervisor",
+    "Dyeing Specialist"
+  ],
+  "skills_required": [
+    "Textile Design",
+    "Fabric Printing",
+    "Color Matching",
+    "Dyeing Technology",
+    "CAD for Textiles",
+    "Surface Design"
+  ],
+  "further_education": [
+    "B.Des Textile Design",
+    "Fashion Design",
+    "Surface Design"
+  ],
+  "parentId": "textile_engineering",
+  "children": []
+}

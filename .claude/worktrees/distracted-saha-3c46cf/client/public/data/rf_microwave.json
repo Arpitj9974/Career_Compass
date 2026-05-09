@@ -1,0 +1,28 @@
+{
+  "id": "rf_microwave",
+  "label": "RF & Microwave Engineering",
+  "description": "Radio frequency systems, antenna design, and wireless communication",
+  "job_roles": [
+    "RF Technician",
+    "Antenna Installation Engineer",
+    "Wireless Systems Technician",
+    "Satellite Communication Technician",
+    "RF Testing Engineer",
+    "Microwave Systems Operator"
+  ],
+  "skills_required": [
+    "RF Fundamentals",
+    "Antenna Theory",
+    "Microwave Engineering Basics",
+    "RF Test Equipment",
+    "Wireless Standards",
+    "EMI/EMC Basics"
+  ],
+  "further_education": [
+    "B.Tech RF Engineering",
+    "Antenna Design",
+    "Satellite Communication"
+  ],
+  "parentId": "electronics_communication",
+  "children": []
+}

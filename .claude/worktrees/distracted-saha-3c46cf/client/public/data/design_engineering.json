@@ -1,0 +1,28 @@
+{
+  "id": "design_engineering",
+  "label": "Design Engineering",
+  "description": "Product design, mechanical design, and engineering drawing",
+  "job_roles": [
+    "CAD Design Engineer",
+    "Product Designer",
+    "Mechanical Design Engineer",
+    "3D Modeler",
+    "Design Draughtsman",
+    "Tool Design Engineer"
+  ],
+  "skills_required": [
+    "CAD Software (AutoCAD, SolidWorks, CATIA, NX)",
+    "3D Modeling & Rendering",
+    "Engineering Drawing",
+    "GD&T (Geometric Dimensioning & Tolerancing)",
+    "Product Development",
+    "Finite Element Analysis (FEA)"
+  ],
+  "further_education": [
+    "B.Tech Mechanical Design",
+    "Advanced CAD/CAM",
+    "Product Design"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

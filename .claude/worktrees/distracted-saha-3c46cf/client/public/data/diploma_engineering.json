@@ -1,0 +1,87 @@
+{
+  "id": "diploma_engineering",
+  "label": "Diploma in Engineering (Polytechnic)",
+  "duration": "3 years",
+  "eligibility": "10th pass with Mathematics and Science",
+  "description": "Professional technical education leading to industry-ready skills",
+  "parentId": "engineering",
+  "children": [
+    {
+      "id": "mechanical_engineering",
+      "label": "Mechanical Engineering",
+      "lazy": true,
+      "description": "Study of mechanical systems, manufacturing, and energy",
+      "children": []
+    },
+    {
+      "id": "civil_engineering",
+      "label": "Civil Engineering",
+      "lazy": true,
+      "description": "Construction, infrastructure, and built environment",
+      "children": []
+    },
+    {
+      "id": "electrical_engineering",
+      "label": "Electrical Engineering",
+      "lazy": true,
+      "description": "Electrical power systems, machines, and energy distribution",
+      "children": []
+    },
+    {
+      "id": "electronics_communication",
+      "label": "Electronics & Communication Engineering",
+      "lazy": true,
+      "description": "Electronics, telecommunications, and communication systems",
+      "children": []
+    },
+    {
+      "id": "computer_engineering",
+      "label": "Computer Engineering / Information Technology",
+      "lazy": true,
+      "description": "Computer systems, software, networking, and IT infrastructure",
+      "children": []
+    },
+    {
+      "id": "chemical_engineering",
+      "label": "Chemical Engineering",
+      "lazy": true,
+      "description": "Chemical processes, production, and industrial chemistry",
+      "children": []
+    },
+    {
+      "id": "textile_engineering",
+      "label": "Textile Engineering / Technology",
+      "lazy": true,
+      "description": "Textile manufacturing, fabric production, and garment technology",
+      "children": []
+    },
+    {
+      "id": "architecture_drafting",
+      "label": "Architectural Assistantship / Drafting",
+      "lazy": true,
+      "description": "Architectural drawing, building design assistance, and drafting",
+      "children": []
+    },
+    {
+      "id": "agriculture_engineering",
+      "label": "Agriculture Engineering",
+      "lazy": true,
+      "description": "Agricultural machinery, irrigation, and farm technology",
+      "children": []
+    },
+    {
+      "id": "mining_engineering",
+      "label": "Mining Engineering",
+      "lazy": true,
+      "description": "Mining operations, mineral extraction, and mine safety",
+      "children": []
+    },
+    {
+      "id": "printing_technology",
+      "label": "Printing Technology",
+      "lazy": true,
+      "description": "Printing processes, press operations, and graphic reproduction",
+      "children": []
+    }
+  ]
+}

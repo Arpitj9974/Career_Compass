@@ -4,7 +4,7 @@ const path = require('path');
 require('dotenv').config();
 
 // Initialize database
-require('./models/db');
+const { initDatabase } = require('../db/init');
 
 const app = express();
 const PORT = process.env.PORT || 5001;
@@ -43,6 +43,16 @@ app.use((err, req, res, next) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`🚀 Career Compass API running on http://localhost:${PORT}`);
-});
+async function startServer() {
+    try {
+        await initDatabase();
+        app.listen(PORT, () => {
+            console.log(`🚀 Career Compass API running on http://localhost:${PORT}`);
+        });
+    } catch (error) {
+        console.error('Failed to start server:', error);
+        process.exit(1);
+    }
+}
+
+startServer();

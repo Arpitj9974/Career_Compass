@@ -1,0 +1,23 @@
+{
+  "id": "engineering",
+  "label": "Engineering",
+  "icon": "\u2699\ufe0f",
+  "description": "Technical and engineering career paths",
+  "parentId": "after_10th",
+  "children": [
+    {
+      "id": "diploma_engineering",
+      "label": "Diploma in Engineering (Polytechnic)",
+      "lazy": true,
+      "description": "Professional technical education leading to industry-ready skills",
+      "children": []
+    },
+    {
+      "id": "iti_courses",
+      "label": "ITI (Industrial Training Institute) Courses",
+      "lazy": true,
+      "description": "Skill-based vocational training for immediate employment",
+      "children": []
+    }
+  ]
+}

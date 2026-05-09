@@ -1,0 +1,28 @@
+{
+  "id": "electrical_machines",
+  "label": "Electrical Machines & Drives",
+  "description": "Motors, generators, transformers, and drive systems",
+  "job_roles": [
+    "Electrical Machine Technician",
+    "Motor Winding Technician",
+    "Transformer Maintenance Engineer",
+    "Drive Systems Operator",
+    "Electrical Testing Engineer",
+    "Motor Repair Specialist"
+  ],
+  "skills_required": [
+    "DC & AC Machines",
+    "Transformer Design & Maintenance",
+    "Motor Control",
+    "Electrical Drives",
+    "Winding Technology",
+    "Testing & Commissioning"
+  ],
+  "further_education": [
+    "B.Tech Electrical",
+    "Power Electronics",
+    "Machine Design"
+  ],
+  "parentId": "electrical_engineering",
+  "children": []
+}

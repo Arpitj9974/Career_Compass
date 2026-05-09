@@ -1,0 +1,28 @@
+{
+  "id": "tool_die_maker_iti",
+  "label": "Tool & Die Maker",
+  "description": "Precision tool and die manufacturing",
+  "job_roles": [
+    "Tool & Die Maker",
+    "Mold Maker",
+    "Precision Toolmaker",
+    "Die Designer",
+    "Jig & Fixture Maker",
+    "Tool Room Engineer"
+  ],
+  "skills_required": [
+    "Precision Machining",
+    "Tool Making",
+    "Die Design Basics",
+    "Heat Treatment",
+    "Grinding Operations",
+    "Measurement & Inspection"
+  ],
+  "further_education": [
+    "Advanced Tool Making",
+    "CNC Milling",
+    "Die Design"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

@@ -1,0 +1,64 @@
+{
+    "id": "printing_technology",
+    "title": "Printing Technology",
+    "label": "🖨️ Printing Technology",
+    "description": "Printing processes and publishing technology",
+    "children": [
+        {
+            "id": "commercial_printing",
+            "title": "Commercial & Offset Printing",
+            "label": "🖨️ Commercial & Offset Printing",
+            "description": "Offset printing, commercial printing, and print production",
+            "job_roles": [
+                "Offset Press Operator",
+                "Pre-Press Technician",
+                "Print Production Supervisor",
+                "Color Specialist",
+                "Binding Operator",
+                "Quality Inspector (Print)"
+            ],
+            "skills_required": [
+                "Offset Printing",
+                "Pre-Press Operations",
+                "Color Management",
+                "Print Production",
+                "Binding & Finishing",
+                "Quality Control"
+            ],
+            "further_education": [
+                "B.Tech Printing Technology",
+                "Graphic Arts",
+                "Print Media"
+            ],
+            "children": []
+        },
+        {
+            "id": "digital_packaging_printing",
+            "title": "Digital & Packaging Printing",
+            "label": "📦 Digital & Packaging Printing",
+            "description": "Digital printing, packaging, and label printing",
+            "job_roles": [
+                "Digital Print Operator",
+                "Packaging Print Technician",
+                "Label Printing Operator",
+                "Large Format Print Operator",
+                "Flexography Operator",
+                "Print Designer"
+            ],
+            "skills_required": [
+                "Digital Printing",
+                "Flexography",
+                "Packaging Design",
+                "Label Printing",
+                "Large Format Printing",
+                "Design Software"
+            ],
+            "further_education": [
+                "B.Tech Printing Technology",
+                "Packaging Technology",
+                "Digital Media"
+            ],
+            "children": []
+        }
+    ]
+}

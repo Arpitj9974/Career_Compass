@@ -1,0 +1,28 @@
+{
+  "id": "embedded_systems",
+  "label": "Embedded Systems",
+  "description": "Microcontrollers, microprocessors, and embedded programming",
+  "job_roles": [
+    "Embedded Systems Technician",
+    "Firmware Developer",
+    "Microcontroller Programmer",
+    "Hardware Testing Engineer",
+    "IoT Device Technician",
+    "Embedded Design Assistant"
+  ],
+  "skills_required": [
+    "Microcontrollers (8051, ARM, PIC)",
+    "Embedded C Programming",
+    "Circuit Design",
+    "PCB Design Basics",
+    "Sensors & Actuators",
+    "Debugging Tools"
+  ],
+  "further_education": [
+    "B.Tech Embedded Systems",
+    "IoT Engineering",
+    "VLSI Design"
+  ],
+  "parentId": "electronics_communication",
+  "children": []
+}

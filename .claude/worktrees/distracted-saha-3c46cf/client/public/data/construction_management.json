@@ -1,0 +1,28 @@
+{
+  "id": "construction_management",
+  "label": "Construction Management",
+  "description": "Project planning, site management, and construction administration",
+  "job_roles": [
+    "Site Supervisor",
+    "Construction Manager Assistant",
+    "Project Coordinator",
+    "Billing Engineer",
+    "Site Documentation Engineer",
+    "Construction Planner"
+  ],
+  "skills_required": [
+    "Project Management",
+    "Construction Planning",
+    "Cost Estimation",
+    "Contract Management Basics",
+    "Site Coordination",
+    "MS Project / Primavera Basics"
+  ],
+  "further_education": [
+    "B.Tech Construction Management",
+    "Project Management",
+    "Real Estate Development"
+  ],
+  "parentId": "civil_engineering",
+  "children": []
+}

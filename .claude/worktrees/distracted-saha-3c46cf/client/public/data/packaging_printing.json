@@ -1,0 +1,28 @@
+{
+  "id": "packaging_printing",
+  "label": "Packaging & Flexographic Printing",
+  "description": "Packaging design, flexo printing, and label production",
+  "job_roles": [
+    "Flexographic Press Operator",
+    "Packaging Print Technician",
+    "Label Printing Operator",
+    "Packaging Designer",
+    "Flexo Production Supervisor",
+    "Packaging Quality Inspector"
+  ],
+  "skills_required": [
+    "Flexographic Printing",
+    "Packaging Technology",
+    "Label Production",
+    "Substrate Knowledge",
+    "Print Finishing",
+    "Design for Packaging"
+  ],
+  "further_education": [
+    "B.Tech Printing",
+    "Packaging Technology",
+    "Graphic Design"
+  ],
+  "parentId": "printing_technology",
+  "children": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "food_production_iti",
+  "label": "Food Production (General)",
+  "description": "Cooking and food preparation",
+  "job_roles": [
+    "Cook",
+    "Commis Chef",
+    "Kitchen Supervisor",
+    "Food Production Assistant",
+    "Catering Staff",
+    "Bakery Assistant"
+  ],
+  "skills_required": [
+    "Cooking Techniques",
+    "Food Safety",
+    "Menu Planning",
+    "Kitchen Management",
+    "Food Presentation",
+    "Knife Skills"
+  ],
+  "further_education": [
+    "Hotel Management",
+    "Culinary Arts",
+    "Bakery & Confectionery"
+  ],
+  "parentId": "iti_non_engineering_trades",
+  "children": []
+}

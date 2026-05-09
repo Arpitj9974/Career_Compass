@@ -9,7 +9,7 @@ INSERT INTO users (email, password_hash, name, role) VALUES
 
 -- Trees
 INSERT INTO trees (name, description, status, created_by) VALUES 
-('Main Explorer', 'The main career exploration map', 'active', 1);
+('Main Explorer', 'The main career exploration map', 'published', 1);
 
 -- ============================================
 -- LEVEL 1: GOAL NODES (Roots)
@@ -275,63 +275,6 @@ INSERT INTO edges (parent_node_id, child_node_id, order_index) VALUES
 -- ============================================
 -- TREE NODES MAPPING (Linking all nodes to tree)
 -- ============================================
-INSERT INTO tree_nodes (tree_id, node_id, is_root) VALUES 
--- Roots
-(1, 1, 1), (1, 100, 1), (1, 200, 1), (1, 300, 1),
-
--- Paths (Level 2)
-(1, 10, 0), (1, 11, 0), (1, 12, 0), (1, 13, 0), (1, 14, 0),
-(1, 15, 0), (1, 16, 0), (1, 17, 0), (1, 18, 0), (1, 19, 0), (1, 20, 0),
-
--- Engineering Options (Level 3)
-(1, 101, 0), (1, 102, 0), (1, 103, 0), (1, 104, 0), (1, 105, 0),
-
--- B.Tech Branches (Level 4)
-(1, 1010, 0), (1, 1011, 0), (1, 1012, 0), (1, 1013, 0), (1, 1014, 0), (1, 1015, 0), (1, 1016, 0), (1, 1017, 0),
-
--- Medical Options (Level 3)
-(1, 111, 0), (1, 112, 0), (1, 113, 0), (1, 114, 0), (1, 115, 0), (1, 116, 0), (1, 117, 0), (1, 118, 0), (1, 119, 0),
-
--- Commerce Options (Level 3)
-(1, 121, 0), (1, 122, 0), (1, 123, 0), (1, 124, 0), (1, 125, 0), (1, 126, 0),
-
--- B.Com Specializations (Level 4)
-(1, 1210, 0), (1, 1211, 0), (1, 1212, 0), (1, 1213, 0),
-
--- Arts Options (Level 3)
-(1, 131, 0), (1, 132, 0), (1, 133, 0), (1, 134, 0), (1, 135, 0), (1, 136, 0),
-
--- B.A. Specializations (Level 4)
-(1, 1310, 0), (1, 1311, 0), (1, 1312, 0), (1, 1313, 0), (1, 1314, 0), (1, 1315, 0),
-
--- Science Options (Level 3)
-(1, 141, 0), (1, 142, 0),
-
--- B.Sc Specializations (Level 4)
-(1, 1410, 0), (1, 1411, 0), (1, 1412, 0), (1, 1413, 0), (1, 1414, 0),
-
--- Design Options (Level 3)
-(1, 151, 0), (1, 152, 0), (1, 153, 0), (1, 154, 0),
-
--- Aviation Options (Level 3)
-(1, 161, 0), (1, 162, 0), (1, 163, 0), (1, 164, 0),
-
--- Defense Options (Level 3)
-(1, 171, 0), (1, 172, 0), (1, 173, 0), (1, 174, 0),
-
--- Agriculture Options (Level 3)
-(1, 181, 0), (1, 182, 0), (1, 183, 0), (1, 184, 0),
-
--- Skill/Vocational Options (Level 3)
-(1, 191, 0), (1, 192, 0), (1, 193, 0), (1, 194, 0), (1, 195, 0),
-
--- Govt Jobs Options (Level 3)
-(1, 201, 0), (1, 202, 0), (1, 203, 0),
-
--- Outcomes (Level 4 & 5)
-(1, 10100, 0), (1, 10101, 0), (1, 10102, 0), (1, 10103, 0), (1, 10104, 0),
-(1, 11100, 0), (1, 11101, 0), (1, 11102, 0), (1, 11103, 0),
-(1, 12100, 0), (1, 12101, 0), (1, 12102, 0),
-(1, 17100, 0), (1, 17101, 0), (1, 17102, 0),
-(1, 16100, 0), (1, 16101, 0);
-
+INSERT INTO tree_nodes (tree_id, node_id, is_root)
+SELECT 1, id, CASE WHEN id IN (1, 100, 200, 300) THEN true ELSE false END
+FROM nodes;

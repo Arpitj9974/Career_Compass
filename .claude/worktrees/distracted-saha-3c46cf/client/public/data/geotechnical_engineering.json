@@ -1,0 +1,28 @@
+{
+  "id": "geotechnical_engineering",
+  "label": "Geotechnical Engineering",
+  "description": "Soil mechanics, foundation design, and ground engineering",
+  "job_roles": [
+    "Soil Testing Technician",
+    "Foundation Engineer",
+    "Geotechnical Surveyor",
+    "Ground Investigation Technician",
+    "Foundation Design Assistant",
+    "Site Investigation Engineer"
+  ],
+  "skills_required": [
+    "Soil Mechanics",
+    "Foundation Engineering",
+    "Soil Testing & Analysis",
+    "Geotechnical Investigation",
+    "Rock Mechanics Basics",
+    "Site Characterization"
+  ],
+  "further_education": [
+    "B.Tech Geotechnical",
+    "Foundation Engineering",
+    "Soil Engineering"
+  ],
+  "parentId": "civil_engineering",
+  "children": []
+}

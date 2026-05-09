@@ -1,0 +1,28 @@
+{
+  "id": "post_harvest_technology",
+  "label": "Post-Harvest Technology & Processing",
+  "description": "Food processing, storage, and agricultural product handling",
+  "job_roles": [
+    "Food Processing Technician",
+    "Grain Storage Manager",
+    "Agricultural Product Inspector",
+    "Cold Storage Operator",
+    "Food Preservation Technician",
+    "Agro-Processing Supervisor"
+  ],
+  "skills_required": [
+    "Post-Harvest Handling",
+    "Food Processing",
+    "Storage Technology",
+    "Quality Control",
+    "Preservation Methods",
+    "Food Safety"
+  ],
+  "further_education": [
+    "B.Tech Food Technology",
+    "Post-Harvest Management",
+    "Food Processing"
+  ],
+  "parentId": "agriculture_engineering",
+  "children": []
+}

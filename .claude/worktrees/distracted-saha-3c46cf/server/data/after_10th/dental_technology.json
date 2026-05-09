@@ -1,0 +1,124 @@
+{
+    "id": "dental_technology",
+    "title": "Dental Technology & Assistance",
+    "label": "🦷 Dental Technology & Assistance",
+    "description": "Dental care support and oral health services",
+    "children": [
+        {
+            "id": "dental_assistant",
+            "title": "Dental Assistant",
+            "label": "Dental Assistant",
+            "description": "Dental clinic support and patient care assistance",
+            "duration": "1-2 years",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Dental Assistant",
+                "Dental Clinic Coordinator",
+                "Chairside Assistant",
+                "Dental Receptionist",
+                "Sterilization Technician (Dental)",
+                "Dental Office Manager"
+            ],
+            "skills_required": [
+                "Dental Instruments Handling",
+                "Patient Preparation",
+                "Sterilization & Infection Control",
+                "Dental Charting",
+                "X-Ray Assistance",
+                "Patient Communication"
+            ],
+            "further_education": [
+                "Advanced Dental Assisting",
+                "Dental Hygiene",
+                "Dental Practice Management"
+            ]
+        },
+        {
+            "id": "dental_hygiene",
+            "title": "Dental Hygiene",
+            "label": "Dental Hygiene",
+            "description": "Preventive dental care and oral hygiene",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Dental Hygienist",
+                "Oral Health Educator",
+                "Preventive Dental Care Specialist",
+                "Periodontal Therapist",
+                "Dental Health Counselor",
+                "School Dental Hygienist"
+            ],
+            "skills_required": [
+                "Teeth Cleaning & Scaling",
+                "Oral Health Assessment",
+                "Fluoride Treatment",
+                "Patient Education",
+                "Periodontal Care",
+                "Preventive Dentistry"
+            ],
+            "further_education": [
+                "B.Sc Dental Hygiene",
+                "Advanced Periodontal Therapy",
+                "Public Health Dentistry"
+            ]
+        },
+        {
+            "id": "dental_laboratory_technology",
+            "title": "Dental Laboratory Technology",
+            "label": "Dental Laboratory Technology",
+            "description": "Dental prosthetics and laboratory work",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science",
+            "job_roles": [
+                "Dental Lab Technician",
+                "Crown & Bridge Technician",
+                "Denture Technician",
+                "Orthodontic Technician",
+                "Dental Ceramist",
+                "Lab Manager (Dental)"
+            ],
+            "skills_required": [
+                "Dental Prosthetics Fabrication",
+                "Crown & Bridge Making",
+                "Denture Construction",
+                "Dental Materials Knowledge",
+                "Precision Molding",
+                "CAD/CAM for Dentistry"
+            ],
+            "further_education": [
+                "Advanced Dental Technology",
+                "Digital Dentistry",
+                "Implant Technology"
+            ]
+        },
+        {
+            "id": "orthodontic_technology",
+            "title": "Orthodontic Technology",
+            "label": "Orthodontic Technology",
+            "description": "Orthodontic appliances and braces fabrication",
+            "duration": "1-2 years (Post Dental Lab Tech)",
+            "eligibility": "Dental Lab Technology or B.Sc Dental",
+            "job_roles": [
+                "Orthodontic Technician",
+                "Braces Technician",
+                "Orthodontic Lab Specialist",
+                "Appliance Fabrication Technician",
+                "Wire Bending Specialist",
+                "Orthodontic Assistant"
+            ],
+            "skills_required": [
+                "Orthodontic Appliance Fabrication",
+                "Braces & Retainers Making",
+                "Wire Bending Techniques",
+                "Impression Taking",
+                "Model Preparation",
+                "Orthodontic Materials"
+            ],
+            "further_education": [
+                "Advanced Orthodontics",
+                "Clear Aligner Technology",
+                "Digital Orthodontics"
+            ]
+        }
+    ]
+}

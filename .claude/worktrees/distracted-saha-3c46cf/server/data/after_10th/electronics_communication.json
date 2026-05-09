@@ -1,0 +1,260 @@
+{
+    "id": "electronics_communication",
+    "title": "Electronics & Communication Engineering",
+    "label": "📡 Electronics & Communication",
+    "description": "Electronic circuits, communication systems, and signal processing",
+    "children": [
+        {
+            "id": "embedded_systems",
+            "title": "Embedded Systems",
+            "label": "🔌 Embedded Systems",
+            "description": "Microcontrollers, firmware development, and IoT devices",
+            "job_roles": [
+                "Embedded Systems Technician",
+                "Firmware Developer",
+                "IoT Device Technician",
+                "Microcontroller Programmer",
+                "Hardware Testing Technician",
+                "Embedded Product Developer"
+            ],
+            "skills_required": [
+                "Microcontrollers (Arduino, ESP32, STM32)",
+                "C/C++ Programming",
+                "Circuit Design",
+                "IoT Protocols",
+                "PCB Design Basics",
+                "Debugging & Testing"
+            ],
+            "further_education": [
+                "B.Tech Electronics",
+                "Embedded Systems",
+                "IoT Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "telecommunication",
+            "title": "Telecommunication Systems",
+            "label": "📞 Telecommunication Systems",
+            "description": "Wireless communication, mobile networks, and telecom infrastructure",
+            "job_roles": [
+                "Telecom Technician",
+                "Network Installation Technician",
+                "Tower Installation Engineer",
+                "RF Technician",
+                "Telecom Field Engineer",
+                "Mobile Network Technician"
+            ],
+            "skills_required": [
+                "Wireless Communication",
+                "Mobile Network Technologies (2G/3G/4G/5G)",
+                "RF Engineering Basics",
+                "Antenna Systems",
+                "Network Installation",
+                "Fiber Optics"
+            ],
+            "further_education": [
+                "B.Tech Telecommunication",
+                "Wireless Engineering",
+                "5G Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "consumer_electronics",
+            "title": "Consumer Electronics & Service",
+            "label": "📺 Consumer Electronics",
+            "description": "Electronic appliances, repair, and service",
+            "job_roles": [
+                "Electronics Service Technician",
+                "TV/Audio Repair Technician",
+                "Home Appliance Technician",
+                "Mobile Phone Repair Technician",
+                "Electronics Sales Engineer",
+                "Service Center Manager"
+            ],
+            "skills_required": [
+                "Electronics Troubleshooting",
+                "Appliance Repair",
+                "Mobile Phone Repair",
+                "Customer Service",
+                "Component Testing",
+                "Service Documentation"
+            ],
+            "further_education": [
+                "B.Tech Electronics",
+                "Consumer Electronics",
+                "Service Management"
+            ],
+            "children": []
+        },
+        {
+            "id": "industrial_electronics",
+            "title": "Industrial Electronics",
+            "label": "🏭 Industrial Electronics",
+            "description": "Industrial control systems, PLCs, and automation electronics",
+            "job_roles": [
+                "Industrial Electronics Technician",
+                "PLC Programmer",
+                "Automation Technician",
+                "Control Panel Technician",
+                "Industrial Control Systems Tech",
+                "Maintenance Electronics Tech"
+            ],
+            "skills_required": [
+                "PLC Programming",
+                "Industrial Sensors",
+                "Motor Drives",
+                "Control Systems",
+                "Troubleshooting",
+                "Industrial Safety"
+            ],
+            "further_education": [
+                "B.Tech Electronics",
+                "Industrial Automation",
+                "Control Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "medical_electronics",
+            "title": "Medical Electronics",
+            "label": "🏥 Medical Electronics",
+            "description": "Medical equipment, biomedical devices, and healthcare technology",
+            "job_roles": [
+                "Biomedical Equipment Technician",
+                "Medical Device Technician",
+                "Hospital Equipment Maintenance",
+                "Medical Electronics Installer",
+                "Healthcare Tech Support",
+                "Dialysis Machine Technician"
+            ],
+            "skills_required": [
+                "Medical Equipment",
+                "Biomedical Electronics",
+                "Equipment Calibration",
+                "Hospital Standards",
+                "Preventive Maintenance",
+                "Medical Device Safety"
+            ],
+            "further_education": [
+                "B.Tech Biomedical Engineering",
+                "Medical Electronics",
+                "Healthcare Technology"
+            ],
+            "children": []
+        },
+        {
+            "id": "vlsi_chip_design",
+            "title": "VLSI & Chip Design",
+            "label": "🔬 VLSI & Chip Design",
+            "description": "Integrated circuit design and semiconductor technology",
+            "job_roles": [
+                "VLSI Design Assistant",
+                "Chip Testing Technician",
+                "Semiconductor Process Technician",
+                "IC Layout Technician",
+                "Quality Assurance (Chips)",
+                "Design Verification Technician"
+            ],
+            "skills_required": [
+                "Digital Electronics",
+                "VLSI Basics",
+                "Verilog/VHDL Basics",
+                "IC Fabrication Basics",
+                "Testing & Verification",
+                "CAD Tools"
+            ],
+            "further_education": [
+                "B.Tech VLSI Design",
+                "Semiconductor Engineering",
+                "Chip Design"
+            ],
+            "children": []
+        },
+        {
+            "id": "signal_processing",
+            "title": "Signal Processing & DSP",
+            "label": "📊 Signal Processing & DSP",
+            "description": "Digital signal processing, audio/video, and image processing",
+            "job_roles": [
+                "Audio/Video Technician",
+                "Signal Processing Technician",
+                "Broadcast Engineer",
+                "Studio Technician",
+                "Sound Engineer",
+                "Image Processing Technician"
+            ],
+            "skills_required": [
+                "Digital Signal Processing",
+                "Audio Systems",
+                "Video Processing",
+                "MATLAB Basics",
+                "Filter Design",
+                "Spectral Analysis"
+            ],
+            "further_education": [
+                "B.Tech Electronics",
+                "Signal Processing",
+                "Audio Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "pcb_design_manufacturing",
+            "title": "PCB Design & Manufacturing",
+            "label": "🔩 PCB Design & Manufacturing",
+            "description": "Printed circuit board design, fabrication, and assembly",
+            "job_roles": [
+                "PCB Designer",
+                "PCB Layout Engineer",
+                "PCB Fabrication Technician",
+                "SMT Assembly Technician",
+                "Electronics Manufacturing Tech",
+                "Quality Inspector (Electronics)"
+            ],
+            "skills_required": [
+                "PCB Design Software (Eagle, Altium, KiCAD)",
+                "Circuit Schematic Drawing",
+                "PCB Fabrication Process",
+                "SMT Assembly",
+                "Testing & Quality Control",
+                "Component Sourcing"
+            ],
+            "further_education": [
+                "B.Tech Electronics",
+                "PCB Design Certification",
+                "Electronics Manufacturing"
+            ],
+            "children": []
+        },
+        {
+            "id": "avionics_aerospace_electronics",
+            "title": "Avionics & Aerospace Electronics",
+            "label": "✈️ Avionics & Aerospace Electronics",
+            "description": "Aircraft electronic systems and navigation equipment",
+            "job_roles": [
+                "Avionics Technician",
+                "Aircraft Electronics Maintenance",
+                "Navigation Systems Technician",
+                "Cockpit Systems Technician",
+                "Aerospace Testing Technician",
+                "Ground Support Electronics"
+            ],
+            "skills_required": [
+                "Avionics Systems",
+                "Navigation Electronics",
+                "Aircraft Communication Systems",
+                "Radar Systems Basics",
+                "Aerospace Standards",
+                "Safety Protocols"
+            ],
+            "further_education": [
+                "B.Tech Avionics",
+                "Aircraft Maintenance Engineering",
+                "Aerospace Electronics"
+            ],
+            "children": []
+        }
+    ]
+}

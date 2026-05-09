@@ -1,0 +1,24 @@
+{
+  "id": "iti_courses",
+  "label": "ITI (Industrial Training Institute) Courses",
+  "duration": "1-2 years",
+  "eligibility": "10th pass (course dependent)",
+  "description": "Skill-based vocational training for immediate employment",
+  "parentId": "engineering",
+  "children": [
+    {
+      "id": "iti_engineering_trades",
+      "label": "Engineering Trades",
+      "lazy": true,
+      "description": "Technical and mechanical skill-based trades",
+      "children": []
+    },
+    {
+      "id": "iti_non_engineering_trades",
+      "label": "Non-Engineering Trades",
+      "lazy": true,
+      "description": "Service and administrative skill-based trades",
+      "children": []
+    }
+  ]
+}

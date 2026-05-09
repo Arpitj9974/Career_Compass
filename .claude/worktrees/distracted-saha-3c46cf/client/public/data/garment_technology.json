@@ -1,0 +1,28 @@
+{
+  "id": "garment_technology",
+  "label": "Garment & Apparel Technology",
+  "description": "Garment production, pattern making, and apparel manufacturing",
+  "job_roles": [
+    "Garment Production Supervisor",
+    "Pattern Making Technician",
+    "Apparel Quality Controller",
+    "Cutting Room Supervisor",
+    "Sewing Production Engineer",
+    "Garment Export Coordinator"
+  ],
+  "skills_required": [
+    "Garment Construction",
+    "Pattern Making",
+    "CAD for Apparel",
+    "Production Planning (Garments)",
+    "Quality Standards",
+    "Industrial Sewing"
+  ],
+  "further_education": [
+    "B.Tech Garment Technology",
+    "Fashion Design",
+    "Apparel Management"
+  ],
+  "parentId": "textile_engineering",
+  "children": []
+}

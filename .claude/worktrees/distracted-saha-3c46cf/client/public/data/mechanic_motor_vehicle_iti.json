@@ -1,0 +1,28 @@
+{
+  "id": "mechanic_motor_vehicle_iti",
+  "label": "Mechanic Motor Vehicle",
+  "description": "Automobile repair and maintenance",
+  "job_roles": [
+    "Motor Vehicle Mechanic",
+    "Car Mechanic",
+    "Bike Mechanic",
+    "Service Station Technician",
+    "Automotive Workshop Manager",
+    "Fleet Maintenance Mechanic"
+  ],
+  "skills_required": [
+    "Engine Repair",
+    "Vehicle Diagnostics",
+    "Brake Systems",
+    "Electrical Systems",
+    "Transmission Repair",
+    "Preventive Maintenance"
+  ],
+  "further_education": [
+    "Advanced Automobile",
+    "EV Technology",
+    "Automotive Engineering"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

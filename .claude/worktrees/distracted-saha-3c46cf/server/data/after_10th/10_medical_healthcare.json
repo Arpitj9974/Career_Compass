@@ -1,0 +1,138 @@
+{
+    "id": "10_medical_healthcare",
+    "title": "Medical & Healthcare",
+    "label": "🏥 Medical & Healthcare",
+    "description": "Healthcare, nursing, and paramedical career paths",
+    "children": [
+        {
+            "id": "nursing",
+            "title": "Nursing",
+            "label": "💉 Nursing",
+            "description": "Patient care, medical assistance, and healthcare nursing (6 career streams)",
+            "duration": "1.5 - 3.5 years",
+            "eligibility": "10th/12th pass with Science",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "pharmacy",
+            "title": "Pharmacy",
+            "label": "💊 Pharmacy",
+            "description": "Pharmaceutical dispensing and medication management (5 career streams)",
+            "duration": "2 years (D.Pharma)",
+            "eligibility": "10+2 with Science (PCM/PCB)",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "medical_laboratory_technology",
+            "title": "Medical Laboratory Technology",
+            "label": "🔬 Medical Laboratory Technology",
+            "description": "Diagnostic testing and medical laboratory work (5 career streams)",
+            "duration": "2 years (DMLT)",
+            "eligibility": "10+2 with Science (PCB)",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "radiology_imaging",
+            "title": "Radiology & Medical Imaging",
+            "label": "📷 Radiology & Medical Imaging",
+            "description": "Medical imaging and diagnostic radiology (5 career streams)",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "ophthalmic_technology",
+            "title": "Ophthalmic & Vision Technology",
+            "label": "👁️ Ophthalmic & Vision Technology",
+            "description": "Eye care, vision testing, and optical services (4 career streams)",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "dental_technology",
+            "title": "Dental Technology & Assistance",
+            "label": "🦷 Dental Technology & Assistance",
+            "description": "Dental care support and oral health services (4 career streams)",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "physiotherapy_rehabilitation",
+            "title": "Physiotherapy & Rehabilitation",
+            "label": "🏃 Physiotherapy & Rehabilitation",
+            "description": "Physical therapy and rehabilitation services (4 career streams)",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "emergency_medical_services",
+            "title": "Emergency Medical Services",
+            "label": "🚑 Emergency Medical Services",
+            "description": "Emergency response and trauma care (3 career streams)",
+            "duration": "1-2 years",
+            "eligibility": "10+2 with Science",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "dialysis_technology",
+            "title": "Dialysis & Renal Care Technology",
+            "label": "🩺 Dialysis & Renal Care",
+            "description": "Kidney dialysis and renal care (1 career stream)",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "operation_theatre_technology",
+            "title": "Operation Theatre & Surgical Technology",
+            "label": "⚕️ Operation Theatre Technology",
+            "description": "Surgical assistance and OT services (2 career streams)",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "cardiac_technology",
+            "title": "Cardiac & Cardiovascular Technology",
+            "label": "❤️ Cardiac Technology",
+            "description": "Heart care and cardiovascular diagnostics (2 career streams)",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "respiratory_technology",
+            "title": "Respiratory Care & Pulmonary Technology",
+            "label": "🫁 Respiratory Technology",
+            "description": "Respiratory therapy and pulmonary care (1 career stream)",
+            "duration": "2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "lazy": true,
+            "children": []
+        },
+        {
+            "id": "community_health",
+            "title": "Community Health & Public Health",
+            "label": "🏘️ Community Health",
+            "description": "Public health and community health services (2 career streams)",
+            "duration": "1-2 years",
+            "eligibility": "10th/12th pass",
+            "lazy": true,
+            "children": []
+        }
+    ]
+}

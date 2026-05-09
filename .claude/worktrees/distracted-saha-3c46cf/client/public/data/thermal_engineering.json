@@ -1,0 +1,28 @@
+{
+  "id": "thermal_engineering",
+  "label": "Thermal Engineering",
+  "description": "Heat transfer, thermodynamics, and energy systems",
+  "job_roles": [
+    "Thermal Engineer",
+    "HVAC Engineer",
+    "Boiler Operator",
+    "Power Plant Technician",
+    "Energy Auditor",
+    "Refrigeration Technician"
+  ],
+  "skills_required": [
+    "Thermodynamics",
+    "Heat Transfer",
+    "HVAC Systems Design",
+    "Energy Management",
+    "Boiler & Pressure Vessel",
+    "Thermal Analysis Software"
+  ],
+  "further_education": [
+    "B.Tech Thermal Engineering",
+    "Energy Management",
+    "HVAC Design"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

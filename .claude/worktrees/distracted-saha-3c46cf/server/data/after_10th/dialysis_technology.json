@@ -1,0 +1,37 @@
+{
+    "id": "dialysis_technology",
+    "title": "Dialysis & Renal Care Technology",
+    "label": "🩺 Dialysis & Renal Care",
+    "description": "Kidney dialysis and renal care",
+    "children": [
+        {
+            "id": "dialysis_technician",
+            "title": "Dialysis Technician",
+            "label": "Dialysis Technician",
+            "description": "Hemodialysis operation and renal patient care",
+            "duration": "1-2 years",
+            "eligibility": "10+2 with Science (PCB)",
+            "job_roles": [
+                "Dialysis Technician",
+                "Hemodialysis Operator",
+                "Renal Care Technologist",
+                "Dialysis Unit Supervisor",
+                "Peritoneal Dialysis Technician",
+                "Kidney Care Specialist"
+            ],
+            "skills_required": [
+                "Hemodialysis Machine Operation",
+                "Vascular Access Management",
+                "Dialysis Treatment Protocols",
+                "Water Treatment Systems",
+                "Patient Monitoring",
+                "Infection Control in Dialysis"
+            ],
+            "further_education": [
+                "Advanced Dialysis Technology",
+                "Nephrology Nursing",
+                "Renal Transplant Coordination"
+            ]
+        }
+    ]
+}

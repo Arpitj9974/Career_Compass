@@ -1,0 +1,28 @@
+{
+  "id": "consumer_electronics",
+  "label": "Consumer Electronics",
+  "description": "Home appliances, entertainment systems, and consumer devices",
+  "job_roles": [
+    "Electronics Service Technician",
+    "Consumer Electronics Repair Engineer",
+    "Product Testing Engineer",
+    "Quality Control Inspector (Electronics)",
+    "After-Sales Service Engineer",
+    "Electronics Showroom Technical Advisor"
+  ],
+  "skills_required": [
+    "Electronic Circuits",
+    "Troubleshooting & Repair",
+    "Consumer Product Knowledge",
+    "Testing Equipment",
+    "Customer Service",
+    "Product Assembly"
+  ],
+  "further_education": [
+    "B.Tech Electronics",
+    "Product Design",
+    "Quality Management"
+  ],
+  "parentId": "electronics_communication",
+  "children": []
+}

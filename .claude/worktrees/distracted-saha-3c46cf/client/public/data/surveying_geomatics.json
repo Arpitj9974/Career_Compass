@@ -1,0 +1,28 @@
+{
+  "id": "surveying_geomatics",
+  "label": "Surveying & Geomatics",
+  "description": "Land surveying, mapping, GIS, and remote sensing",
+  "job_roles": [
+    "Land Surveyor",
+    "GIS Technician",
+    "Survey Engineer",
+    "Mapping Technician",
+    "Cadastral Surveyor",
+    "GPS Survey Operator"
+  ],
+  "skills_required": [
+    "Surveying Instruments (Total Station, GPS)",
+    "AutoCAD Civil 3D",
+    "GIS Software Basics",
+    "Land Measurement",
+    "Topographic Surveying",
+    "Remote Sensing Basics"
+  ],
+  "further_education": [
+    "B.Tech Geomatics",
+    "GIS & Remote Sensing",
+    "Surveying Engineering"
+  ],
+  "parentId": "civil_engineering",
+  "children": []
+}

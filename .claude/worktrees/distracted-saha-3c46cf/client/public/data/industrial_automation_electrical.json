@@ -1,0 +1,28 @@
+{
+  "id": "industrial_automation_electrical",
+  "label": "Industrial Automation & Control",
+  "description": "PLC, SCADA, DCS, and industrial control systems",
+  "job_roles": [
+    "PLC Programmer",
+    "SCADA Engineer",
+    "Automation Technician",
+    "Control Panel Designer",
+    "Instrumentation Engineer",
+    "DCS Operator"
+  ],
+  "skills_required": [
+    "PLC Programming (Siemens, Allen Bradley)",
+    "SCADA Systems",
+    "HMI Development",
+    "Control Systems",
+    "Instrumentation",
+    "Industrial Networking"
+  ],
+  "further_education": [
+    "B.Tech Automation",
+    "Industrial IoT",
+    "Process Control"
+  ],
+  "parentId": "electrical_engineering",
+  "children": []
+}

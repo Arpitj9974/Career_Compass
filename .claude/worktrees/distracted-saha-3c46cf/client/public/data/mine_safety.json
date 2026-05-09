@@ -1,0 +1,28 @@
+{
+  "id": "mine_safety",
+  "label": "Mine Safety & Environment",
+  "description": "Mine safety, ventilation, and environmental compliance",
+  "job_roles": [
+    "Mine Safety Officer",
+    "Ventilation Technician",
+    "Mine Rescue Team Member",
+    "Environmental Compliance Officer",
+    "Safety Inspector (Mines)",
+    "Mine Health Supervisor"
+  ],
+  "skills_required": [
+    "Mine Safety Regulations",
+    "Ventilation Systems",
+    "Emergency Response",
+    "Environmental Protection",
+    "Gas Detection",
+    "Safety Audits"
+  ],
+  "further_education": [
+    "B.Tech Mining",
+    "Industrial Safety",
+    "Environmental Management"
+  ],
+  "parentId": "mining_engineering",
+  "children": []
+}

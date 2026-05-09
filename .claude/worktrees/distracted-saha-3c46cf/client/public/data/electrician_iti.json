@@ -1,0 +1,28 @@
+{
+  "id": "electrician_iti",
+  "label": "Electrician",
+  "description": "Electrical wiring, installation, and maintenance work",
+  "job_roles": [
+    "Electrician",
+    "Wireman",
+    "Electrical Installer",
+    "Maintenance Electrician",
+    "Panel Wireman",
+    "Industrial Electrician"
+  ],
+  "skills_required": [
+    "Electrical Wiring",
+    "Circuit Installation",
+    "Electrical Safety",
+    "Troubleshooting",
+    "Measuring Instruments",
+    "Blueprint Reading"
+  ],
+  "further_education": [
+    "Supervisor Training",
+    "Diploma in Electrical",
+    "Solar Installation"
+  ],
+  "parentId": "iti_engineering_trades",
+  "children": []
+}

@@ -1,0 +1,95 @@
+{
+    "id": "commerce_law",
+    "title": "Law (Integrated)",
+    "label": "⚖️ Law (Integrated)",
+    "description": "Integrated law degrees (BA LLB / BBA LLB)",
+    "children": [
+        {
+            "id": "ba_llb",
+            "title": "B.A. LL.B. (Hons)",
+            "label": "B.A. LL.B. (Hons)",
+            "description": "Integrated Arts and Law degree",
+            "duration": "5 years",
+            "eligibility": "12th Pass (CLAT/AILET)",
+            "job_roles": [
+                "Lawyer / Advocate",
+                "Legal Consultant",
+                "Corporate Lawyer",
+                "Public Prosecutor",
+                "Judge (Judiciary Exam)",
+                "Legal Advisor"
+            ],
+            "skills_required": [
+                "Legal Research",
+                "Drafting & Pleading",
+                "Constitutional Law",
+                "Criminal/Civil Law",
+                "Communication & Debate",
+                "Analytical Thinking"
+            ],
+            "further_education": [
+                "LLM (Master of Laws)",
+                "PhD in Law",
+                "Specialization in Corporate/IPR Law"
+            ]
+        },
+        {
+            "id": "bba_llb",
+            "title": "B.B.A. LL.B. (Hons)",
+            "label": "B.B.A. LL.B. (Hons)",
+            "description": "Integrated Management and Law degree",
+            "duration": "5 years",
+            "eligibility": "12th Pass (CLAT/AILET/LSAT)",
+            "job_roles": [
+                "Corporate Lawyer",
+                "Legal Counsel",
+                "Compliance Manager",
+                "Mergers & Acquisitions Lawyer",
+                "Legal Advisor (Corporate)",
+                "Arbitrator"
+            ],
+            "skills_required": [
+                "Corporate Law",
+                "Business Management",
+                "Contract Law",
+                "Legal Compliance",
+                "Commercial Law",
+                "Negotiation Skills"
+            ],
+            "further_education": [
+                "LLM (Corporate Law)",
+                "MBA + LLM",
+                "International Business Law"
+            ]
+        },
+        {
+            "id": "bcom_llb",
+            "title": "B.Com. LL.B. (Hons)",
+            "label": "B.Com. LL.B. (Hons)",
+            "description": "Integrated Commerce and Law degree",
+            "duration": "5 years",
+            "eligibility": "12th Pass (Entrance Exams)",
+            "job_roles": [
+                "Tax Lawyer",
+                "Corporate Lawyer",
+                "Legal Auditor",
+                "Banking Lawyer",
+                "IPR Specialist",
+                "Litigation Lawyer"
+            ],
+            "skills_required": [
+                "Taxation Law",
+                "Commercial Law",
+                "Accounting Basics",
+                "Banking Laws",
+                "Legal Drafting",
+                "Corporate Finance Law"
+            ],
+            "further_education": [
+                "LLM (Taxation/Commercial Law)",
+                "Company Secretary (CS)",
+                "Chartered Accountancy (CA)"
+            ]
+        }
+    ]
+}

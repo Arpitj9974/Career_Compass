@@ -1,0 +1,28 @@
+{
+  "id": "aerospace_engineering",
+  "label": "Aerospace Engineering",
+  "description": "Aircraft and spacecraft systems (limited at diploma level)",
+  "job_roles": [
+    "Aircraft Maintenance Technician",
+    "Aerospace Manufacturing Technician",
+    "Quality Inspector (Aerospace)",
+    "Aerospace Design Assistant",
+    "Ground Equipment Operator",
+    "Aviation Workshop Technician"
+  ],
+  "skills_required": [
+    "Aircraft Systems Knowledge",
+    "Aerospace Materials",
+    "Manufacturing Processes",
+    "Quality Standards (AS9100)",
+    "Technical Drawing",
+    "Safety Protocols"
+  ],
+  "further_education": [
+    "B.Tech Aerospace Engineering",
+    "Aircraft Maintenance Engineering (AME)",
+    "Avionics"
+  ],
+  "parentId": "mechanical_engineering",
+  "children": []
+}

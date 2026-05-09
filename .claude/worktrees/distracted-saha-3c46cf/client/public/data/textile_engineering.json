@@ -1,0 +1,36 @@
+{
+  "id": "textile_engineering",
+  "label": "Textile Engineering / Technology",
+  "description": "Textile manufacturing, fabric production, and garment technology",
+  "parentId": "diploma_engineering",
+  "children": [
+    {
+      "id": "textile_manufacturing",
+      "label": "Textile Manufacturing",
+      "lazy": true,
+      "description": "Spinning, weaving, and fabric production processes",
+      "children": []
+    },
+    {
+      "id": "garment_technology",
+      "label": "Garment & Apparel Technology",
+      "lazy": true,
+      "description": "Garment production, pattern making, and apparel manufacturing",
+      "children": []
+    },
+    {
+      "id": "textile_design",
+      "label": "Textile Design & Printing",
+      "lazy": true,
+      "description": "Fabric design, textile printing, and color technology",
+      "children": []
+    },
+    {
+      "id": "textile_chemistry",
+      "label": "Textile Chemistry & Processing",
+      "lazy": true,
+      "description": "Textile wet processing, dyeing, and chemical treatment",
+      "children": []
+    }
+  ]
+}

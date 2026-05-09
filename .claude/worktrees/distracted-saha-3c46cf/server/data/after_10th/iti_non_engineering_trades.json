@@ -1,0 +1,240 @@
+{
+    "id": "iti_non_engineering_trades",
+    "title": "Non-Engineering Trades",
+    "label": "📋 Non-Engineering Trades",
+    "description": "Service and non-technical skill-based trades",
+    "children": [
+        {
+            "id": "iti_stenographer",
+            "title": "Stenographer & Secretarial Assistant",
+            "label": "📝 Stenographer & Secretary",
+            "description": "Shorthand, typing, and office administration",
+            "duration": "1 year",
+            "job_roles": [
+                "Stenographer",
+                "Personal Secretary",
+                "Office Assistant",
+                "Typist",
+                "Court Stenographer",
+                "Executive Assistant"
+            ],
+            "skills_required": [
+                "Shorthand",
+                "Fast Typing",
+                "MS Office",
+                "Communication",
+                "Office Management",
+                "Documentation"
+            ],
+            "further_education": [
+                "Stenography Advanced",
+                "Office Management",
+                "Secretarial Practice"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_dress_making",
+            "title": "Dress Making",
+            "label": "👗 Dress Making",
+            "description": "Garment construction and fashion sewing",
+            "duration": "1 year",
+            "job_roles": [
+                "Tailor",
+                "Fashion Tailor",
+                "Garment Maker",
+                "Boutique Owner",
+                "Costume Designer",
+                "Alterations Specialist"
+            ],
+            "skills_required": [
+                "Sewing",
+                "Pattern Making",
+                "Garment Construction",
+                "Fabric Knowledge",
+                "Machine Operation",
+                "Fashion Basics"
+            ],
+            "further_education": [
+                "Fashion Designing",
+                "Garment Technology",
+                "Boutique Management"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_hair_skin_care",
+            "title": "Hair & Skin Care",
+            "label": "💇 Hair & Skin Care",
+            "description": "Beauty therapy, hair styling, and skin treatments",
+            "duration": "1 year",
+            "job_roles": [
+                "Hair Stylist",
+                "Beautician",
+                "Salon Manager",
+                "Makeup Artist",
+                "Spa Therapist",
+                "Beauty Consultant"
+            ],
+            "skills_required": [
+                "Hair Cutting & Styling",
+                "Skin Care",
+                "Makeup Application",
+                "Beauty Treatments",
+                "Customer Service",
+                "Product Knowledge"
+            ],
+            "further_education": [
+                "Advanced Cosmetology",
+                "Salon Management",
+                "Beauty Therapy"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_food_production",
+            "title": "Food Production (General)",
+            "label": "🍳 Food Production",
+            "description": "Commercial cooking and food preparation",
+            "duration": "1 year",
+            "job_roles": [
+                "Cook",
+                "Kitchen Assistant",
+                "Baker",
+                "Food Production Assistant",
+                "Caterer",
+                "Institutional Cook"
+            ],
+            "skills_required": [
+                "Cooking Techniques",
+                "Food Safety & Hygiene",
+                "Menu Planning",
+                "Kitchen Operations",
+                "Baking Basics",
+                "Quantity Cooking"
+            ],
+            "further_education": [
+                "Hotel Management",
+                "Culinary Arts",
+                "Food & Beverage"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_desktop_publishing",
+            "title": "Desktop Publishing Operator",
+            "label": "🖥️ DTP Operator",
+            "description": "Graphics design and publishing software",
+            "duration": "1 year",
+            "job_roles": [
+                "DTP Operator",
+                "Graphic Designer",
+                "Layout Artist",
+                "Publishing Assistant",
+                "Print Designer",
+                "Pre-Press Operator"
+            ],
+            "skills_required": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "CorelDraw",
+                "InDesign",
+                "Layout Design",
+                "Typography"
+            ],
+            "further_education": [
+                "Graphic Design",
+                "Multimedia Design",
+                "Animation"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_health_sanitary_inspector",
+            "title": "Health Sanitary Inspector",
+            "label": "🏥 Health Sanitary Inspector",
+            "description": "Public health inspection and sanitation management",
+            "duration": "1 year",
+            "job_roles": [
+                "Sanitary Inspector",
+                "Health Inspector",
+                "Food Safety Officer",
+                "Environmental Health Assistant",
+                "Public Health Technician",
+                "Sanitation Supervisor"
+            ],
+            "skills_required": [
+                "Sanitation Practices",
+                "Public Health Basics",
+                "Inspection Techniques",
+                "Waste Management",
+                "Water Quality",
+                "Communication"
+            ],
+            "further_education": [
+                "Public Health",
+                "Environmental Health",
+                "Sanitation Engineering"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_front_office_assistant",
+            "title": "Front Office Assistant",
+            "label": "🏨 Front Office Assistant",
+            "description": "Hotel reception and customer service",
+            "duration": "1 year",
+            "job_roles": [
+                "Receptionist",
+                "Front Desk Agent",
+                "Guest Relations Executive",
+                "Reservation Agent",
+                "Concierge",
+                "Customer Service Agent"
+            ],
+            "skills_required": [
+                "Customer Service",
+                "Communication",
+                "Hotel Software",
+                "Booking Systems",
+                "Guest Handling",
+                "Computer Operations"
+            ],
+            "further_education": [
+                "Hotel Management",
+                "Hospitality Management",
+                "Tourism"
+            ],
+            "children": []
+        },
+        {
+            "id": "iti_surface_ornamentation",
+            "title": "Surface Ornamentation Techniques",
+            "label": "🎨 Surface Ornamentation",
+            "description": "Embroidery, fabric painting, and decoration",
+            "duration": "1 year",
+            "job_roles": [
+                "Embroidery Artist",
+                "Fabric Painter",
+                "Textile Designer",
+                "Craft Artist",
+                "Boutique Designer",
+                "Art Teacher"
+            ],
+            "skills_required": [
+                "Hand Embroidery",
+                "Machine Embroidery",
+                "Fabric Painting",
+                "Craft Techniques",
+                "Color Theory",
+                "Design Creativity"
+            ],
+            "further_education": [
+                "Textile Design",
+                "Fashion Design",
+                "Craft Entrepreneurship"
+            ],
+            "children": []
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "process_engineering",
+  "label": "Chemical Process Engineering",
+  "description": "Chemical plant operations, process control, and production",
+  "job_roles": [
+    "Process Technician",
+    "Chemical Plant Operator",
+    "Production Supervisor",
+    "Process Control Operator",
+    "Chemical Manufacturing Technician",
+    "Batch Processing Operator"
+  ],
+  "skills_required": [
+    "Chemical Processes",
+    "Process Equipment",
+    "Process Control",
+    "Unit Operations",
+    "Safety Protocols",
+    "Production Planning"
+  ],
+  "further_education": [
+    "B.Tech Chemical Engineering",
+    "Process Technology",
+    "Industrial Chemistry"
+  ],
+  "parentId": "chemical_engineering",
+  "children": []
+}
