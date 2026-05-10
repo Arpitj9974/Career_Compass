@@ -15,36 +15,41 @@ const CareerPillNode = memo(({ id, data }) => {
     } = data;
 
     let containerStyle = {
-        height: '44px',
-        minWidth: '180px',
-        maxWidth: '240px',
+        height: '46px',
+        width: '220px',
         borderRadius: '24px',
-        padding: '0 16px',
+        padding: '0 20px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
         gap: '12px',
         cursor: 'pointer',
-        transition: 'all 0.15s ease, filter 0.15s ease',
-        background: '#0d1f0e',
-        border: '1px solid rgba(34, 197, 94, 0.3)',
-        color: '#86efac'
+        transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+        background: 'rgba(13, 31, 14, 0.7)',
+        backdropFilter: 'blur(12px)',
+        border: '1px solid rgba(34, 197, 94, 0.15)',
+        color: '#86efac',
+        boxShadow: '0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.05)',
+        position: 'relative',
+        overflow: 'visible'
     };
 
     if (isSelected) {
         containerStyle = {
             ...containerStyle,
-            background: '#112812',
-            border: '1.5px solid #22c55e',
+            background: 'rgba(17, 40, 18, 0.9)',
+            border: '2px solid #22c55e',
             color: '#4ade80',
-            boxShadow: '0 0 0 3px rgba(34, 197, 94, 0.15)'
+            boxShadow: '0 0 25px rgba(34, 197, 94, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1)',
+            zIndex: 10
         };
     } else if (isExpanded) {
         containerStyle = {
             ...containerStyle,
-            background: '#0f2410',
-            border: '1.5px solid rgba(34, 197, 94, 0.7)',
-            color: '#4ade80'
+            background: 'rgba(15, 36, 16, 0.85)',
+            border: '1.5px solid rgba(34, 197, 94, 0.4)',
+            color: '#4ade80',
+            boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)'
         };
     }
 
@@ -75,12 +80,13 @@ const CareerPillNode = memo(({ id, data }) => {
             <div className="flex items-center" style={{ overflow: 'hidden' }}>
                 <span style={{ fontSize: '15px', marginRight: '8px' }}>{icon || '📄'}</span>
                 <span style={{
-                    fontSize: '13px',
-                    fontWeight: 500,
+                    fontSize: '14px',
+                    fontWeight: 600,
                     whiteSpace: 'nowrap',
                     overflow: 'hidden',
                     textOverflow: 'ellipsis',
-                    maxWidth: '160px'
+                    maxWidth: '150px',
+                    letterSpacing: '0.01em'
                 }}>
                     {title}
                 </span>

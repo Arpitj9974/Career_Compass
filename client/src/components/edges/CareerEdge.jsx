@@ -14,9 +14,10 @@ export default function CareerEdge({
     let pathD = data?.d;
     
     if (!pathD) {
-        const cp1x = sourceX + 100;
+        // Stay horizontal for a bit longer to look cleaner
+        const cp1x = sourceX + 150;
         const cp1y = sourceY;
-        const cp2x = targetX - 100;
+        const cp2x = targetX - 150;
         const cp2y = targetY;
         
         pathD = `M ${sourceX} ${sourceY} C ${cp1x} ${cp1y}, ${cp2x} ${cp2y}, ${targetX} ${targetY}`;

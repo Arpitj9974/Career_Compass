@@ -8,10 +8,10 @@
 // SPACING CONSTANTS
 // ─────────────────────────────────────────────────────────────────────────────
 
-export const HORIZONTAL_GAP = 280;
+export const HORIZONTAL_GAP = 320;
 const ROOT_X = -400;
-const ROOT_VERTICAL_GAP = 130;
-const SIBLING_VERTICAL_GAP = 80;
+const ROOT_VERTICAL_GAP = 200;
+const SIBLING_VERTICAL_GAP = 100;
 
 // ─────────────────────────────────────────────────────────────────────────────
 // FUNCTION 1: getRootPositions
@@ -106,10 +106,10 @@ export function computeChildPositions(parentId, children, posMap, nodeMap) {
  * Generates an SVG cubic bezier path string.
  */
 export function computeEdgePath(fromPos, toPos) {
-    const cp1x = fromPos.x + (HORIZONTAL_GAP / 2);
+    const cp1x = fromPos.x + 150;
     const cp1y = fromPos.y;
     
-    const cp2x = toPos.x - (HORIZONTAL_GAP / 2);
+    const cp2x = toPos.x - 150;
     const cp2y = toPos.y;
 
     const d = `M ${fromPos.x} ${fromPos.y} C ${cp1x} ${cp1y}, ${cp2x} ${cp2y}, ${toPos.x} ${toPos.y}`;
@@ -124,10 +124,10 @@ export function computeEdgePath(fromPos, toPos) {
 /**
  * Returns rightCenter and leftCenter edge points of a node.
  */
-export function getNodeAnchorPoints(nodeId, pos, nodeWidth = 200, nodeHeight = 48) {
+export function getNodeAnchorPoints(nodeId, pos, nodeWidth = 220, nodeHeight = 44) {
     // Root node width check (using IDs from database logic)
     const isRoot = ['1', '100', '200', '300', 'after10', 'after12', 'career_switch', 'skill_based'].includes(String(nodeId));
-    const width = isRoot ? 220 : nodeWidth;
+    const width = isRoot ? 240 : nodeWidth;
 
     return {
         rightCenter: {

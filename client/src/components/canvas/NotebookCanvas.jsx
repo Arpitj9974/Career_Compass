@@ -110,8 +110,9 @@ function NotebookCanvasInner() {
                     type: 'careerEdge',
                     data: { d },
                     style: {
-                        stroke: isActive ? '#22c55e' : 'rgba(34, 197, 94, 0.25)',
-                        strokeWidth: isActive ? 2 : 1.5,
+                        stroke: isActive ? '#4ade80' : 'rgba(34, 197, 94, 0.15)',
+                        strokeWidth: isActive ? 2.5 : 1.5,
+                        filter: isActive ? 'drop-shadow(0 0 8px rgba(34, 197, 94, 0.4))' : 'none'
                     }
                 });
             }
