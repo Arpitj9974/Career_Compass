@@ -23,7 +23,7 @@ export default function CanvasControls() {
                 </button>
                 <div className="h-px bg-green-900/40 mx-1" />
                 <button
-                    onClick={() => fitView({ padding: 0.3, duration: 500 })}
+                    onClick={() => fitView({ padding: 0.4, duration: 500 })}
                     className="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-green-400 hover:bg-green-900/30 rounded transition-colors text-xs"
                     title="Fit View"
                 >

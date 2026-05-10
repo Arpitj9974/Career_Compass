@@ -1,16 +1,23 @@
-import { useEffect, useMemo, memo } from 'react';
-import { ReactFlow, Background, MiniMap, useReactFlow } from '@xyflow/react';
+import React, { useEffect, useMemo } from 'react';
+import { ReactFlow, Background, MiniMap, ReactFlowProvider } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 
 import { useCareerStore } from '../../context/careerStore';
 import { getInitialPositions } from '../../utils/positionUtils';
-import { CareerNodeWrapper } from './CanvasCard';
+import { computeEdgePath, getNodeAnchorPoints } from '../../utils/layoutEngine';
+import CareerPillNode from '../nodes/CareerPillNode';
+import CareerEdge from '../edges/CareerEdge';
 import CanvasControls from './CanvasControls';
 import BreadcrumbTrail from './BreadcrumbTrail';
 import CareerDetailPanel from './CareerDetailPanel';
 
+// Register custom node and edge types outside component
 const nodeTypes = {
-    careerNode: CareerNodeWrapper,
+    careerPillNode: CareerPillNode
+};
+
+const edgeTypes = {
+    careerEdge: CareerEdge
 };
 
 function NotebookCanvasInner() {
@@ -34,7 +41,6 @@ function NotebookCanvasInner() {
     useEffect(() => {
         let mounted = true;
         const loadRoots = async () => {
-            // Wait for currentTree or fallback to tree ID 1
             const treeId = currentTree?.id || 1;
             const roots = await fetchRootNodes(treeId);
             if (!mounted) return;
@@ -54,9 +60,13 @@ function NotebookCanvasInner() {
         for (const [id, nodeData] of nodeMap.entries()) {
             const pos = posMap.get(id) || { x: 0, y: 0 };
             
+            // Check if node has children
+            const hasChildren = nodeData.lazy === true || (edgeMap.has(id) && edgeMap.get(id).length > 0);
+            const childCount = edgeMap.has(id) ? edgeMap.get(id).length : 0;
+            
             result.push({
                 id: String(id),
-                type: 'careerNode',
+                type: 'careerPillNode',
                 position: pos,
                 draggable: false,
                 data: {
@@ -66,74 +76,80 @@ function NotebookCanvasInner() {
                     isSelected: selectedId === id,
                     isLoading: loadingIds.has(id),
                     isNew: lastAddedIds.includes(id),
+                    hasChildren: hasChildren,
+                    childCount: childCount,
                     onExpand: () => expandNode(id),
                     onSelect: () => selectNode(id),
                 }
             });
         }
         return result;
-    }, [nodeMap, posMap, expandedIds, selectedId, loadingIds, lastAddedIds, expandNode, selectNode]);
+    }, [nodeMap, posMap, expandedIds, selectedId, loadingIds, lastAddedIds, expandNode, selectNode, edgeMap]);
 
     // ── DERIVE REACT FLOW EDGES ────────────────────────────────────────────────
     const edges = useMemo(() => {
         const result = [];
         for (const [parentId, childIds] of edgeMap.entries()) {
             for (const childId of childIds) {
+                const parentPos = posMap.get(parentId);
+                const childPos = posMap.get(childId);
+                
+                if (!parentPos || !childPos) continue;
+
+                const parentAnchors = getNodeAnchorPoints(parentId, parentPos);
+                const childAnchors = getNodeAnchorPoints(childId, childPos);
+
+                const { d } = computeEdgePath(parentAnchors.rightCenter, childAnchors.leftCenter);
+                
                 const isActive = selectedId === parentId || selectedId === childId;
                 
                 result.push({
                     id: `${parentId}-${childId}`,
                     source: String(parentId),
                     target: String(childId),
-                    type: 'smoothstep',
-                    animated: false,
+                    type: 'careerEdge',
+                    data: { d },
                     style: {
-                        stroke: isActive ? '#22c55e' : 'rgba(34, 197, 94, 0.4)',
-                        strokeWidth: isActive ? 2 : 1.2,
+                        stroke: isActive ? '#22c55e' : 'rgba(34, 197, 94, 0.25)',
+                        strokeWidth: isActive ? 2 : 1.5,
                     }
                 });
             }
         }
         return result;
-    }, [edgeMap, selectedId]);
+    }, [edgeMap, posMap, selectedId]);
 
     // ── RENDER ─────────────────────────────────────────────────────────────────
     return (
-        <div 
-            className="relative w-full h-full"
-            style={{
-                backgroundColor: '#060c06',
-                backgroundImage: 'radial-gradient(rgba(34, 197, 94, 0.08) 1px, transparent 1px)',
-                backgroundSize: '36px 36px'
-            }}
-        >
+        <div className="w-full h-screen bg-[#060c06] overflow-hidden">
             <ReactFlow
                 nodes={nodes}
                 edges={edges}
                 nodeTypes={nodeTypes}
-                fitView
-                fitViewOptions={{ padding: 0.3 }}
+                edgeTypes={edgeTypes}
+                fitView={true}
+                fitViewOptions={{ padding: 0.4 }}
                 nodesDraggable={false}
                 nodesConnectable={false}
-                onNodesChange={() => {}} // silence warnings
-                onEdgesChange={() => {}} // silence warnings
-                minZoom={0.1}
-                maxZoom={2}
+                panOnDrag={true}
+                zoomOnScroll={true}
+                minZoom={0.15}
+                maxZoom={2.5}
+                onNodesChange={() => {}} 
+                onEdgesChange={() => {}}
             >
                 <Background 
-                    color="rgba(34, 197, 94, 0.2)" 
+                    variant="dots"
+                    color="rgba(34, 197, 94, 0.08)" 
                     gap={36} 
                     size={1} 
                 />
                 
                 <CanvasControls />
+                
                 <MiniMap 
-                    nodeColor={(node) => {
-                        if (node.data.isSelected) return '#22c55e';
-                        if (node.data.level === 0) return '#064e3b';
-                        return 'rgba(34, 197, 94, 0.4)';
-                    }}
-                    maskColor="rgba(6, 12, 6, 0.7)"
+                    nodeColor="#0d1f0e"
+                    maskColor="rgba(0, 0, 0, 0.4)"
                     className="bg-[#060c06] border border-green-900/40 rounded-lg overflow-hidden"
                 />
             </ReactFlow>
@@ -143,9 +159,6 @@ function NotebookCanvasInner() {
         </div>
     );
 }
-
-// Wrap with ReactFlowProvider so we can use useReactFlow inside (if not already wrapped at page level)
-import { ReactFlowProvider } from '@xyflow/react';
 
 export default function NotebookCanvas(props) {
     return (

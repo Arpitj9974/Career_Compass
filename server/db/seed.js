@@ -19,6 +19,8 @@ async function seedDatabase() {
         console.log('Seeding complete!');
     } catch (error) {
         console.error('Error seeding database:', error);
+        if (error.detail) console.error('Error detail:', error.detail);
+        if (error.where) console.error('Error where:', error.where);
     } finally {
         pool.end();
     }

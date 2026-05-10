@@ -87,27 +87,19 @@ export const useCareerStore = create((set, get) => ({
      * Receives an array of root node objects from the API.
      */
     initTree: (rootNodes) => {
-        const centerNode = {
-            id: 'root',
-            title: 'Career Compass',
-            icon: '🧭',
-            level: 0,
-            parentId: null,
-            lazy: false,
-        };
-
         const nodeMap = new Map();
-        nodeMap.set('root', centerNode);
-
         const rootIds = [];
+
         for (const node of rootNodes) {
-            const enriched = { ...node, parentId: 'root', level: 1, lazy: true };
+            // Keep parentId null for roots
+            const enriched = { ...node, parentId: null, level: 0, lazy: true };
             nodeMap.set(String(node.id), enriched);
             rootIds.push(String(node.id));
         }
 
         const edgeMap = new Map();
-        edgeMap.set('root', rootIds);
+        // Since there is no center node, roots don't have a parent in edgeMap.
+        // We will just leave edgeMap empty for roots.
 
         set({
             nodeMap,

@@ -1,7 +1,7 @@
 import { useCareerStore } from '../../context/careerStore';
 
 export default function CareerDetailPanel() {
-    const { selectedId, nodeMap, selectNode } = useCareerStore();
+    const { selectedId, nodeMap, selectNode, expandedIds, expandNode } = useCareerStore();
 
     if (!selectedId) return null;
 
@@ -100,13 +100,11 @@ export default function CareerDetailPanel() {
             )}
 
             {/* Call to action for parents */}
-            {selectedNode.lazy !== false && (
+            {(selectedNode.lazy !== false && !expandedIds.has(selectedId)) && (
                 <div className="mt-auto pt-6 border-t border-green-900/30 text-center">
                     <p className="text-xs text-gray-400 mb-3">There's more to explore here!</p>
                     <button
-                        onClick={() => {
-                            useCareerStore.getState().expandNode(selectedId);
-                        }}
+                        onClick={() => expandNode(selectedId)}
                         className="w-full bg-green-600/20 hover:bg-green-600/40 text-green-400 border border-green-500/30 py-2 rounded transition-colors text-sm font-medium"
                     >
                         Explore Children
